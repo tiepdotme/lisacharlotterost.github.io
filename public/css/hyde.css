@@ -32,7 +32,7 @@
  */
 
 html {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: 'Vollkorn', serif;
 }
 @media (min-width: 48em) {
   html {
@@ -46,6 +46,120 @@ html {
 }
 
 
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+a {
+  color: #268bd2;
+  text-decoration: none;
+}
+a strong {
+  color: inherit;
+}
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,h7 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+}
+
+/* For headings of blog posts*/
+h1 {
+  font-size: 1.5rem;
+}
+
+/* For headings of blog posts*/
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+
+/* For "related" links at the end of an article */
+h5 {
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica-Light", "Helvetica Light", "Helvetica Neue",Helvetica,Arial;
+  font-size:18px;
+  line-height:29px;
+  font-weight:200;
+  letter-spacing: 1px;
+  margin:0;
+  padding:0;
+  
+}
+
+/* For links in the sidebar */
+h4 {
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica-Light", "Helvetica Light", "Helvetica Neue",Helvetica,Arial;
+  font-size:14px;
+  line-height:20px;
+  font-weight:200;
+  letter-spacing: 1px;
+  margin-top:0.5rem;
+  padding:0;
+}
+
+
+/* Body text */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+strong {
+  color: #303030;
+}
+
+
+/* Lists */
+ul, ol, dl {
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  list-style: none;
+}
+
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: .5rem;
+}
+
+/* Misc */
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff;
+}
+
+
+ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 0;
+  list-style-type: circle;
+
+}
+
+
 /*
  * Sidebar
  *
@@ -55,9 +169,10 @@ html {
 
 .sidebar {
   text-align: center;
-  padding: 2rem 1rem;
-  color: rgba(255,255,255,.5);
+  padding: 1rem 1rem;
+  color: #ccddcc;
   background-color: #202020;
+  
 }
 @media (min-width: 48em) {
   .sidebar {
@@ -65,8 +180,9 @@ html {
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 16rem;
     text-align: left;
+	font-size: 14px;
   }
 }
 
@@ -79,8 +195,8 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
-  font-size: 3.25rem;
+  font-family: Helvetica-Neue, sans-serif;
+  font-size: 16px;
 }
 
 /* Sidebar nav */
@@ -98,6 +214,43 @@ a.sidebar-nav-item:focus {
 .sidebar-nav-item.active {
   font-weight: bold;
 }
+
+
+
+/*
+ * Themes
+ *
+ */
+
+/* Version 1 (default) */
+.theme-base-0d .sidebar {
+  background-color:#2d314d;
+  color:#ccddcc;
+}
+.theme-base-0d .content a,
+.theme-base-0d .related-posts li a:hover {
+  color: #2d314d;
+}
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
+
+
 
 /* Sticky sidebar
  *
@@ -161,90 +314,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .layout-reverse .content {
-    margin-left: 4rem;
+    margin-left: 6rem;
     margin-right: 22rem;
   }
-}
-
-
-
-/*
- * Themes
- *
- * As of v1.1, Hyde includes optional themes to color the sidebar and links
- * within blog posts. To use, add the class of your choosing to the `body`.
- */
-
-/* Base16 (http://chriskempson.github.io/base16/#default) */
-
-/* Red */
-.theme-base-08 .sidebar {
-  background-color: #ac4142;
-}
-.theme-base-08 .content a,
-.theme-base-08 .related-posts li a:hover {
-  color: #ac4142;
-}
-
-/* Orange */
-.theme-base-09 .sidebar {
-  background-color: #d28445;
-}
-.theme-base-09 .content a,
-.theme-base-09 .related-posts li a:hover {
-  color: #d28445;
-}
-
-/* Yellow */
-.theme-base-0a .sidebar {
-  background-color: #f4bf75;
-}
-.theme-base-0a .content a,
-.theme-base-0a .related-posts li a:hover {
-  color: #f4bf75;
-}
-
-/* Green */
-.theme-base-0b .sidebar {
-  background-color: #90a959;
-}
-.theme-base-0b .content a,
-.theme-base-0b .related-posts li a:hover {
-  color: #90a959;
-}
-
-/* Cyan */
-.theme-base-0c .sidebar {
-  background-color: #75b5aa;
-}
-.theme-base-0c .content a,
-.theme-base-0c .related-posts li a:hover {
-  color: #75b5aa;
-}
-
-/* Blue */
-.theme-base-0d .sidebar {
-  background-color: #6a9fb5;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #6a9fb5;
-}
-
-/* Magenta */
-.theme-base-0e .sidebar {
-  background-color: #aa759f;
-}
-.theme-base-0e .content a,
-.theme-base-0e .related-posts li a:hover {
-  color: #aa759f;
-}
-
-/* Brown */
-.theme-base-0f .sidebar {
-  background-color: #8f5536;
-}
-.theme-base-0f .content a,
-.theme-base-0f .related-posts li a:hover {
-  color: #8f5536;
 }

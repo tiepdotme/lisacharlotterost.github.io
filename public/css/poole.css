@@ -47,94 +47,6 @@ body {
   padding: 0;
 }
 
-html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-@media (min-width: 38em) {
-  html {
-    font-size: 20px;
-  }
-}
-
-body {
-  color: #515151;
-  background-color: #fff;
-  -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-}
-
-/* No `:visited` state is required by default (browsers will use `a`) */
-a {
-  color: #268bd2;
-  text-decoration: none;
-}
-a strong {
-  color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  font-weight: bold;
-  line-height: 1.25;
-  color: #313131;
-  text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 2rem;
-}
-h2 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-}
-h3 {
-  margin-top: 1.5rem;
-  font-size: 1.25rem;
-}
-h4, h5, h6 {
-  margin-top: 1rem;
-  font-size: 1rem;
-}
-
-/* Body text */
-p {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-strong {
-  color: #303030;
-}
-
-
-/* Lists */
-ul, ol, dl {
-  margin-top: 0;
-  margin-bottom: 1rem;
-}
-
-dt {
-  font-weight: bold;
-}
-dd {
-  margin-bottom: .5rem;
-}
-
-/* Misc */
-hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
-}
 
 abbr {
   font-size: 85%;
@@ -230,8 +142,7 @@ blockquote p:last-child {
 img {
   display: block;
   max-width: 100%;
-  margin: 0 0 1rem;
-  border-radius: 5px;
+  margin: 0 0 1rem;	
 }
 
 /* Tables */
@@ -349,23 +260,32 @@ tbody tr:nth-child(odd) th {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
-  color: #9a9a9a;
+  color: #999;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica-Light", "Helvetica Light", "Helvetica Neue",Helvetica,Arial;
+  font-size:14px;
+  line-height:20px;
+  font-weight:200;
+  letter-spacing: 1px;
+}
 }
 
 /* Related posts */
 .related {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding:0;
+  margin:0;
   border-top: 1px solid #eee;
 }
 .related-posts {
-  padding-left: 0;
   list-style: none;
+  padding:0;
+  margin:0;
 }
 .related-posts h3 {
   margin-top: 0;
 }
 .related-posts li small {
+  padding:0;
+  margin:0;
   font-size: 75%;
   color: #999;
 }

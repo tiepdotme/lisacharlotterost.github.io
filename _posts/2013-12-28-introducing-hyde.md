@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducing Hyde
+title: This here is a superlong blog post title
 ---
 
 This is another editor.
