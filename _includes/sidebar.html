@@ -1,32 +1,23 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      <h1>
+      <h2>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
-      </h1>
+      </h2>
       <p class="lead">{{ site.description }}</p>
-    </div>
-
-    <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-
-      {% comment %}
+    </div><br>
+	<hr>
+    <nav class="sidebar-nav"><h4>
+	
+	<a class="sidebar-nav-item" href="http://lisacharlotterost.de" target="_blank">Visual Projects</a>
+	<a class="sidebar-nav-item" href="http://twitter.com/lisacrost" target="_blank">@lisacrost</a>
+	<a class="sidebar-nav-item" href="/about/">All Blog articles</a>
+<!--      {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
-
-<h1>Blog Posts</h1>
-<ul class="related-posts">
-    {% for post in site.posts % limit:3 %}
-      <li><h4>
-	  	<a href="{{ post.url }}">{{ post.title }}
-		<small>{{ post.date | date_to_string }}</small></a>
-	  </h4>
-	  </li>
-    {% endfor %}
-  </ul>
   
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
@@ -35,29 +26,19 @@
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}
-	  
-	  <div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h5>
-          <a href="{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h5>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+      {% endfor %}-->
 
-
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
     </nav>
-
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+	<hr>
+	<ul class="related-posts">
+    {% for post in site.posts % limit:3 %}
+      <li><h4>
+	  	<a href="{{ post.url }}">{{ post.title }}
+		<small>{{ post.date | date_to_string }}</small></a>
+	  </h4>
+	  </li>
+    {% endfor %}</h4>
+  </ul>
+  
   </div>
 </div>

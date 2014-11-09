@@ -33,6 +33,9 @@
 
 html {
   font-family: 'Vollkorn', serif;
+  overflow-y:hidden; 
+
+overflow-x:auto;
 }
 @media (min-width: 48em) {
   html {
@@ -47,7 +50,7 @@ html {
 
 
 body {
-  color: #515151;
+  color: #2d314d;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -55,8 +58,9 @@ body {
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-  color: #268bd2;
-  text-decoration: none;
+color:inherit;
+text-decoration: none;
+  
 }
 a strong {
   color: inherit;
@@ -64,12 +68,12 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+text-decoration: none;
+  color:#ccddcc;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6,h7 {
-  margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
@@ -79,13 +83,15 @@ h1, h2, h3, h4, h5, h6,h7 {
 /* For headings of blog posts*/
 h1 {
   font-size: 1.5rem;
+  margin-bottom: 13px;
 }
 
-/* For headings of blog posts*/
+/* For headings of title in sidebar*/
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem;
 }
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
@@ -110,8 +116,15 @@ h4 {
   line-height:20px;
   font-weight:200;
   letter-spacing: 1px;
-  margin-top:0.5rem;
+  
   padding:0;
+  margin:0px;
+  margin-top:0.4rem;
+  color: #ccddcc;
+}
+
+h4 a:hover {
+  color: #fff;
 }
 
 
@@ -143,13 +156,27 @@ dd {
 
 /* Misc */
 hr {
-  position: relative;
-  margin: 1.5rem 0;
-  border: 0;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
+	padding:0;
+	margin:0;
+	background-color: #ccddcc;
+    border: 0 none;
+    color: #ccddcc;
+    height: 1px;
+	margin-bottom:0.7rem;
+    margin-top:2rem;
+ 
+
 }
 
+hr.fullWidth {
+ width:500%;
+ align:center;
+ margin-left:-20%;
+  margin-bottom:2rem;
+ margin-top:2rem;
+ 
+
+}
 
 ul {
   padding: 0;
@@ -188,13 +215,15 @@ ul {
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+  text-decoration: none;
+  color:inherit;
 }
 
+
 /* About section */
-.sidebar-about h1 {
+.sidebar-about h2 {
   color: #fff;
-  margin-top: 0;
+  margin-top: 0.8rem;
   font-family: Helvetica-Neue, sans-serif;
   font-size: 16px;
 }
@@ -209,7 +238,8 @@ ul {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+	text-decoration: none;
+  color:#fff;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
@@ -226,10 +256,6 @@ a.sidebar-nav-item:focus {
 .theme-base-0d .sidebar {
   background-color:#2d314d;
   color:#ccddcc;
-}
-.theme-base-0d .content a,
-.theme-base-0d .related-posts li a:hover {
-  color: #2d314d;
 }
 
 /* Magenta */
@@ -289,7 +315,7 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    margin-left: 25rem;
     margin-right: 4rem;
   }
 }
