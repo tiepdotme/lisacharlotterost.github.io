@@ -8,12 +8,11 @@
       </h2>
       <p class="lead">{{ site.description }}</p>
     </div><br>
-	<hr>
+	
     <nav class="sidebar-nav"><h4>
 	
 	<a class="sidebar-nav-item" href="http://lisacharlotterost.de" target="_blank">Visual Projects</a>
-	<a class="sidebar-nav-item" href="http://twitter.com/lisacrost" target="_blank">@lisacrost</a>
-	<a class="sidebar-nav-item" href="/about/">All Blog articles</a>
+	
 <!--      {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
@@ -28,8 +27,10 @@
         {% endif %}
       {% endfor %}-->
 
-    </nav>
+    
 	<hr>
+	<a class="sidebar-nav-item" href="/blogposts/">All Blog articles</a
+	</nav>
 	<ul class="related-posts">
     {% for post in site.posts % limit:3 %}
       <li><h4>

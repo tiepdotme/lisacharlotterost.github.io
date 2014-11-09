@@ -92,6 +92,12 @@ h2 {
   font-size: 1.5rem;
 }
 
+h2 a:hover {
+  color: #ccddcc;
+  text-decoration: none;
+}
+
+
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem;
@@ -163,7 +169,7 @@ hr {
     color: #ccddcc;
     height: 1px;
 	margin-bottom:0.7rem;
-    margin-top:2rem;
+    margin-top:0.7rem;
  
 
 }
