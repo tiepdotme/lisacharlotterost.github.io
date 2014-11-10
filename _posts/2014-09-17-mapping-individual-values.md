@@ -1,10 +1,10 @@
 
 ---
 layout: post
-title: Mapping values of different people
-tags: dayproject, datavis, psychology
+title: Mapping individual values
+tags: datavis, psychology
 ---
-<p>
+
 ![personality scales](/pic/140917_personalityScales.jpg)
 
 <p>Two posts ago I asked the question "What's the difference between needs and desires?" Here's another answer: When people like <a href="http://www.alastairmcintosh.com/general/resources/2007-Manfred-Max-Neef-Fundamental-Human-Needs.pdf" target="_blank">Max-Neef</a> talk about needs, they speak about how every human existence needs to satisfy all of them. When people like <a href="https://explorable.com/16-basic-desires-theory" target="_blank">Reiss</a> talk about desires, however, they point out that every human is different and that everybody needs to satisfy desires to a different extent in order to be fulfilled.&nbsp;</p>
@@ -19,4 +19,3 @@ tags: dayproject, datavis, psychology
 </ul>
 <p>In the end you have different cases, which I drew in my model. I'm the red color, and let's assume person B is the green color. Let's call him Bob. If I want to see if Bob could be a long-term friend, I only need to pay attention to three of the four aspects: I don't care about what he would accept (the green bar), but only what I accept, how I am and who he is. Bob's pretty ok: He values order and physical activity similar as I do. But I won't have such a good time talking with him about food, and he's unacceptably not curious. Which is worse, maybe, is that he values acceptance extremely high. It seems like he dislikes that about himself, because he doesn't want to be surrounded by people who are as he is in this aspect &ndash; but still, it's far away from I find acceptable.&nbsp;</p>
 <p>There are only five of the 16 desires according to Reiss &ndash; and only a fraction of what's possible to compare. One can compare not only desires or values, but interests, skills, habits, knowledge and everything else that's important for oneself. Happy judging!&nbsp;</p>
-<p></p>
