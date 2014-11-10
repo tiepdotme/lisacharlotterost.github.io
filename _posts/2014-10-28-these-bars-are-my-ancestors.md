@@ -15,6 +15,7 @@ I’ll give you a legend: Both family trees show only a very narrow extract from
 - Lines with two dots going down from two bars mean the birth of a child. Apparently, this side of my relatives had always at least three children, and none of my grand-grand-whatever has been a first child. 
 - Each color highlights one generation. Because my ancestors have never been the first child, these generations are quite long. Normally, one generation is 25 years long, so since 1820 my family should have almost eight generations. Instead, my current (sixth) generation (meaning, my cousins, siblings etc.) is only producing the seventh generation – and some members of my current generation are far away from that (because they are only a year old). Indeed: If my ancestors on this family-tree were all born when their mother was 25 years old, I could have been born 1970…twenty years earlier.
 
+
 ![family tree](/pic/141028_ahnen.jpg)
 
 In the second family tree, red lines mean marriages. There, one can also see the difficulties with this visualisation method: Far too long black lines. I kind of want to click an “expand”/”collapse” button when I see something like this. 
