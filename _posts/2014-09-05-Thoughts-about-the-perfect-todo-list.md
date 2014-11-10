@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Thoughts about the perfect todo list
 tags: tools, productivity
 ---
