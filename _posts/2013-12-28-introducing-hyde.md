@@ -10,8 +10,8 @@ This is another editor.
 ![Personality Scales](/images/PersonalityScale_22.jpg)
 ![My helpful screenshot2]({{ site.url }}/_posts/images/PersonalityScale_22.jpg)
 ![My helpful screenshot3]({{ site.url }}/pic/PersonalityScale_22.jpg)
-![My helpful screenshot4]({{ site.url }}/pic/MakingSenseOutOfMapbox.jpg)
-![My helpful screenshot5](/pic/MakingSenseOutOfMapbox.jpg)
+![IMAGE]({{ site.url }}/pic/MakingSenseOutOfMapbox.jpg)
+![IMAGE](/pic/MakingSenseOutOfMapbox.jpg)
 
 
 
