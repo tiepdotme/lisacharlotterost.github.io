@@ -1,7 +1,7 @@
 ---
 layout: post
-title: This here is a superlong blog post title
-tag: data vis, maps, learning, 
+title: Trying to make sense of the Mapbox ecosystem
+tag: datavis, maps, learning, 
 ---
 
 ![IMAGE](/pic/141104_mapbox.jpg)
