@@ -10,7 +10,7 @@ relative_permalinks: true
 title:            Lisa Charlotte Rost
 tagline:          "A world view"
 description:      'Thoughts about world models, data visualization and productivity.'
-url:              http://lisacharlotterost.github.io
+url:              http://blog.lisacharlotterost.de
 baseurl:          /
 
 author:
@@ -23,4 +23,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           blog.lisacharlotterost.de
