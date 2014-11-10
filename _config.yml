@@ -9,7 +9,7 @@ relative_permalinks: true
 # Setup
 title:            Lisa Charlotte Rost
 tagline:          "A world view"
-description:      'Thoughts about world models, data visualization and productivity by <a href="http://twitter.com/lisacrost>@lisacrost</a>.'
+description:      'Thoughts about world models, data visualization and productivity.'
 url:              http://lisacharlotterost.github.io
 baseurl:          /
 
