@@ -2,14 +2,7 @@
 ---
 layout: post
 title: Blogging Like a Hacker
-
 ---
-
-layout: post
-title: Mapping values of different people
-tags: dayproject, datavis, psychology
-
-
 ![personality scales](/pic/140917_personalityScales.jpg)
 
 <p>Two posts ago I asked the question "What's the difference between needs and desires?" Here's another answer: When people like <a href="http://www.alastairmcintosh.com/general/resources/2007-Manfred-Max-Neef-Fundamental-Human-Needs.pdf" target="_blank">Max-Neef</a> talk about needs, they speak about how every human existence needs to satisfy all of them. When people like <a href="https://explorable.com/16-basic-desires-theory" target="_blank">Reiss</a> talk about desires, however, they point out that every human is different and that everybody needs to satisfy desires to a different extent in order to be fulfilled.&nbsp;</p>
