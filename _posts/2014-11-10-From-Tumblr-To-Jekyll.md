@@ -6,7 +6,7 @@ tags: tools
 
 ![image](/pic/141110_yeah.jpg)
 
-This weekend I discovered that "autumn" in Lisbon basically means lots of rain. Lots. Like...a lot. Which is good, because instead of walking around and enjoying the city, I transformed my blog from Tumblr to Jekyll/GitHub. 
+This weekend I discovered that "autumn" in Lisbon basically means lots of rain. Lots. Like...a lot. Which is good, because instead of walking around and enjoying the city, I transferred my blog from Tumblr to Jekyll/GitHub. 
 
 I started my blog [The Magazine Design Project](http://themagazinedesignproject.tumblr) last January in January 2014, and it happened to be my steady companion in the process of writing my Master's Thesis. I wrote almost daily, posting more than 100 articles in four months. 
 
