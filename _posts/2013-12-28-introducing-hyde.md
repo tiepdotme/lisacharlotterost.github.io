@@ -1,10 +1,11 @@
 ---
 layout: post
-title: This here is a superlong blog post title
+title: Displaying images – how?
 ---
 
 This is another editor.
 
+<<<<<<< HEAD
 ![IMAGE](/pic/MakingSenseOutOfMapbox.jpg)
 
 
@@ -40,3 +41,9 @@ Btw: I got the geo coordinates for the christmas market data from OpenRefine (in
 Hyde is developed on and hosted with GitHub. Head to the <a href="https://github.com/poole/hyde">GitHub repository</a> for downloads, bug reports, and features requests.
 
 Thanks!
+=======
+![My helpful screenshot3]({{ site.url }}/pic/PersonalityScale_22.jpg)
+![My helpful screenshot5](/pic/MakingSenseOutOfMapbox.jpg)
+
+Yeah. That's all.
+>>>>>>> ceacaf1c3644617cb0ad869592fcff205170202a
