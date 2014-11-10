@@ -1,8 +1,7 @@
-
 ---
 layout: post
 title: Mapping individual values
-tags: datavis, psychology
+tags: datavis, psychology, dayproject
 ---
 
 ![personality scales](/pic/140917_personalityScales.jpg)
