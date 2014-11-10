@@ -48,12 +48,14 @@ I've always been afraid of the knowledge and skills that I should have – becau
 ![productivity](/pic/master_prod.jpg)
 
 *How can you avoid them?* 
-- Read summative Wikipedia article.
-- Spend some time checking if your topic is called differently by people who have something interesting to say about this topic; e.g. »Group Based Associative Idea Generation« instead of »Brainstorming« or »Development of Graphical Methods« instead of »Information Design«.
-- Get to know experts in this field and ask: What are they doing the whole day? With what or who are they spending their time? What is important to them?
-- Ask questions, as many as possible. Especially the Why-Questions. And the Why-of-the-Why-of-the-Why-Question. 
-- Read as broad as possible: Not only your always same blogs and books, but also about the business or production side of it, about artistic, historical or psychological approaches etc. The goal is to get as many perspectives on one topic as possible.
 
+ - Read summative Wikipedia article.
+ - Spend some time checking if your topic is called differently by people who have something interesting to say about this topic; e.g. »Group Based Associative Idea Generation« instead of »Brainstorming« or »Development of Graphical Methods« instead of »Information Design«.
+ - Get to know experts in this field and ask: What are they doing the whole day? With what or who are they spending their time? What is important to them?
+ - Ask questions, as many as possible. Especially the Why-Questions. And the Why-of-the-Why-of-the-Why-Question. 
+ - Read as broad as possible: Not only your always same blogs and books, but also about the business or production side of it, about artistic, historical or psychological approaches etc. The goal is to get as many perspectives on one topic as possible.
+
+<br>
 **Read**
 Especially the last one is important. Read a lot. Read in every direction. Or in one – it doesn't matter so much, just read. I read too little, and I notice that a lot. 
 I usually use books for a »break to get inspired«; meaning, as triggers to new ideas: When I’m reading a book, every other chapter my thoughts get inspired by a specific sentence or phrase and move to the space in the part of my brain where ideas are made (making ideas mean mostly combining them; it’s my own Mind Morphological Matrix, so to say). Reading the first part of seven chapters in Francesco Franchi's Designing News for example took ages…I was constantly with my eyes in my brain instead of on the paper. (I made the experience that my thoughts are flowing better the more abstract the text is.)
@@ -68,6 +70,7 @@ Here I want to present some models that have been essential for me during the la
 ![productivity](/pic/master_prod2.jpg)
 
 - The second model is the **SWOT analysis**. I put my own strengths, weaknesses and possible oppurtunities and threats regarding this Master's Thesis in it. While doing this, I noticed how dangerous such an analysis can be: It forces you to see a problem, idea or action from another point of view, which is great; but it does not necessarily asks you what to do next with this new view on things. Related to the SWOT analysis, it’s nice to see this overview – but it’s also very important that I go the next step and ask myself: How can I focus more on my strengths, how can I compensate my weaknesses? (Here I’m lucky, because all my weaknesses turn out as oppurtunities to learn something.) And how can I prepare myself for the threats? 
+
 
 The third model (the Morphological Matrix) will be explained in detail [in the next blog post.](/_posts/2014-06-18-Copy-And-Paste) It's not necessary to use all these models all the time. But in my experience, having them in mind as a possible perspective on things can be an incredible help. 
 
