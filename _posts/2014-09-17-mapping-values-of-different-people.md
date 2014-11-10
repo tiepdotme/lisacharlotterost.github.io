@@ -1,9 +1,13 @@
 
 ---
 layout: post
+title: Blogging Like a Hacker
+
+---
+
+layout: post
 title: Mapping values of different people
 tags: dayproject, datavis, psychology
----
 
 
 ![personality scales](/pic/140917_personalityScales.jpg)
