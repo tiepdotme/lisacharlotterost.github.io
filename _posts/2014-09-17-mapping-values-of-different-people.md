@@ -3,7 +3,6 @@
 layout: post
 title: Mapping values of different people
 tags: dayproject, datavis, psychology
-
 ---
 
 
