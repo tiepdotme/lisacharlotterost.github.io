@@ -13,13 +13,11 @@ tags: tools, productivity
 <li><span>You don't need to click buttons to enter more than one todo.</span></li>
 <li><span>Good thing: When you add a task, it gets automatically sorted in two categories: How urgent is this task? And how important is this task? People who know stuff will remind that of the <a href="http://en.wikipedia.org/wiki/Time_management#The_Eisenhower_Method" target="_blank">Eisenhower Matrix</a></span>
 </li>
-
-![todo list](/pic/140905_matrix.png)
-
 <li><span>You change the option in the categories with clicking on it. That's actually the part I enjoy most: No dropdown menus. No sidebar with options. Todos are simple and you should treat them as such.&nbsp;</span></li>
 </ul>
 <p><span>I saw this and thought: "Wow, that's the perfect todo list." And then I thought: "Wait, no, it's not": You can't sort todos (although that's something the creator has on his todo list). </span></p>
 
+![todo list](/pic/140905_matrix.png)
 ![todo list](/pic/140905_todo.png)
 
 <p><span>And I really want to add the time it takes me to complete a task. This has three reasons: a) It creates a "Well, that's doable"-feeling to see that it takes only 10 min to do something. b) You feel like Superman when it takes you less time to do something than you thought it would. c) I prefer to have as little todos on my list as possible, so even if a task is not soooo urgent/important I'd rather complete it (when it takes only 10 min or so) than to get reminded every time I look on this list.</span></p>
