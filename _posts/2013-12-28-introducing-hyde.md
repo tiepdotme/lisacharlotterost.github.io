@@ -8,6 +8,16 @@ This is another editor.
 ![Personality Scales](/images/PersonalityScale_22.jpg "That is the title")
 ![Personality Scales](images/PersonalityScale_22.jpg "That is the title")
 ![Personality Scales](/images/PersonalityScale_22.jpg)
+![My helpful screenshot2]({{ site.url }}/_posts/images/PersonalityScale_22.jpg)
+![My helpful screenshot3]({{ site.url }}/pics/PersonalityScale_22.jpg)
+![My helpful screenshot4]({{ site.url }}/pics/MakingSenseOutOfMapbox.jpg)
+![My helpful screenshot5](/pics/MakingSenseOutOfMapbox.jpg)
+
+
+
+
+
+
 ![alt text](http://www.gravatar.com/avatar/dd5a7ef1476fb01998a215b1642dfd07?s=128&d=identicon&r=PG "Title")
 
 ### Download
