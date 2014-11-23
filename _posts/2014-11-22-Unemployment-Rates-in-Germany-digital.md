@@ -4,7 +4,7 @@ title: Unemployment Rates in Germany: The d3 Version
 tags: datavis, dayproject, ZEIT
 ---
 
-[![image](/pic/141122_GraphicUnemployment.png)](http://lisacharlotterost.github.io/2014/10/17/Unemployment-Rates-in-Germany/)
+[![image](/pic/141122_GraphicUnemployment.png)](http://lisacharlotterost.de/Graphic-Unemployment-in-Germany/)
 
 A few weeks ago I had a look at the drop of unemployment rates in Germany between 2005 and 2014 in [an Adobe Illustrator graphic I built](http://lisacharlotterost.github.io/2014/10/17/Unemployment-Rates-in-Germany/). I ended my post about it with the words: "Now, hover effects and sorting possibilities would be nice. Sigh. Well, I'm getting there." 
 
