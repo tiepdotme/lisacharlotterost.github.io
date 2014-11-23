@@ -33,7 +33,6 @@
 
 html {
   font-family: Georgia, 'Vollkorn', serif;
-  overflow-x:hidden; 
 }
 @media (min-width: 48em) {
   html {
