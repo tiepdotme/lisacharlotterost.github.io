@@ -11,7 +11,7 @@ A few weeks ago I had a look at the drop of unemployment rates in Germany betwee
 
 And I did get there. I proudly present the replication of this graphic in d3.js: [Click here to get there](http://lisacharlotterost.de/Graphic-Unemployment-in-Germany/). 
 
-[And click here to see the Code on GitHub.](https://github.com/lisacharlotterost/Graphic-Unemployment-in-Germany). [And click here](https://docs.google.com/spreadsheet/ccc?key=0Aq_8fKCw925zdGtmLUJFbTNHcS1fSDNxMXhpckNUemc) to see the data my graphic is built on. [And click here](http://www.zeit.de/wirtschaft/arbeitslosigkeit) to see the original graphic built by ZEIT Online, great people who also posted the data. 
+[And click here](https://github.com/lisacharlotterost/Graphic-Unemployment-in-Germany) to see the Code on GitHub. [And click here](https://docs.google.com/spreadsheet/ccc?key=0Aq_8fKCw925zdGtmLUJFbTNHcS1fSDNxMXhpckNUemc) to see the data my graphic is built on. [And click here](http://www.zeit.de/wirtschaft/arbeitslosigkeit) to see the original graphic built by ZEIT Online, great people who also posted the data. 
 
 It is the first graphic in d3.js that I built alone and that I feel comfortable showing. It combines 
 
