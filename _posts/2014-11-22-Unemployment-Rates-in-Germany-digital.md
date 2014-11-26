@@ -21,6 +21,7 @@ It is the first graphic in d3.js that I built alone and that I feel comfortable 
 - setting buttons to trigger different sortings
 - showing different text at different places, depending on the button clicked
 
+
 That was the most complex coding experience I've ever had where I **still** understood what I'm doing. Meaning, I've always had the overview over what is happening why. That felt good.
 
-This graphic is also totally not responsive and lacks some fine extras like a table at the bottom with the top and bottom values of each sorted graph or a way to keep lines highlighted (so that you can see how they change places when the sorting changes). But well, again: I'm getting there. 
+This graphic is also totally not responsive and lacks some fine extras like a table at the bottom with the top and bottom values of each sorted graph or a way to keep lines highlighted (so that you can see how they change places when the sorting changes). Also, it's missing a statement that I want the reader to understand (which is ok for a graphic that I built mainly for the purpose of practising). But well, again: I'm getting there. 
