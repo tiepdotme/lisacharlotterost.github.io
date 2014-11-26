@@ -1,8 +1,9 @@
 ---
 layout: post
-title: Unemployment Rates in Germany: The d3 Version
+title: Unemployment Rates in Germany – The d3 Version
 tags: datavis, dayproject, ZEIT
 ---
+
 
 [![image](/pic/141122_GraphicUnemployment.png)](http://lisacharlotterost.de/Graphic-Unemployment-in-Germany/)
 
