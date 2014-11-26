@@ -11,6 +11,8 @@ A few weeks ago I had a look at the drop of unemployment rates in Germany betwee
 
 And I did get there. I proudly present the replication of this graphic in d3.js: [Click here to get there](http://lisacharlotterost.de/Graphic-Unemployment-in-Germany/). 
 
+[And click here to see the Code on GitHub.](https://github.com/lisacharlotterost/Graphic-Unemployment-in-Germany)
+
 It is the first graphic in d3.js that I built alone and that I feel comfortable showing. It combines 
 
 - loading data from a csv and coercing d3 to understand the values as numbers
