@@ -13,13 +13,13 @@ And I did get there. I proudly present the replication of this graphic in d3.js:
 
 It is the first graphic in d3.js that I built alone and that I feel comfortable showing. It combines 
 
-*loading data from a csv and coercing d3 to understand the values as numbers
-*creating groups with circles and lines
-*coloring the lines depending to the data
-*designing an axis
-*setting tooltips as a hover effect
-*setting buttons to trigger different sortings
-*showing different text at different places, depending on the button clicked
+- loading data from a csv and coercing d3 to understand the values as numbers
+- creating groups with circles and lines
+- coloring the lines depending to the data
+- designing an axis
+- setting tooltips as a hover effect
+- setting buttons to trigger different sortings
+- showing different text at different places, depending on the button clicked
 
 That was the most complex coding experience I've ever had where I **still** understood what I'm doing. Meaning, I've always had the overview over what is happening why. That felt good.
 
