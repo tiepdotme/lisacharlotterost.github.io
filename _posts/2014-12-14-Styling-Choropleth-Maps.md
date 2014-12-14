@@ -1,8 +1,9 @@
 ---
-layout:post
-title:Styling Choropleth Maps
-tags: maps
+layout: post
+title: Styling Choropleth Maps
+tag: maps, dayproject
 ---
+
 So, [Choropleth maps](http://en.wikipedia.org/wiki/Choropleth_map). Lots of fun. It's amazing how this simple kind of map has such a complicated name. It's also amazing how many complicated tools you sometimes have to use to build such a simple map ([OpenStreetMaps](http://www.openstreetmap.org/) &rarr; [Overpass-Turbo](http://overpass-turbo.eu) &rarr; Excel &rarr; [qGis](http://www.qgis.org/de/site/) &rarr; [Color-Brewer](http://colorbrewer2.org/)/[chroma.js](http://vis4.net/labs/multihue/#colors=lightyellow, orange, deeppink, darkred|steps=9|bez=1|coL=1) &rarr; [TileMill](https://www.mapbox.com/tilemill/)). Only after you've gotten into shapefiles, geo-jsons, joining data and qGis styling modes, you're allowed to look at something awesome. 
 
 Actually, wait a second. Let's have a look at these styling modes in more detail. Because once you've understood them, they are fantastic to separate your data into intervals. And to understand them was the goal of this graphic I built:
