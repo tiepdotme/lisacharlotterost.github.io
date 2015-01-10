@@ -1,7 +1,7 @@
 ---
 layout:post
-title:Plotting Dying Newspapers (and Magazines)
-tags: maps, dayproject
+title:Plotting Dying Newspapers and Magazines
+tags:maps, dayproject
 ---
 
 So, yeah, it's bad. We knew that before: Periodical print publications seem to be no fun anymore for humanity. Even the Germans, by tradition very traditional people, started to dislike them. How much? That's what the data reveals, that [OpenDataCity shared a few days ago](https://opendatacity.de/der-zerfall-der-printmedien/). I like their search function, I like their bold design – but I dislike the missing possibility to compare all the magazines.  
