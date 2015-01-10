@@ -16,7 +16,7 @@ What are our options?
 
 <br>
 ![image](/pic/141214_categories_-04.png)
-**Equal interval**: This is the most obvious option: We just cut the difference between the lowest and the heighest data point in equal pieces. Our data ranges from 0.5m to 33.9m, and if we cut this length in six cake pieces, each of them is approx. 5,6m big. Yummy. 
+**Equal interval**: This is the most obvious option: We just cut the difference between the lowest and the heighest data point in equal pieces. Our data ranges from 0.5m to 33.9m, and if we cut this length in six cake pieces, each of them is approx. 5.6m big. Yummy. 
 Too bad that 38 out of our 52 data points happen to have less than 5.6m citizens. And as we can see in my graphic, the fifth interval does not have any data points at all. Well, that's a bummer. Let's try the other fairly obvious option then:
 
 <br>
