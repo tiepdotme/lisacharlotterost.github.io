@@ -1,5 +1,5 @@
 ---
-layout:post
+layout: post
 title: Plotting Dying Newspapers and Magazines
 tags: maps, dayproject
 ---
