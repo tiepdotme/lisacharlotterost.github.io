@@ -39,5 +39,6 @@ But what other modes are there? First, the more complicated one:
 
 If you want to play with the data yourself, go to this Google Spreadsheet: [Click.](https://docs.google.com/spreadsheets/d/1JtzJBUUxESZvIZLi0KX1JoHEA_Kj6U0kSCAWStrAyvY/edit?usp=sharing) On the second sheet you will find all the data for each styling mode. The source for the population data is [Wikipedia](en.wikipedia.org/wiki/List_of_U.S._states_and_territories_by_population).
 
+Edit January 13th, 2015: [Daniel Kirsch](https://twitter.com/kirel) [recreated this graph in R](http://rpubs.com/danielkirsch/styling-choropleth-maps) – great post, go check it out!
 
 
