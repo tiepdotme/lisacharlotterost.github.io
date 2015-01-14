@@ -65,6 +65,8 @@ h1 a {border-bottom: 0px;}
 h2 a {border-bottom: 0px;}
 h3 a {border-bottom: 0px;}
 h4 a {border-bottom: 0px;}
+h5 a {border-bottom: 0px;}
+h6 a {border-bottom: 0px;}
 
   
   
@@ -80,7 +82,7 @@ text-decoration: none;
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6,h7 {
+h1, h2, h3, h4, h5, h6, h7 {
   line-height: 1.55;
   color: #313131;
   text-rendering: optimizeLegibility;
