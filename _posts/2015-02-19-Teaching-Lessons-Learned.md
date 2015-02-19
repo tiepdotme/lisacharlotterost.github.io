@@ -16,8 +16,8 @@ I'm happy to announce that I will give [my first data vis talk ever](http://www.
 And because it's my first talk ever, I want to do it right. I asked myself: What did you like about talks you've visited as a student? What did you dislike? My thoughts resulted in three rules:
 
 - Designers give good talks when they show students more than there is on their website. Students want to be **close to the designer's process**, to how they work. They want to know the lessons they've learned in all these years. Students want to deeply understand how to create work as well as designers do.
-- Designers give good talks when they create some form of intimacy. Often, talks are not recorded, so designers should make use of that and **talk "off the record"**. Students are grateful when designers tell them about their failures and doubts. Designers should communicate that they too are not perfect yet, but that they are going up the learning curve every day. 
-- Apropos provoking: Designers give good talks when they are **polarizing**. Designers should have extreme beliefs that students can either accept or fight against. While drawing (mental) boundaries, students learn where they stand, what they belief in and in which direction they want to go. 
+- Designers give good talks when they create some form of intimacy. Often, talks are not recorded, so designers should make use of that and **talk "off the record"**. Students are grateful when designers tell them about their failures and doubts. Designers should communicate that they too are not perfect yet, but that they too are going up the learning curve every day. 
+- Designers give good talks when they are **polarizing**. Designers should have extreme beliefs that students can either accept or fight against. While drawing (mental) boundaries, students learn where they stand, what they belief in and in which direction they want to go. 
 
 <br><br>
 **Why we should repeat obvious Lessons Learned**
