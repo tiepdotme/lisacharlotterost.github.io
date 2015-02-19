@@ -46,5 +46,6 @@ Data Vis Lessons:
 - Be aware that there is only a small overlap of what counts and what gets counted. Only present what counts. Never start a data vis without knowing the answer to **"So what?"**. The right question is often the whole idea. 
 - **Data are measurements**. You can visualize data with every element that has a width, height, length, volume or radius. 
 -  Be aware of the huge **gap between the truth and your data vis**: There are no facts, only measurements – and as soon as you choose the form and focus of your visualization, you are altering the neutral, "everything has the same value"-truth. When creating visualizations, you sacrifice the truth for an overview, in order to let people see pattern and trends. Be aware of that. 
+
 <br>
 I'm curious to hear what you think about them! Let me know, for example with an email (I like emails): lisacharlotterost@gmail.com. 
