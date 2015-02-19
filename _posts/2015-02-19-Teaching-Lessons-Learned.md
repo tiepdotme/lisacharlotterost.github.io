@@ -29,13 +29,13 @@ So should we stop communicating "Lessons Learned" and should people on Quora sto
 <br><br>
 **My Lessons Learned**
 
-Saying that, here are the Lessons Learned I will present at my talk in Ravensburg. 
+Saying that, here are the Lessons Learned I will present during my talk in Ravensburg. 
 
 <br>
 Career Lessons:
 
 - It doesn't matter what you do: **Some people will like it and some people will hate it**. But all niches are legit and have an audience. Choose your niche based on your personality: Understand who you are and do what you want. If your environment doesn't like what you do, change the environment. Get better and become successful in your niche to get the respect of the people who dislike what you do. 
-- Surround yourself with people who are better than you. Leave when you can't learn anything anymore.
+- **Surround yourself with people who are better than you.** Leave when you can't learn anything anymore.
 - Don't build any respect for technology. Dumber people than you have learned programming. **Technology isn't for an elite**; it's made by normal people and for normal people. Waiting to try it out will build an unnecessary psychological barrier. Try it now. NOW. 
 - Everything you deal with is made by people. And people can be convinced to do things differently. **You can actually make a difference in your niche**. You can invent new ways to do stuff; you can change the tools used in your niche and how outside people think about your nice. 
 
