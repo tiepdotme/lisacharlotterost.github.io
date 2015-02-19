@@ -8,7 +8,7 @@ tags: aesthetics, mastersthesis
 
 The composition of everything twodimensional like illustrations, photographies and magazine spreads has been a skill I wanted to groove for at least the past eight years. It is still one of my biggest interests in visual communications. 
 
-What is the challenge? Well, if you have an axis with the two poles »tension« and »harmony«, you want your composition right in the middle (if you paint, maybe a little bit more to »tension«, in magazine design maybe a little bit more to »harmony«.) To achieve this, I personally use some principles from which I will list a collection here:
+What is the challenge? Well, if you have toan axis with the two poles »tension« and »harmony«, you want your composition right in the middle (if you paint, maybe a little bit more to »tension«, in magazine design maybe a little bit more to »harmony«.) To achieve this, I personally use some principles from which I will list a collection here:
 <br>
 
 **Principles for Composition**
