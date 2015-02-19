@@ -6,7 +6,7 @@ tag: talk, lesson, datavis
 
 ![poster Daniel Poppele](/pic/150219_poster.jpg)
 
-I'm happy to announce that I will give [my first data vis talk ever](http://www.mediendesign-ravensburg.de/lunchtime-talk-from-data-to-meaning-with-love/) (well, you have to start somewhere) at the University of Applied Sciences Ravensburg next Tuesday, 24th of February. The guys there designed not only one, but three posters for my talk: Thank you, [Fabian Karrer](http://www.fabiankarrer.de/), [Daniel Poppele](http://daniel-poppele.de/) and Sabine Schubert; that is some amazing work that I truly appreciate!
+I'm happy to announce that I will give [my first data vis talk ever](http://www.mediendesign-ravensburg.de/lunchtime-talk-from-data-to-meaning-with-love/) (well, you have to start somewhere) at the Ravensburg University of Cooperative Education at the department of media design next Tuesday, 24th of February. The guys there designed not only one, but three posters for my talk: Thank you, [Fabian Karrer](http://www.fabiankarrer.de/), [Daniel Poppele](http://daniel-poppele.de/) and Sabine Schubert; that is some amazing work that I truly appreciate!
 
 ![Poster Fabian Karrer](/pic/150219_poster2.jpg)
 
