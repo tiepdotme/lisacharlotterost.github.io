@@ -32,8 +32,7 @@
  */
 
 html {
-  font-family: 'Roboto', Helvetica, sans-serif;
-  font-weight: 200;
+  font-family: Georgia, 'Vollkorn', serif;
 }
 @media (min-width: 48em) {
   html {
@@ -48,17 +47,17 @@ html {
 
 
 body {
-  color: #484848;
-  background-color: #f4f4f4;
+  color: #2d314d;
+  background-color: #f6ffe2;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
 a {
-border-bottom:1px solid #484848;
+border-bottom:1px solid #2d314d;
 text-decoration: none;
-color: #484848;
+color: #2d314d;
 
   }
   
@@ -79,12 +78,11 @@ a strong {
 a:hover,
 a:focus {
 text-decoration: none;
-  color:#27ff00;
+  color:#ccddcc;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6, h7 {
-  font-weight: 200;
   line-height: 1.55;
   color: #313131;
   text-rendering: optimizeLegibility;
@@ -92,58 +90,57 @@ h1, h2, h3, h4, h5, h6, h7 {
 
 /* For headings of blog posts*/
 h1 {
-  font-family:'Roboto', Helvetica,Arial;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica-Light", "Helvetica Light", "Helvetica Neue",Helvetica,Arial;
   font-size: 1.5rem;
   margin-bottom: 13px;
 }
 
 /* For headings of title in sidebar*/
 h2 {
-  font-family:'Roboto', Helvetica,Arial;
-  font-weight: 200;
+  margin-top: 1rem;
   font-size: 1.5rem;
   line-height:20px;
 }
 
 h2 a:hover {
-  font-weight: 200;
-  color: #27ff00;
+  color: #ccddcc;
   text-decoration: none;
 }
 
 
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 /* For "related" links at the end of an article */
 h5 {
-  font-family:'Roboto', Helvetica,Arial;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica-Light", "Helvetica Light", "Helvetica Neue",Helvetica,Arial;
   font-size:18px;
   line-height:29px;
+  font-weight:200;
   letter-spacing: 1px;
   margin:0;
   padding:0;
-  color: inherit;
-
   
 }
 
 /* For links in the sidebar */
 h4 {
-  font-family:'Roboto', Helvetica,Arial;
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica-Light", "Helvetica Light", "Helvetica Neue",Helvetica,Arial;
   font-size:14px;
   line-height:20px;
+  font-weight:200;
   letter-spacing: 1px;
-  color: inherit;
+  
   padding:0;
   margin:0px;
   margin-top:0.4rem;
+  color: #ccddcc;
 }
 
 h4 a:hover {
-  color: #27ff00;
+  color: #fff;
 }
 
 
@@ -167,7 +164,7 @@ ul, ol, dl {
 }
 
 dt {
-  font-weight: 200;
+  font-weight: bold;
 }
 dd {
   margin-bottom: .5rem;
@@ -177,9 +174,9 @@ dd {
 hr {
 	padding:0;
 	margin:0;
-	background-color: #a30000;
+	background-color: #ccddcc;
     border: 0 none;
-    color: #a30000;
+    color: #ccddcc;
     height: 1px;
 	margin-bottom:0.7rem;
     margin-top:0.7rem;
@@ -213,9 +210,9 @@ ul {
 
 .sidebar {
   text-align: center;
-  padding: 1.5rem 1rem;
-  color: #a30000;
-  background-color: #f4f4f4;
+  padding: 1rem 1rem;
+  color: #ccddcc;
+  background-color: #202020;
   
 }
 @media (min-width: 48em) {
@@ -239,11 +236,11 @@ ul {
 
 /* About section */
 .sidebar-about h2 {
-  font-family:'Roboto', Helvetica,Arial;
-  font-size:14px;
-  letter-spacing: 1px;
-  color: inherit;
-  }
+  color: #fff;
+  margin-top: 0.8rem;
+  font-family: Helvetica-Neue, sans-serif;
+  font-size: 16px;
+}
 
 /* Sidebar nav */
 .sidebar-nav {
@@ -255,9 +252,14 @@ ul {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-   text-decoration: none;
-  color:#27ff00;
+	text-decoration: none;
+  color:#fff;
 }
+.sidebar-nav-item.active {
+  font-weight: bold;
+}
+
+
 
 /*
  * Themes
@@ -266,9 +268,28 @@ a.sidebar-nav-item:focus {
 
 /* Version 1 (default) */
 .theme-base-0d .sidebar {
-  background-color:#f8f8f8;
-  
+  background-color:#2d314d;
+  color:#ccddcc;
 }
+
+/* Magenta */
+.theme-base-0e .sidebar {
+  background-color: #aa759f;
+}
+.theme-base-0e .content a,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f;
+}
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #8f5536;
+}
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536;
+}
+
 
 
 /* Sticky sidebar
