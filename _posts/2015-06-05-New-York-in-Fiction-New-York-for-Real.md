@@ -4,7 +4,7 @@ title: New York in Fiction, New York for Real
 tag: dayproject, maps, conference
 ---
 
-[![image](/pic/150605_cityislands.jpg)]
+![image](/pic/150605_cityislands.jpg)
 
 A few months ago, I released a map from the cage of my computer to the outer world (aka the Internet), in form of a good old-fashioned tweet:
 
@@ -23,7 +23,7 @@ Comparison is extremly important for data vis: One number isn't of much use. One
 
 Of course you can compare map data, too. On the following map I show all buildings in Manhattan (well, at least the ones that OpenStreetMap mapped). And then I bring the Tiananmen Square from Bejing close to the Central Park and the Champ de Mars with the Eiffel Tower from Paris somehwere in Midtown. 
 
-[![image](/pic/150607_NYchamp.jpg)]
+![image](/pic/150607_NYchamp.jpg)
 
 You can immediately compare the landmarks with each other: Champ the Mars is smaller than Central Park and the Tiananmen Square seems tiny for being one of the biggest squares on the world. 
 
@@ -40,6 +40,6 @@ Can we use numbers as Lego bricks, too? Well, let's see. You have a pretty good 
 
 Here are some more images from the city archipelago: 
 
-[![image](/pic/150605_cityislands4.jpg)]
-[![image](/pic/150605_cityislands3.jpg)]
-[![image](/pic/150605_cityislands5.jpg)]
+![image](/pic/150605_cityislands4.jpg)
+![image](/pic/150605_cityislands3.jpg)
+![image](/pic/150605_cityislands5.jpg)
