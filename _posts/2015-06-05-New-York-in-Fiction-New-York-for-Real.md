@@ -44,8 +44,4 @@ Here are some more images from the city archipelago:
 ![image](/pic/150605_cityislands3.jpg)
 ![image](/pic/150605_cityislands5.jpg)
 
-Edit 21st of June 2015: And here’s the video that shows me giving the lightning talk: 
-
-<iframe width=“100%” height=“100%” src=“https://www.youtube.com/embed/Jg2m7jM-gg8” frameborder=“0” allowfullscreen></iframe>
-
-I had lots of fun during these days
+Edit 21st of June 2015: And [here’s the video that shows me giving the lightning talk](https://www.youtube.com/watch?v=Jg2m7jM-gg8). I had lots of fun at the State of the Map US conference; thanks again to everybody who made it possible that I'm there! 
