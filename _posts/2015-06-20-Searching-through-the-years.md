@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Searching through Years
+title: Searching through the Years
 tag: dayproject, datavis, google
 ---
 
