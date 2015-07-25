@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Analysing and Visualizing your Google Search History
-tag: dayproject, datavis, google
+tag: tutorial, datavis, google
 ---
 
 ![image](/pic/150620_GoogleSearch_3.jpg)
@@ -160,7 +160,7 @@ The sad thing about Tableau Public? You can't save your results on your computer
 
 
 <br><br>
-**That's it! You've made it! Congratulations!** You downloaded, merged, cleaned, visualised and analysed your Google Search history. I'd love to see what you're coming up with. If you have some interesting insights or visualisations, send me a link at lisacharlotterost@gmail.com or comment on this blog post. 
+**That's it! You've made it! Congratulations!** You downloaded, merged, cleaned, visualised and analysed your Google Search history. I'd love to see what you're coming up with. If you have some interesting insights or visualisations, send me a link at lisacharlotterost@gmail.com or comment on this blog post. Also, if you know a way to analyse your data in a super simple way, please share your knowledge!
 
 
 
