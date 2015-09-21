@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Analysing and Visualizing your Google Search History
+title: My Google Search History – Tutorial
 tag: dayproject, datavis, google
 ---
 
@@ -10,7 +10,7 @@ One month ago, I posted an article with [an analysis of my Google search history
 
 It's easy! 
 
-And to demonstrate that, I will write my first tutorial. It's **an extremly detailed tutorial for absolute beginners** in ...well, everything. If you can code, there are better ways for you do clean up and visualise the data. And if can't code, but you've dealt with JSONs and/or Google Refine before: this is the short version – or, let's say, ONE short version, because of course there are many ways to visualise the data:
+And to demonstrate that, I will write my first tutorial. It's **an extremly detailed tutorial for absolute beginners** in ...well, everything. If you can code, there are better ways for you do clean up and visualise the data (eg., a way to merge the Google Search history JSONs was written down [here in Ruby by Daniel Kirsch](https://gist.github.com/kirel/9eff6b70ef01d0447605)). And if can't code, but you've dealt with JSONs and/or Google Refine before: this is the short version – or, let's say, ONE short version, because of course there are many ways to visualise the data:
 
 - Download your archive [here](https://support.google.com/websearch/answer/6068625?hl=en) and unzip it.
 - Merge the JSONs.
@@ -89,7 +89,7 @@ To sum up the rules for merging our JSONs by hand:
 - Add a beginning `{"event":[` and a closing `]}`.
 
 <br>
-YOU DID IT! Yeah! To get that right is the hardest part of the whole tutorial – everything will be easy from now on:
+YOU DID IT! Yeah! To get that right is the hardest part of the whole tutorial – everything will be easy from now on. 
 <br><br><br>
 
 

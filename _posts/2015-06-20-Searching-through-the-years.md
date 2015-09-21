@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Searching through the Years
+title: My Google Search History – visualized
 tag: dayproject, datavis, google
 ---
 
