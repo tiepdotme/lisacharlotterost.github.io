@@ -14,8 +14,6 @@ Because I haven't exported such a list of most searched for terms in [the main v
 
 No surprises in the **list of location** queries: Places I've lived in (Berlin, New York, Weimar) at the top; places of vacations and travelling (Hamburg, Lisbon, Cuba) at the bottom. 
 
-![image](/pic/150920_locations.png)
-
 **List of brands:** I'm as surprised as you that "Wordpress" (146) is so much at the top – it results from being a co-organizer of a conference last year and using Wordpress to set up our website for that. "Windows" (142) before "Mac" (134) makes sense, too: I was using a Windows OS until last summer. Wait for a few more months and the "mac" count will certainly overtake the "windows" count. And I need to smile about "iphone" (120) being before "android" (118): I have owned, but I've never used an iPhone. Or an "iPad" (47). Or a "Nexus" (44). 
 
 The **list of concepts** is to show how poetic Google Search queries can be – at least on the surface. In half of the queries for "information" (177) I was searching for "information design" (85). When I google for "free" (125), I search for "freemason lodge" (in 2011), "freemium examples" (2012) or even "sainsbury rooibos tea naturally caffeine free dragonfly organic" (in 2010. I have no idea what happened there). But of course, mostly I search for "tumblr free grid themes", "dollar bill vector free" or "screenshot programm freeware". And when I google for "time" (161), I don't want to get into the philosophical and physical discussion if time exists, and if, how so – I just want to know which time it is currently in San Francisco. 
