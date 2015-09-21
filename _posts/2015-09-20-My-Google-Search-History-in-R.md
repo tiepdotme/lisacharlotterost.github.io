@@ -76,4 +76,4 @@ ggplot(combined, aes(x=my,fill=..count..)) + geom_histogram() + facet_grid(cat ~
 
 ```
 
-The previous blog post (click here or scroll down!) will be about **text analysis in R** – something that I really liked doing and that I want to get more into. Numbers are fairly easy to handle: You can calculate medians and averages and standard deviations and can get all these numbers that tell you something about your original numbers. But text is...blurry. It doesn't seem [as easily manageable](https://www.prote.in/profiles/stefanie-posavec) as cold numbers. Text mining solves that. 
+The previous blog post ([click here](http://lisacharlotterost.github.io/2015/09/20/My-Google-Search-History-Text-Analysis/) or scroll down!) will be about **text analysis in R** – something that I really liked doing and that I want to get more into. Numbers are fairly easy to handle: You can calculate medians and averages and standard deviations and can get all these numbers that tell you something about your original numbers. But text is...blurry. It doesn't seem [as easily manageable](https://www.prote.in/profiles/stefanie-posavec) as cold numbers. Text mining solves that. 
