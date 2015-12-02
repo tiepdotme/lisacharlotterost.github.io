@@ -1,9 +1,10 @@
-
 ---
 layout: post
 title: Outer vs Inner Success
 tag: productivity, decisionmaking
 ---
+
+
 Which projects should I accept; which one should I decline? How should I spend my time? These are exactly the question I was asking myself a lot lately. In the past few weeks, I got more emails about potential project collaborations and requests for freelance work than ever. Great people came to me, offering to work with me on great projects and even give me money for it. It's actually really not fun to reject these people (huuuge luxury first world problem, I'm aware of that and I'm grateful as crazy about my life and my career and everything is awesome, really). I had lots of FOMO and rethought everything twice. And I was forced to think of a decision model. I wanted categories in which I could first compare and then rank the potential jobs. I wanted to decide on categories to decide. 
 
 I found them! So what are the categories? 
