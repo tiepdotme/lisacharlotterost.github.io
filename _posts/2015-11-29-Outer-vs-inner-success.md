@@ -4,12 +4,7 @@ title: How to decide what to work on?
 tag: productivity, decisionmaking
 ---
 
-
-<<<<<<< HEAD
 Which projects should I accept; which one should I decline? How should I spend my time? These are exactly the question I was asking myself a lot lately. In the past few weeks, I got more emails about potential project collaborations and requests for freelance work than ever. Great people came to me, offering to work with me on great projects and even give me money for it. It's actually really not fun to reject these people (huuuge luxury first world problem, I'm aware of that and I'm grateful as crazy about my life and my career and everything is awesome, really). I had lots of FOMO and rethought everything twice. **And I was forced to think of a decision model**. I wanted categories in which I could first compare and then rank the potential jobs. I wanted to decide on categories to decide. 
-=======
-Which projects should I accept; which one should I decline? How should I spend my time? These are exactly the question I was asking myself a lot lately. In the past few weeks, I got more emails about potential project collaborations and requests for freelance work than ever. Great people came to me, offering to work with me on great projects and even give me money for it. It's actually really not fun to reject these people (huuuge luxury first world problem, I'm aware of that and I'm grateful as crazy about my life and my career and everything is awesome, really). I had lots of FOMO and rethought everything twice. **And I was forced to think of a decision model.** I wanted categories in which I could first compare and then rank the potential jobs. I wanted to decide on categories to decide. 
->>>>>>> c95bea1c67cc0cdcab68f026974df83c97864bb5
 
 I found them! So what are the categories for deciding what to work on? For me, these three are most important, in their order of priority:
 
@@ -19,12 +14,7 @@ I found them! So what are the categories for deciding what to work on? For me, t
 
 3. **Outer success**: Will that project help me to get cool future jobs? Will it help me to gain access or recognition of a community I want to be closer to? Do I want to be related to this project and the client? 
 
-
-<<<<<<< HEAD
-To a) give you an example and b) bring an image into this post, but especially to c) show my love for models, let me draw my current projects into a **Inner Success - Outer Success - Enthusiasm - Matrix**. The size of the circle represents my enthusiasm, NOT the time I'm working on these projects. (I'm currently really happy with ALL my projects, so even small circles mean I'm fairly enthusiastic.) Shaded circles represent projects I don't get money for. BIG NOTE: This is my current state. The bubbles move in size and position constantly. 
-=======
 To a) give you an example and b) bring an image into this post, but especially to c) show my love for models, let me draw my current projects into an **Inner Success - Outer Success - Enthusiasm - Matrix**. The size of the circle represents my enthusiasm, NOT the time I'm working on these projects. (I'm currently really happy with ALL my projects, so even small circles mean I'm fairly enthusiastic.) Shaded circles represent projects I don't get money for. BIG NOTE: This is my current state. The bubbles move in size and position constantly. 
->>>>>>> c95bea1c67cc0cdcab68f026974df83c97864bb5
 
 ![image](pic/151202_decide3.gif)
 
