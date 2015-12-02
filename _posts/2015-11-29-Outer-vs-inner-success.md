@@ -33,7 +33,3 @@ And then they are the **money projects**! Projects that pay your rent. Again: Cu
 ![image](pic/151202_decide2.gif)
 
 Again: Enthusiasm – at least for me – is key. I'm very lucky that I experienced the power of high motivation often enough: When I get into flow and forget time easily. When my brain surprises my with THE solution for a problem in this project while I'm doing the dishes. When I jump out of bed in the morning because I want to continue working. I find work extremely exhausting when I'm not enthusiastic about it. So I appreciate the opposite even more. 
-
-
-
-
