@@ -6,7 +6,7 @@ tag: datives, thoughts,
 
 **tl;dr: Self-tracking these days often results in irrelevant visualisations which give a fake comfort of meaning, but don’t help neither the tracked person nor the viewer**. 
 
-![image](pic/151211_selftracking.PNG)
+![image](pic/151211_selftracking2.jpg)
 
 I just came back from a conversation with J. On the image you can see all the Facebook conversations I had with him since July 2014: A lot. (Mapping Facebook conversations is a side project I’ve been working on for quite some time, to learn R. I also wrote my first Python / BeautifulSoup scraper for that – I’lll publish everything + a mini tutorial on that as soon as I show y’all the final thing.)
 
