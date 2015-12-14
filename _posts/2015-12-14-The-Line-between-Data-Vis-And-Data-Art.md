@@ -19,7 +19,7 @@ Data art, on the other hand, doesn’t need to be functional. If a student would
 
 ![image](/pic/151214_DataVisDataArt4.jpg)
 
-Of course, design is a “functional art”, as Alberto Cairo describes it famously. Every data vis piece needs to have parts of “art” in them and the other way round. (The best projects might be the ones combining data art and data vis, as the examples shown here by Nicolas Felton and Kim Albrecht show.) It’s not binary – it’s a scale. So the borders are not that discrete. But even talking about priorities helps. “Never sacrifice readability for aesthetics” is a guideline designers should have - and artists shouldn’t be bothered with. 
+Of course, design is a “functional art”, as Alberto Cairo describes it famously. Every data vis piece needs to have parts of “art” in them and the other way round. (The best projects might be the ones combining data art and data vis, as the examples by Nicholas Felton and Kim Albrecht show.) It’s not binary – it’s a scale. So the borders are not that discrete. But even talking about priorities helps. “Never sacrifice readability for aesthetics” is a guideline designers should have - and artists shouldn’t be bothered with. 
 
 **So what is the consequence of unclear borders between Data Vis and Data Art**? I can see two big ones: 
 A) I think, creators of both kinds are **not as consistent as they could be**. Artists feel bad if they don’t label their axis, because Tufte told them to do so. And data designers try to be as innovative and artistic in their designs as artists, for the sake of readability and functionality. Projects of both data artists and data designers can become better if they stand to who they are. 
