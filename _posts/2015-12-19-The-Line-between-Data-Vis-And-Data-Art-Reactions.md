@@ -1,4 +1,4 @@
----
+//---
 layout: post
 title: The Line between Data Vis and Data Art – Reactions
 tag: datavis, thoughts,
