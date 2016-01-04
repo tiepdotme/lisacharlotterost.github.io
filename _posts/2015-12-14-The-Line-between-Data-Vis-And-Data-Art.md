@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: The Line between Data Vis and Data Art
