@@ -12,7 +12,7 @@ The End.
 
 It's a sad story, I know. We all have gotten more and more annoyed by disorganisaion, the longer we've had to deal with it. Ten years ago, a full "Download" folder seemed like an interesting phenomenon. "Oh," I thought. "That can happen. Exciting!" If that happens these days, I just want to go to a bridge at night and scream.
 
-![image](/pic/160316_FilesOrg_0.png)
+![image](/pic/160316_FilesOrg_0.jpg)
 
 So when organising my files, my goal is to **avoid** creating spaces that make me want to scream. I'm talking about spaces in which everything is DISORGANIZED, aka crammed together:
 
