@@ -19,6 +19,7 @@ So when organising my files, my goal is to **avoid** creating spaces that make m
 - full "Download" folders
 - full inboxes
 - full desktops
+
 <br>
 In this blog post, I want to present a solution. It's one that works for me, and might not work for you. Livia Labate wrote an great [blog post](http://livialabate.com/says/category/information-architecture/) about the rules and principles to consider when organising your files, and about another solution that works well for her.
 
