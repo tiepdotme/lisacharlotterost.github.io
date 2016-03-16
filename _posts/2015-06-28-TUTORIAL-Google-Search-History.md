@@ -16,7 +16,7 @@ And to demonstrate that, I will write my first tutorial. It's **an extremly deta
 - Merge the JSONs.
 - Convert the JSONs to a TSV or Excel file (eg with [Google Refine](http://openrefine.org/)).
 - Convert the timestamps in Excel/Libre Office with the following formula: `=LEFT(A1;10)/(60*60*24)+"1/1/1970"`
-- Visualise and analyse your data with [Tableau Public](www.tableausoftware.com/public/).
+- Visualise and analyse your data with [Tableau Public](https://public.tableau.com/).
 <br><br>
 
 Here comes the long version:
@@ -39,7 +39,7 @@ After clicking on **"Create Archive"**, you'll need to wait. Google will send yo
 
 You unzipped your files? Good! Looks like it's not a simple Excel file called "YourSearchHistory.xls", right? The files you unzipped are **JSONs**, [a neat file format](https://en.wikipedia.org/wiki/JSON). Google created one JSON for each quarter in which you've used Google Search. Which might be convenient for them, but not for us: We want to have ONE file for ALL our search queries. So we need to merge our JSONs to one mega JSON. And the least advanced but most simple way to do that is by hand. 
 
-Try to doubleclick on such a JSON file. If you're not satisfied with the software that opens this file, you might want to download an editor like [Sublime](www.sublimetext.com) or [Brackets](http://brackets.io/). Your JSONs folder and your open JSON files should look like that: 
+Try to doubleclick on such a JSON file. If you're not satisfied with the software that opens this file, you might want to download an editor like [Sublime](http://www.sublimetext.com) or [Brackets](http://brackets.io/). Your JSONs folder and your open JSON files should look like that: 
 
 ![Awesome gif](/pic/150702_Tut_3.gif)
 
