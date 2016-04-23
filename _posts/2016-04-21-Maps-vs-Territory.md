@@ -14,8 +14,8 @@ Did you succeed? I'd be surprised. Immediately, **we start applying labels** to 
 
 **Maps are everything that is NOT the Territory**. Maps are our thoughts, judgements, associations, connections, categories, systems, beliefs, labels and models we build about the Territory. Maps are our language, science, religion, philosophy, our measurements of the Territory. Maps are immediate thoughts we have about the Territory on a second-to-second basis. And Maps are very elaborate and high-level models which take year to develop.
 
-The difference between Territory and the Map is fundamental and something that has kept me excited for months now. I still don't grasp all implications that come with this separation. This post will hopefully help us both, you and me, **to get a better idea about basic principles of Maps and Territories**.
-<br>
+The difference between Territory and the Map is fundamental and something that has kept me excited for months now. I still don't grasp all implications that come with this separation. This post will hopefully help us both, you and me, **to get a better idea about basic principles of Maps and Territories**:
+<br><br>
 
 
 **1. The Territory is neutral.** Everything that happens in the Territory is neither good nor bad. It just happens. The lion eats the lamb. Yes. Happens. Is it us humans who apply labels. We see murder as something bad - and that we see it as something bad is a good thing (I'd say as a human being), because it means that we prefer to prevent murder, and don't need to live in fear - which we would only have because we would see murder as something bad.
