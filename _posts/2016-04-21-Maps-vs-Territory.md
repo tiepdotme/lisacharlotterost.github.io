@@ -4,7 +4,7 @@ title: Map vs. Territory
 tag: thoughts,
 ---
 
-![image](/pic/160422_MapsVsTerritory-01.png)
+![image](/pic/160422_mapsVsTerritory-01.png)
 
 **tl;dr: "Everything simple is false. Everything which is complex is unusable." – Paul Valéry**
 
@@ -30,7 +30,7 @@ Meaning: There is no honest or true or real view of the world. However, I'd argu
 **3. There is no accurate Map of the Territory.** That we can't see the Territory as it is is not the only reason for impossible accuracy. We would also fail in creating the perfect Map because the most accurate Map of the Territory can only be the Territory itself. Every single out Map there simplifies the world. Every single Map stripes away huge chunks of the Territory.
 Sometimes, we get reminded of that. When we struggle to find the right words to express an experience, for example: "I can't describe it," we say, or: "There are no words to describe that." Such moments are glimpses into the limits of the Maps we build. These limits don't need to be a bad thing:
 
-![image](/pic/160422_MapsVsTerritory-03.png)
+![image](/pic/160422_mapsVsTerritory-03.png)
 
 
 **3. Maps are only useful if they are simplified.** Simplification is not a bad thing, but necessary. Without doing that, we would not be able to live a life. Categories help us with having memories and building associations: "I'm in the mountains. The last time I was in the mountains was 2 years ago." It is so crucial to do that, that it's part of the basic features animals have: "This is a lion. Lion = danger."
@@ -44,11 +44,11 @@ But sometimes, we strip away the wrong parts of the Territories. Our models and 
 
 **5. We mistake the Map for the Territory.** Is it true? Is it true that everybody is around us is better at what they're doing? No, it's not - because it can't be. The Territory is neutral: Everything that happens, happens. We can't see the Territory as it is: We don't know anything about the real character of the Territory, and "truth" itself is a Map concept. And it's definitely not the full story, because we can't have an accurate Map of the Territory. But we continue mistaking the Map for the Territory: We think that it's a fact, not a belief that they are worse than others. We think that biological processes work exactly the way they are described in our school books. We think that everything we know about the world is true. This belief is a harmful one. Because:
 
-![image](/pic/160422_MapsVsTerritory-04.png)
+![image](/pic/160422_mapsVsTerritory-04.png)
 
 **6. Maps are made and can be remade.** If we start to see our beliefs and all the knowledge we have about the world as something that is made up by us, we can start to reshape these Maps. We can understand which Maps are useful, and which are harmful, and then we can get rid of the harmful ones. Yes, we have that power – because we were the ones shaping almost all of the maps in the first place. We should use that power. The more useful Maps we have, the better we can approach the following principle:
 
-![image](/pic/160422_MapsVsTerritory-02.png)
+![image](/pic/160422_mapsVsTerritory-02.png)
 
 **7. We change the Territory according to our Maps.** Here, the Map and Territory become intersected concepts. The Territory is not just the raw nature. Territory vs. Map doesn't mean nature vs. culture. The Territory is our cities, our movies, our cars, the spaceship, us meeting in a cafe and our heart racing faster when we're nervous. All these things are shaped by the Maps we build. We write down our beliefs in a journal; we scribble a visual model on a piece of paper. Our Maps shape the Territory, and the Territory shapes our Maps.
 
