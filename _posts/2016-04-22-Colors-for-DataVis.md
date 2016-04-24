@@ -10,7 +10,7 @@ A few days ago, I approached my Twitter followers with [a request to help me](ht
 
 **Why color?**
 
-First, watch this **[video](https://www.youtube.com/watch?v=Qj1FK8n7WgY&feature=youtu.be)** about why color decisions are important and how to mix colors. I'll sum up the main arguments to use colors: Color is important because (a) color lets you set the mood and (b) it lets you guide the viewer's eye, draw attention to something and therefore tell a story.
+First, watch this **[video](https://www.youtube.com/watch?v=Qj1FK8n7WgY&feature=youtu.be)** about why color decisions are important and how to mix colors. I'll sum up the main reasons to use colors here: Color is important because (a) it lets you set the mood and (b) color lets you guide the viewer's eye, draw attention to something and therefore tell a story.
 
 [![image](/pic/16023_video.png)](https://www.youtube.com/watch?v=Qj1FK8n7WgY&feature=youtu.be)
 
