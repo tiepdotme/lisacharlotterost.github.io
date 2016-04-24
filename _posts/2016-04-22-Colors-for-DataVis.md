@@ -4,7 +4,7 @@ title: Your Friendly Guide to Colors in Data Visualisation
 tag: thoughts,
 ---
 
-A few days ago, I approached my Twitter followers with [a request to help me](https://twitter.com/lisacrost/status/722948084703956992) in an urgent matter: "Can somebody tell me how to get better with color?," I wrote. " My color decisions are awful." Thanks to a retweet by Scott Murray I got a lot of replies. They were awesome. And I want to share them with you, annotated with my own thoughts about them. Here you go:
+A few days ago, I approached my Twitter followers with [a request to help me](https://twitter.com/lisacrost/status/722948084703956992) in an urgent matter: "Can somebody tell me how to get better with color?," I wrote. " My color decisions are awful." Thanks to a retweet by Scott Murray I got a lot of replies with links to websites and tools. They were awesome. And I want to share them with you, annotated with my own thoughts about them. Here you go:
 <br><br>
 
 
@@ -18,7 +18,7 @@ Both aspects are important for data visualisations. For example, the **mood** is
 
 ![image](/pic/160423-mood.png)
 
-So how should you choose colors for your project? I think in data vis, there are two challenges regarding color: **Sequential/diverging data and qualitative data.** To explain them: Sequential/diverging data requires gradients. Qualitative data requires colors which scream: "I'm by myself and have nothing do to with all these other colors here!"
+So how should you choose colors for your project? I think in data vis, there are two challenges regarding color: **Sequential/diverging data and qualitative data.** To explain them: Sequential/diverging data is data that progresses from low to high and therefore requires gradients. Qualitative data are categories and require colors which scream: "I'm by myself and have nothing do to with all these other colors here!"
 
 The challenges for these two use cases are different ones. If you work with **gradients**, your main concern is that the differences between your steps are high enough. Meaning, you want your reader to clearly differentiate between a light green and a ...lighter green. In the next section of this post, I will introduce tools which try to solve this problem.
 
@@ -54,7 +54,7 @@ If you feel like you mastered all these tools and need more, **[I want hue](http
 
 **2a. Color Compositions - Learn from the Masters**
 
-After covering the gradients, let's move on to Color Palettes. When I asked my question on Twitter, three people recommended me painters, so I feel like there is some demand to cover them. To be honest: I appreciate the old masters, and as a Bauhaus University alumna I see the special something you can get from Albers, Itten and Co. (As an ex Weimar resident I can also see the delight one can get from [Goethe's Theory of Color](https://en.wikipedia.org/wiki/Theory_of_Colours).) But...you know...they didn't have RGB back then. Their available colors were different. Who know what they would have thought of with neon green. That said, I'm sure we can still learn a lot from their writings about color composition.
+After covering the gradients, let's move on to Color Palettes. When I asked my question on Twitter, three people recommended me painters, so I feel like there is some demand to cover them. To be honest: I appreciate the old masters, and as a Bauhaus University alumna I see the special something you can get from Albers, Itten and Co. (As an ex Weimar resident I can also see the delight one can get from [Goethe's Theory of Color](https://en.wikipedia.org/wiki/Theory_of_Colours).) But...you know...their available colors were different. Who knows what they would have thought of with bright neon green. That said, I'm sure we can still learn a lot from their writings about color composition.
 
 Let's start with **Josef Albers** and his "Interaction of Color" book. He had important stuff to say, [eg](https://www.brainpickings.org/2013/08/16/interaction-of-color-josef-albers-50th-anniversary/): "In visual perception a color is almost never seen as it really is — as it physically is." And his color compositions are beautiful indeed:
 ![image](/pic/160423-albers.png)
