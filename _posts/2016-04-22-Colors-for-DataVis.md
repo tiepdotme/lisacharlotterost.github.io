@@ -107,6 +107,10 @@ and of course [Adober Color CC](https://color.adobe.com/explore/most-popular/?ti
 But how are all thee color palettes used in practice? The color searching options from **[Designspiration](http://designspiration.net/colors/D73224,3778FA/)** and **[Dribble](https://dribbble.com/colors/e83a30?percent=30)** can answer these questions. Their biggest use case for me: You can get inspiration for additional colors which go well with your existing palette. Personally, I prefer Designspiration for that: I'm a fan of this website anyway, and it lets you not only search for one, but multiple colors.
 [![image](/pic/160423-designspiration.png)](http://designspiration.net/colors/D73224,3778FA/)
 
+It's also a great idea to get inspired in a bigger sense: Go to museums and galleries. Look at art. Look at other data visualisations. Or look at blogs from people who are enthusiastic about color, for example [The Colorist](http://www.sophianahmad.com/).
+[![image](/pic/160423_colorblog.png)](http://www.sophianahmad.com/)
+
+
 
 <br><br>
 
@@ -124,7 +128,16 @@ The Smashing Magazine introduction also make use of **[Paletton](http://paletton
 
 <br><br>
 
-**3. Fuuuuuuun with Colors**
+
+**3. Color Blindness**
+
+You found awesome colors to use? SWEET. Now make sure that they fulfill their purpose and can be distinguished by colorblind people as well! The conventional wisdom is that the difference between red and blue is hard to tell for colorblind people – but that really depends on the shades of red and blue, as you can see on the image. A browser extension like [Spectrum](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) can simulate the colors as seen by people with different color blindnesses and is an enormous help:  
+[![image](/pic/160423-colorblind.png)]
+
+
+<br><br>
+
+**4. Fuuuuuuun with Colors**
 
 Ok, after all that work, let's watch a **[Sesame Street Video](https://www.youtube.com/watch?v=yu44JRTIxSQ&feature=youtu.be)** by the fabulous OK GO peeps:
 [![image](/pic/160423-okgo.png)](https://www.youtube.com/watch?v=yu44JRTIxSQ&feature=youtu.be)
