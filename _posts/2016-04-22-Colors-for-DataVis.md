@@ -132,7 +132,7 @@ The Smashing Magazine introduction also make use of **[Paletton](http://paletton
 **3. Color Blindness**
 
 You found awesome colors to use? SWEET. Now make sure that they fulfill their purpose and can be distinguished by colorblind people as well! The conventional wisdom is that the difference between red and blue is hard to tell for colorblind people – but that really depends on the shades of red and blue, as you can see on the image. A browser extension like [Spectrum](https://chrome.google.com/webstore/detail/spectrum/ofclemegkcmilinpcimpjkfhjfgmhieb?hl=en) can simulate the colors as seen by people with different color blindnesses and is an enormous help:  
-[![image](/pic/160423-colorblind.png)]
+![image](/pic/160423-colorblind.png)
 
 
 <br><br>
