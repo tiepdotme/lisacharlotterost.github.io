@@ -286,7 +286,7 @@ nv.addGraph(function() {
 });
 ```
 
-![image](/pic/160426-nvD3.png)
+![image](/pic/160426-nvd3.png)
 
 
 
