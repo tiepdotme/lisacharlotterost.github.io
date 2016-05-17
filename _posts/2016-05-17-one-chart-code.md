@@ -253,7 +253,7 @@ http://bl.ocks.org/weiglemc/6185069 -->
 </body>
 </html>
 ```
-![image](/pic/160426-D3js.png)
+![image](/pic/160426-d3js.png)
 
 
 
