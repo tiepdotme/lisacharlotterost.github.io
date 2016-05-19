@@ -242,6 +242,7 @@ http://bl.ocks.org/weiglemc/6185069 -->
   // draw the bubbles
   var g = chart.append("svg:g");
   g.selectAll("scatter-dots")
+
     .data(data)
     .enter().append("svg:circle")
         .attr("cx", function(d,i) {return x(d.income);})
@@ -264,6 +265,7 @@ D3.js is complicated and waaay too flexible for 90% of all the charts that get p
 When using [C3.js](http://c3js.org/), I first met the concept of "You have a csv that doesn't look exactly the way we want our data? Nope nope nope, we won't read that." Meaning, my beloved csv got a strange side look from C3. Which then decided that it was unreadable.
 
 Next, [D4.js](http://visible.io/index.html). I tried. I tried for almost an hour. I failed. My console in Chrome wasn't showing any errors. I googled. Nothing. I gave up. That was the point where I learned that its crucial for programming languages to be documented well in the web to be usable.
+*Edit*: [Mark Dagett](https://twitter.com/heavysixer), the creator of D4, published [a way to build that chart with D4](https://twitter.com/heavysixer/status/732738257365110784).
 
 [NVD3.js](http://nvD3.org/index.html) was better documented, and certainly more used than D4. NV3D.js too can only work with a very rigid data structure. But here, some [help on the web](http://bl.ocks.org/phil-pedruco/7243857) let me read my CSV and produced a scatterplot. So half of my code was concerned with reading the data, but the other half looked like that:
 
@@ -293,44 +295,59 @@ nv.addGraph(function() {
 
 <br><br>
 **Highcharts.js**
-Ah, Highcharts. I make it short: I failed. I read through [multiple](http://www.highcharts.com/docs/working-with-data/custom-preprocessing#1) [Tutorials](http://www.highcharts.com/docs/working-with-data/data-module) [how](http://www.highcharts.com/cloud/import-data/how-to-set-up-a-csv-file) to import a csv, and there seem to be [multiple import options](http://www.knowstack.com/different-ways-of-loading-highcharts-data/). Eventually, I could import the csv, but I couldn't translate my data into a bubble chart.
+h, Highcharts. I make it short: I failed. I read through [multiple](http://www.highcharts.com/docs/working-with-data/custom-preprocessing#1) [Tutorials](http://www.highcharts.com/docs/working-with-data/data-module) [how](http://www.highcharts.com/cloud/import-data/how-to-set-up-a-csv-file) to import a csv, and there seem to be [multiple import options](http://www.knowstack.com/different-ways-of-loading-highcharts-data/). Eventually, I could import the csv, but I couldn't translate my data into a bubble chart.
 
 What's the problem, you ask? It seems like you can't assign variables to axises. I couldn't tell Highcharts to put the "health" variables on the y-Axis; the data needed to be in the right order in the csv in the first place. But if you, my fellow vis friend, go all that way and actually have the data in place - then Highcharts will be beautiful. You will get a good-looking chart with just a few lines of Javascript.
 
-Btw, if somebody wants to help me with getting that bubble chart done in Highcharts - please reach out to me. I will be eternally grateful (terms and conditions may apply).
+~~Btw, if somebody wants to help me with getting that bubble chart done in Highcharts - please reach out to me. I will be eternally grateful (terms and conditions may apply).~~ *Edit:* The nice folks at Highcharts helped me to build that graph (see comments). The missing magic was a function called "seriesMapping", which maps the columns ("0","1", etc.) to the axises.
 
 ```html
 <!DOCTYPE HTML>
 <html>
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
-	<script src="https://code.highcharts.com/highcharts.js"></script>
-	<script src="https://code.highcharts.com/highcharts-more.js"></script>
-</head>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
+  </head>
+  <body>
+    <div id="chart"></div>
 
-<body>
-<div id="yeah" style="height: 600, width=1000px"></div>
-<script>
-$(function () {
-  $('#yeah').highcharts({
-    chart: {type: 'bubble'},
-    xAxis: {type: "logarithmic"},
-    colors: ["#000000"],
-    series: [{
-      data: [
-        { x: 1925, y: 57.63, z: 32526562 },
-        { x: 10620, y: 76, z: 2896679 },
-        { x: 13434, y: 76, z: 39666519 }
-      ]
-    }]
-  });
-});
+    <script>
+    var url = 'data.csv';
+    $.get(url, function(csv) {
 
-</script>
-</body>
+    // A hack to see through quoted text in the CSV
+    csv = csv.replace(/(,)(?=(?:[^"]|"[^"]*")*$)/g, '|');
+
+    $('#chart').highcharts({
+      chart: {
+        type: 'bubble'
+      },
+
+      data: {
+        csv: csv,
+        itemDelimiter: '|',
+        seriesMapping: [{
+          name: 0,
+          x: 1,
+          y: 2,
+          z: 3
+          }]
+        },
+
+        xAxis: {
+          type: "logarithmic"
+        },
+        colors: ["#000000"],
+      });
+    });
+
+    </script>
+  </body>
 </html>
 ```
+![highcharts](/pic/160426-highcharts.png)
 
 
 
@@ -465,3 +482,10 @@ $(function () {
 If you want to try any of the code for yourself: The code for all these charting libraries can be found on [GitHub](https://github.com/OpenNewsLabs/onechart-twelvechartinglibraries). Let me know if you have questions about the code or how to run it!
 
 The many hours spent trying to understand all these libraries were made possible by my [Knight-Mozilla OpenNews](https://opennews.org/) fellowship at NPR. A big thank you to OpenNews, the NPR Visuals Team and the helpful comments at the [GEN Data Journalism Unconference](http://www.globaleditorsnetwork.org/programmes/data-journalism-awards/ddjunconf/) at the 10th of May in New York City.
+<br><br>
+---------
+
+*Edit:* After writing this blog post and [publishing it on Twitter](https://twitter.com/lisacrost/status/732654609542578176), I got some great, great responses. Everybody who took the time and replied with a hint, a link or with critique: Thank you so much! You made my knowledge greater and this blog post better. I learned about [gnuplot](https://twitter.com/tlongers/status/732925725854961665), [dimple.js](https://twitter.com/cartocalypse/status/732667715190718465) and [TauCharts](https://www.taucharts.com/) (see comments).
+[Jeff Clark](https://twitter.com/JeffClark) [reproduced this chart with Lichen](https://twitter.com/JeffClark/status/732888212809633792) and [Austin](https://twitter.com/AustinBG) did [the same with Periscope Data](https://twitter.com/AustinBG/status/732717872154218497) – tools I've never heard before.
+
+There was also a discussion about if the term "charting library" is appropriate for all tools in this post, [initiated](https://twitter.com/ben_fry/status/733058753365434369) by Ben Fry. I've learned: It's not appropriate. R or Processing are not libraries, but languages. And d3.js and processing.org are libraries, but not mainly made for charting. Guys, I've learned so much in the last couple of days. Thank you!
