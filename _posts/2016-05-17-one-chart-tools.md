@@ -47,7 +47,8 @@ Google Sheets is my favorite spreadsheet app out there (so far). On a Mac at lea
 
 <br><br>
 **Adobe Illustrator**
-Ah, Illustrator. A tool that almost every Information Designer uses for static designs, daily. Let's be precise here: The charting options in Illustrator suck. For example: Illustrator can't do bubble charts. Also, there is no option to set the Y-Axis to Zero (if you want that, you need to include a row in your data in which you put a 0 and that you then delete in the chart). Also, there is no option to set an axis to log-scale (if you want that, you need to do so in your data). Also, Illustrator connects all the dots (which, to be fair, can be helpful in 5% of the cases). Sigh. So it looks like that:
+Ah, Illustrator. A tool that almost every Information Designer uses for static designs, daily. Let's be precise here: The charting options in Illustrator suck. For example: Illustrator can't do bubble charts. ~~Also, there is no option to set the Y-Axis to Zero (if you want that, you need to include a row in your data in which you put a 0 and that you then delete in the chart).~~ Also, there is no option to set an axis to log-scale (if you want that, you need to do so in your data). Also, Illustrator connects all the dots (which, to be fair, can be helpful in 5% of the cases). Sigh.
+*Edit:* [David Ingold](https://twitter.com/DavidIngold) [showed me the way](https://twitter.com/DavidIngold/status/732668904523354112) to set the origin to 0 and to disconnect the dots.
 ![image](/pic/160426-illustrator.gif)
 ![image](/pic/160426_illustrator.png)
 
@@ -63,10 +64,11 @@ I like [Lyra](http://idl.cs.washington.edu/projects/lyra/). I'm a fan. It's been
 ![gif](/pic/160426_lyra.gif)
 [![image](/pic/160426_lyra.png)](http://idl.cs.washington.edu/projects/lyra/)
 
-
 <br><br>
 **Tableau Public**
-What can I say - [Tableau Public](https://public.tableau.com/s/) just works well for data like this. It's too slow for my taste to use it for interactive graphs, and it's a huge shame that it's not possible to export SVGs or PDFs or anything, really, in the free version. But for exploration, it's still one of my favourite tools.
+What can I say - [Tableau Public](https://public.tableau.com/s/) just works well for data like this. It's too slow for my taste to use it for interactive graphs, and it's a huge shame that it's not possible to export SVGs or PDFs or anything, really, in the free version. But for exploration, it's still one of my favorite tools.
+
+*Edit:* [Ben Jones](https://twitter.com/DataRemixed) explained that it's possible to download an Illustrator-tweakable PDF of the [chart](https://public.tableau.com/profile/digitalteam#!/vizhome/GapminderData/Dashboard1) after uploading it to the cloud. Needing to upload the chart is not awesome, but being able to export a PDF is pretty awesome and could have helped me a lot in the past. It turns Tableau into an Illustrator extension. 
 ![gif](/pic/16046_tableau2.gif)
 [![image](/pic/160426_tableau.png)](https://public.tableau.com/s/)
 
