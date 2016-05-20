@@ -183,7 +183,7 @@ Table table = loadTable("data.csv", "header"); #loads csv
 
 <br><br>
 **D3.js**
-[D3.js](d3js.org) is without current alternative options when it comes to creating highly customized, interactive data visualisations for the web. But using D3.js for a simple bubble chart is using an orchestra to just play one tone, one instrument at a time. Sure, you used the whole orchestra. But you could have played [Beethoven](https://www.youtube.com/watch?v=p5favl2Qtx0&src_vid=3SZ9QzGg95g&feature=iv&annotation_id=annotation_373828).
+[D3.js](https://d3js.org) is without current alternative options when it comes to creating highly customized, interactive data visualisations for the web. But using D3.js for a simple bubble chart is using an orchestra to just play one tone, one instrument at a time. Sure, you used the whole orchestra. But you could have played [Beethoven](https://www.youtube.com/watch?v=p5favl2Qtx0&src_vid=3SZ9QzGg95g&feature=iv&annotation_id=annotation_373828).
 
 D3.js is a Javascript library with so few defaults that you need to define everything yourself. The disadvantage? Lengthy code. The advantage? It forces you to think about every single one of your settings. One example: Because in D3 I need to define all ranges and domains of scales myself, I was forced to think about the sizes of the bubbles - of all the languages in this blog post, only Processing wanted me to do the same.
 
@@ -449,7 +449,7 @@ What's the problem, you ask? It seems like you can't assign variables to axises.
 
 
 <br><br>
-**Vega Lite** ....and here's [Vega Lite](https://vega.github.io/vega-lite/), the less complex & flexible than Vega, more high-level visualisation grammar. Similar to Vega it has a JSON-like structure, but it sets so much more defaults. It seems amazing, but I couldn't figure out a way to set the height and width of the whole chart. The output looks exactly the same as it does with the Vega-Lite editor [Polestar](vega.github.io/polestar/).
+**Vega Lite** ....and here's [Vega Lite](https://vega.github.io/vega-lite/), the less complex & flexible than Vega, more high-level visualisation grammar. Similar to Vega it has a JSON-like structure, but it sets so much more defaults. It seems amazing, but I couldn't figure out a way to set the height and width of the whole chart. The output looks exactly the same as it does with the Vega-Lite editor [Polestar](https://vega.github.io/polestar/).
 
 ```json
 {
