@@ -4,6 +4,8 @@ title: Your Friendly Guide to Colors in Data Visualisation
 tag: thoughts,
 ---
 
+*Edit:* This post got [translated into Japanese](http://lab.sugimototatsuo.com/2016/05/colors-for-datavis/).
+
 A few days ago, I approached my Twitter followers with [a request to help me](https://twitter.com/lisacrost/status/722948084703956992) in an urgent matter: "Can somebody tell me how to get better with color?," I wrote. " My color decisions are awful." Thanks to a retweet by Scott Murray I got a lot of replies with links to websites and tools. They were awesome. And I want to share them with you, annotated with my own thoughts about them. Here you go:
 <br><br>
 
