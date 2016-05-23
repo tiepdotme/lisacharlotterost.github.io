@@ -449,29 +449,30 @@ What's the problem, you ask? It seems like you can't assign variables to axises.
 
 
 <br><br>
-**Vega Lite** ....and here's [Vega Lite](https://vega.github.io/vega-lite/), the less complex & flexible than Vega, more high-level visualisation grammar. Similar to Vega it has a JSON-like structure, but it sets so much more defaults. It seems amazing, but I couldn't figure out a way to set the height and width of the whole chart. The output looks exactly the same as it does with the Vega-Lite editor [Polestar](https://vega.github.io/polestar/).
+**Vega Lite** ....and here's [Vega Lite](https://vega.github.io/vega-lite/), the less complex & flexible than Vega, more high-level visualisation grammar. Similar to Vega it has a JSON-like structure, but it sets so much more defaults. It seems amazing, ~~but I couldn't figure out a way to set the height and width of the whole chart.~~ *Edit:* The Vega people showed me how to set the height and the width of the chart. Doesn't seem suuuuper intuitive, but ok. The output looks exactly the same as it does with the Vega-Lite editor [Polestar](https://vega.github.io/polestar/).
 
 ```json
 {
-    "data": {"url": "data.csv", "formatType": "csv"},
-    "mark": "circle",
-    "encoding": {
-      "y": {
-        "field": "health",
-        "type": "quantitative",
-        "scale": {"zero": false}
-      },
-      "x": {
-        "field": "income",
-        "type": "quantitative",
-        "scale": {"type": "log"}
-      },
-      "size": {
-        "field": "population",
-        "type": "quantitative"
-      },
-      "color": {"value": "#000"}
-    }
+  "data": {"url": "data.csv", "formatType": "csv"},
+  "mark": "circle",
+  "encoding": {
+    "y": {
+      "field": "health",
+      "type": "quantitative",
+      "scale": {"zero": false}
+    },
+    "x": {
+      "field": "income",
+      "type": "quantitative",
+      "scale": {"type": "log"}
+    },
+    "size": {
+      "field": "population",
+      "type": "quantitative"
+    },
+    "color": {"value": "#000"}
+  },
+  "config": {"cell": {"width": 1000,"height": 500}}
   }
 ```
 
