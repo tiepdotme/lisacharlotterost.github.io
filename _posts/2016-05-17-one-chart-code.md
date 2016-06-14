@@ -147,7 +147,7 @@ show(p)
 ![image](/pic/160426-bokeh.png)
 
 
-A comparison of more Python tools for data visualisation can be found on [Practical Business Python](http://pbpython.com/visualization-tools-1.html) and [Dataquest](https://www.dataquest.io/blog/python-data-visualization-libraries/).
+Great comparisons of more Python tools for data visualization can be found on [Mode Analytics](https://blog.modeanalytics.com/python-data-visualization-libraries/), [Practical Business Python](http://pbpython.com/visualization-tools-1.html) and [Dataquest](https://www.dataquest.io/blog/python-data-visualization-libraries/).
 
 
 <br><br>
