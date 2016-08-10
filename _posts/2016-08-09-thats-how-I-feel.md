@@ -58,6 +58,6 @@ But these days, most friends seem to care less than I do. It makes me feel a lit
 
 ![image](/pic/160809_Sketches-07.png)
 
-Conversations are hard by themselves. Being concerned about privacy doesn't help them. Being NOT concerned about privacy doesn't seem to be the solution, either. I'm left confused. But not confused or afraid enough to use PGP, Signal and other services and methods used by "privacy nerds". **We should all be privacy nerds – but it still isn't as convenient as to just being scared slightly.** I don't think that we will change. But I have faith that privacy technology will change; becoming more convenient.
+Conversations are hard by themselves. Being concerned about privacy doesn't help them. Being NOT concerned about privacy doesn't seem to be the solution, either. I'm left confused. But not confused or afraid enough to use PGP, Signal and other services and methods used by "privacy nerds". **We should all be privacy nerds – but it still isn't as convenient as just being slightly scared.** I don't think that we will change. But I have faith that privacy technology will change; becoming more convenient.
 
 And I really hope that all the SOMEBODIES don't use the information they have gathered about me until then.
