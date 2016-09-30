@@ -6,8 +6,6 @@ tag: thoughts
 
 ![image](/pic/160929_LearnHowToCode.gif)
 
-*This post doesn't offer any solutions. It just shows how I feel. If that makes you uncomfortable or angry, don't read it.*
-
 I've started learning how to code many times over again. It began with HTML and CSS when I was 14. Then Delphi in high school. Processing, Javascript & jQuery in university. R on [Code School](http://tryr.codeschool.com/), Python on [Codecademy](https://www.codecademy.com/) and d3.js with Scott Murray's [famous book](http://alignedleft.com/work/d3-book), when I got more into data visualization. I'm still not done: More Javascript, more R, more Python are waiting for me.
 
 Two weeks ago I started to learn C, as part of the [CS50 MOOC](cs50.tv/2015/fall/) I'm taking with some of my fellow OpenNews fellows. **And I got reminded of so many feelings I had during all the other code learning experiences before.**
