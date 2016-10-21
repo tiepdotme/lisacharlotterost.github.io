@@ -12,17 +12,16 @@ Wyoming is boring. Nobody cares about Wyoming. I don't know that because I asked
 
 ![image](/pic/161020_mappoetry5.png)
 
-Here we can see the shapes of all the drawn Wyoming's. A few of the people remember that Wyoming looks like a simple rectangle. Most of them don't.
+Here we can see the shapes of all the drawn Wyoming's. A few people remember that Wyoming looks like a simple rectangle. Most of them don't:
 
 ![image](/pic/161020_mappoetry7.png)
 
------------
-
+<br>
 Hey, my name is Lisa and when I don't enjoy NACIS, I visualize data. But today I want to talk about Map Poetry: Why we need it, what it is and how it can change the way we see the world.
 
 ![image](/pic/161020_mappoetry8.png)
 
-When we look at a map of the world, we can't see it as it is. **We all lay an internal map of the world on top of the geographical and only see what's important to us.** This internal map consists of memories & experience, associations, values, beliefs. It is  incredible individual. There is no internal map that matches a second one. We all look at the same world differently. And we all look at the same maps differently, and sees different things; according to our internal map of the world.
+When we look at a map of the world, we can't see it as it is. **We all lay an internal map of the world on top of the geographical one and only see what's important to us.** This internal map consists of memories & experience, associations, values, beliefs. It is  incredible individual. There is no internal map that matches a second one. We all look at the same world differently. And we all look at the same maps differently, and sees different things; according to our internal map of the world.
 
 ![image](/pic/161020_mappoetry10.png)
 
