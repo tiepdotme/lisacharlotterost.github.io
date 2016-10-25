@@ -26,8 +26,8 @@ Of course, thanks to the "Winner takes it all" system, the electoral maps and th
 
 In addition, these maps might have an negative effect on the voter turnout. **Approximately half of the population can't find themselves and their planned vote on an electoral map**. No wonder that there are voters who claim that their vote "doesn't matter".
 
-![image](/pic/161019_Elex_red.png)
 ![image](/pic/161019_Elex_red1.png)
+![image](/pic/161019_Elex_red.png)
 
 In my opinion **it's important to show both: A map with the popular vote, and a map with the electoral votes.** In the best case, this can lead to some nice side-effect education about the US election system.
 
