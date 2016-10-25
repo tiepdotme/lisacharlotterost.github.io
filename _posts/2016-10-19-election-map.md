@@ -4,6 +4,8 @@ title: Why I Believe That US Election Maps Should Show Electoral And Popular Vot
 tag: thoughts, datavis
 ---
 
+![image](/pic/161019_Elex.gif)
+
 The US election year goes on and on and on, and lots of us have followed Election Forecasts like [FiveThirtyEight's](http://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=2016-forecast) one closely. In fact, every publisher out there has an own version of an election map, and all of them have different approaches:
 
 ![image](/pic/161019_Elex2-04.png)
@@ -18,11 +20,14 @@ If you'll dig a level deeper on FiveThirtyEight, you'll find that of the 20 mill
 
 If you map the popular vote instead of the elect votes, you'll represent these numbers in this far more diverse picture:
 
-![image](/pic/161019_Elex2-03.png)
+![image](/pic/161019_Elex_map_all.png)
 
 Of course, thanks to the "Winner takes it all" system, the electoral maps and the "chance to win" show far better who will actually be president. **But I'm afraid that these maps can have a huge negative influence on our collective stereotypes.** We should be aware that there are lots of Trump voters in the most democratic states, and lots of Clinton voters in the most republican ones. We can't just put the whole state population in one box and put a red or blue label on it.
 
 In addition, these maps might have an negative effect on the voter turnout. **Approximately half of the population can't find themselves and their planned vote on an electoral map**. No wonder that there are voters who claim that their vote "doesn't matter".
+
+![image](/pic/161019_Elex_red.png)
+![image](/pic/161019_Elex_red1.png)
 
 In my opinion **it's important to show both: A map with the popular vote, and a map with the electoral votes.** In the best case, this can lead to some nice side-effect education about the US election system.
 
