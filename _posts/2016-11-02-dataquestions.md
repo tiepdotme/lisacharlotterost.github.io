@@ -18,7 +18,7 @@ Why I wanted such a session to happen? Because self-taught as many of us are, we
 
 The whole session was one big experiment. I’ve never hosted such a question round before. **Here is a write-up of what went well, and what could be improved the next time.** Let’s start with what didn’t go well, and how to improve it:
 
-![image](/pic/161102_dataquestions.png)
+![image](/pic/161102_dataquestions.jpg)
 
 
 <br>
