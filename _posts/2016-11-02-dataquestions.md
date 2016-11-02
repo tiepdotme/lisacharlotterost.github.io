@@ -36,12 +36,12 @@ Third improvement: **Better defining the question space**. "Data" is an extremel
 <br>
 **What went well**
 
-I was positively surprised especially about how open people were with their questions and with what they didn’t know. I tried to create a **safe space** with <br>
+I was positively surprised especially about how open people were with their questions and with what they didn’t know. I tried to create a **safe space** by <br>
 a) talking about how we are all students and teachers at the same time and that nobody can know anything<br>
-b) do a fun short exercise in the beginning where people needed to interact with each other<br>
-c) split the attendees in two groups to create more intimacy <br>
-d) let people submit questions anonymously <br>
-e) stress it a lot when I didn’t know something. 
+b) doing a fun short exercise in the beginning where people needed to interact with each other<br>
+c) splitting the attendees in two groups to create more intimacy <br>
+d) letting people submit questions anonymously <br>
+e) stressing it a lot when I didn’t know something. 
 
 And it was great to see **how quickly people came up with questions**. I prepared some questions beforehand, but we didn’t even get to them. 
 
