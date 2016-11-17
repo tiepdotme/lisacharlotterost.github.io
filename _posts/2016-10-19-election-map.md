@@ -4,27 +4,17 @@ title: Making Election Maps Popular Again
 tag: thoughts, datavis
 ---
 
-![image](/pic/161114_elex-04.png)
-
-*This is a rough transcript of the talk I gave the [GeoNYC Meetup](https://www.meetup.com/geonyc/events/235274559/) at the 14th of November, 2016. Please note that most of the displayed data are [FiveThirtyEight forecasts](https://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=2016-forecast) from three weeks before the election, NOT the final election results.*
-
-![image](/pic/161114_elex2.png)
+*I updated that blog post with the rough transcript of the talk I gave the [GeoNYC Meetup](https://www.meetup.com/geonyc/events/235274559/) at the 14th of November, 2016. Please note that most of the displayed data are [FiveThirtyEight forecasts](https://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=2016-forecast) from three weeks before the election, NOT the final election results.*
 
 Before I start, I want to give a big shout-out to all graphics reporter, visual journalists, data vis designer, news developer and however the call themselves, who have worked on election graphics and maps in the last weeks and months. They barely slept, and it was all worth it. These people did an amazing, innovative job, and seeing their work made me very happy. Thank you to all of you. 
 
-
-![image](/pic/161114_elex5.png)
-
-Election maps. So many blog posts have been written about the challenges that come with displaying election results on a map of a country with extreme different population density, by the Financial Times, The Washington Post, The New York Times and The National Geographic. They mostly discuss the **different ways to display the electoral votes**: Cartogram? Physical map? 3D? 
+Election maps. So many blog posts have been written about the challenges that come with displaying election results on a map of a country with extreme different population density, by the [Financial Times](https://www.ft.com/content/3685bf9e-a4cc-11e6-8b69-02899e8bd9d1), [The Washington Post](https://www.washingtonpost.com/graphics/politics/2016-election/how-election-maps-lie/), [The New York Times](http://www.nytimes.com/interactive/2016/11/01/upshot/many-ways-to-map-election-results.html) and [The National Geographic](http://news.nationalgeographic.com/2016/10/improved-election-map-cartograms/). They mostly discuss the **different ways to display the electoral votes**: Cartogram? Physical map? 3D? 
 
 
 ![image](/pic/161114_elex6.png)
 
 
-But I think we should go one step up and not ask: HOW do we want to display the electoral votes, but WHAT and WHY do we want to map? The electoral college votes and the chance of winning got lots of love in this election. **Today I want to argue in favor of mapping the popular vote.** 
-
-![image](/pic/161114_elex9.png)
-![image](/pic/161114_elex11.png)
+But I think we should go one step up. Instead of asking “HOW do we want to display the electoral votes?”, we should first ask “WHAT do we want to map, and WHY?” The electoral college votes and the chance of winning got lots of love in this election. **Today I want to argue in favor of mapping the popular vote.** 
 
 I have four compelling reasons for doing so! Let me start the first one with an embarrassing confession. 
 
