@@ -4,7 +4,7 @@ title: Making Election Maps Popular Again
 tag: thoughts, datavis
 ---
 
-*I updated that blog post with the rough transcript of the talk I gave the [GeoNYC Meetup](https://www.meetup.com/geonyc/events/235274559/) at the 14th of November, 2016. Please note that most of the displayed data are [FiveThirtyEight forecasts](https://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=2016-forecast) from three weeks before the election, NOT the final election results.*
+*I updated this blog post with a rough transcript of a talk I gave at the [GeoNYC Meetup](https://www.meetup.com/geonyc/events/235274559/) at the 14th of November, 2016. Please note that most of the displayed data are [FiveThirtyEight forecasts](https://projects.fivethirtyeight.com/2016-election-forecast/?ex_cid=2016-forecast) from three weeks before the election, NOT the final election results.*
 
 Before I start, I want to give a big shout-out to all graphics reporter, visual journalists, data vis designer, news developer and however the call themselves, who have worked on election graphics and maps in the last weeks and months. They barely slept, and it was all worth it. These people did an amazing, innovative job, and seeing their work made me very happy. Thank you to all of you. 
 
@@ -41,7 +41,7 @@ That last map shows what I’m arguing for: A map that doesn’t just show the s
 
 That last map really made me think about stereotypes; about red states and blue states. When I look at New York or California on an electoral college map, I see states in which everybody will vote for Clinton. When I look at Wyoming or Alabama, I see states in which everybody will vote for Trump. On the map, these states are bright blue and bright red. **And I’m afraid that these maps can have a huge negative influence on our collective stereotypes.** 
 
-Turns out, the image of the US is not that simplified as we want it to be. We should be aware that there are lots of Trump voters in the most democratic states, and lots of Clinton voters in the most republican ones. We can't just put the whole state population in one box and put a red or blue label on it.
+Turns out, the image of the US is not that simplified as we want it to be. We should be aware that there are lots of Trump voters in the most democratic states, and lots of Clinton voters in the most republican ones. We can't just put a whole state population in one box and put a red or blue label on it.
 
 Red states are not as red as we think. And blue states are not as blue as we think. 
 
@@ -56,7 +56,7 @@ Red states are not as red as we think. And blue states are not as blue as we thi
 <br>
 **3. How we see ourselves**
 
-Even more important than working against stereotypes is it that we found ourselves on a map. Imagine being one of the thousands of democratic voters in Utah or one of the millions of Republicans in California. **The map ignores you**, and has so since decades. “This is blue territory”, cartograms tells me about California. “There is not one Trump voter here. NOT ONE!” 
+Even more important than working against stereotypes is it that we find ourselves on a map. Imagine being one of the thousands of democratic voters in Utah or one of the millions of Republicans in California. **The map ignores you**, and has so since decades. “This is blue territory”, cartograms tells me about California. “There is not one Trump voter here. NOT ONE!” 
 
 **Approximately half of the population can't find themselves and their vote on an electoral map**. Every vote counts, we say. Every vote matters. So why don’t we map every vote? 
 
