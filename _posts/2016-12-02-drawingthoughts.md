@@ -18,15 +18,12 @@ That’s what I want to do here: To think about it. Why does drawing thoughts fe
 
 ![image](/pic/161122_drawing_5.jpg)
 
-
-<br>
 **It doesn’t distract the creator.** White, unruled paper invites me to endless possibilities. The unlimited potential of the sheet of paper in front of me is magic. Everything is an option. When I’m sketching out a new project, the pen lets me ignore technical difficulties. What separates my blank sheet of paper from ingenuity is not technology, but skills and smarts. I don’t need to open StackOverflow to know how to draw. There is no technological constraint to overcome; no bug to fix; no tutorial to watch to be able to draw with a pen. I don’t get distracted from the tool and the technical problems I have with it. I focus on the thoughts I want to bring to paper. **I ask “What is think-able?” before asking “What is do-able?”**
 
 **It doesn’t distract the viewer.** Everyone knows how to use a pen, so everybody can relate. Nobody asks “How did you do this?” when I show them a drawing, because they know the answer: “Practice, and my imagination.” When someone asks me the same about some code I wrote, the answer is complex: “There is this new library out there, and that lets you do x while still be able to do y, and then I imported it into z where I did this little hack which let’s you…” **Looking with somebody at code ends up in conversations about technology. Looking at drawings ends up in conversations about the content.**
 
 ![image](/pic/161122_drawing_6.jpg)
 
-<br>
 **It gives me an overview.** Boy, I looooove overviews. Overviews are the best. Overviews let me compare, prioritize and decide between elements. To see all my thoughts on one piece of paper at once gives me a map. This map can show me empty spots that still need to be thought about. This map can show me my goal, and it can show me how to get there. 
 
 **It lets me stay high-level.** Designers need to work in two modi: The high-level mode asks: “How do I organize the content?” The low-level mode asks: “How do I make it look good?”. The high-level mode requires common sense, thinking about user experience, storytelling and structuring skills. The low-level mode requires a defined taste for everything visual and insights into how it gets perceived: colors, shapes, images, layout, type. 
