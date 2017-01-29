@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Datapoint Walks Into a Bar
+title: A Data Point Walks Into a Bar
 tag: thoughts, datavis
 ---
 
