@@ -6,7 +6,7 @@ tag: thoughts, datavis
 
 [![image](/pic/170203_TrumpCat2.jpg)](http://trump.kimalbrecht.com/network/)
 
-*This is a text in progress. I think that the is on peoples mind a LOT these days, but I haven’t seen any other articles about it. I haven’t fully thought everything through. Honestly, it might be all bollocks. But it’s a start.*
+*This is a text in progress. I think that the topic might be on people's mind a LOT these days, but I haven’t seen any other articles about it. I haven’t fully thought everything through. Honestly, it might be all bollocks. But it’s a start.*
 
 After the days that everybody now just calls “The Weekend Of Uproar”, Stefanie Posavec [tweeted](https://twitter.com/stefpos/status/825988313005817860) the following: “**TFW all of your creative ideas & projects feel superficial when compared to the heavy f-ing shit going on in the world. Time to level UP**.” I was grateful for her putting that blurry feeling into words. Lots of us feel that we need to DO something. SOMETHING. That post tries to explain WHY and HOW. 
 
