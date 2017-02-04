@@ -11,7 +11,7 @@ tag: thoughts, datavis
 After the days that everybody now just calls “The Weekend Of Uproar”, Stefanie Posavec [tweeted](https://twitter.com/stefpos/status/825988313005817860) the following: “**TFW all of your creative ideas & projects feel superficial when compared to the heavy f-ing shit going on in the world. Time to level UP**.” I was grateful for her putting that blurry feeling into words. Lots of us feel that we need to DO something. SOMETHING. That post tries to explain WHY and HOW. 
 
 <br>
-# WHY OH WHY?
+## WHY OH WHY?
 
 
 Let’s talk about Stefanie’s first point: Her ideas feel superficial. I’m sure that’s true for many of us. The question is: Do we all need to become political now? Many of us are not hardcore activists (otherwise we would have become hardcore activists and not designers or developers). You might be one of us who thinks: **Do I need to feel guilty if I keep creating superficial, entertaining stuff?** 
