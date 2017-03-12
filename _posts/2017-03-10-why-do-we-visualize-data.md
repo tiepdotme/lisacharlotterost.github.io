@@ -6,7 +6,7 @@ tag: talk, datavis
 
 ![image](/pic/170308_INCHgif.gif)
 
-*This is the transcript of a talk I gave at [INCH](http://www.inch-conference.com/) in Munich at the 10th of March 2017. You can find all the slides in that ridiculous fast GIF up there and as PDFs [on Github](https://github.com/lisacharlotterost/talk-slides/blob/master/170310_INCH_DataVisGoals.pdf).*
+*This is the transcript of a talk I gave at [INCH](http://www.inch-conference.com/) in Munich at the 10th of March 2017. You can find all the slides in that insanely fast GIF up there and as PDFs [on Github](https://github.com/lisacharlotterost/talk-slides/blob/master/1703_WhyDoWeVisualiseData.pdf).*
 
 Finding a definition for data vis is ok-ish easy: Data vis represents data with visual elements to communicate information. Today I want to focus on a part of the data vis definition that is a bit overlooked: The part that tries to answer my favourite question of them all: “Why?” 
 
