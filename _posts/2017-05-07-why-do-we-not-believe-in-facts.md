@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why Do We Not Believe In Facts, And How To Fix That
+title: Why You Don't Believe In Facts, And How To Fix It
 tag: talk
 ---
 
