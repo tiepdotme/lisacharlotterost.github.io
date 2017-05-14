@@ -59,6 +59,7 @@ To learn about the state of mind regarding the idea to evoke emotions/empathy wi
 - [“DataViz–The UnEmpathic Art”](https://responsibledata.io/dataviz-the-unempathetic-art/) by Mushon Zer-Aviv, who three months after writing that article hosted the Responsible Data Forum on Data Vis and posted a [link list](https://responsibledata.io/data-vizualisation-links-and-articles/) for that event 
 - [“And what do I do now? Using Data Visualisation for social change”](https://artisticactivism.org/2016/01/data-visualization-for-what/) by Steve Lambert, who attended that Responsible Data Forum. 
 - [“Rees & Mushon on DataViz Empathy”](https://policyviz.com/podcast/rees-mushon-on-dataviz-empathy/) episode 31 of the PolicyViz podcast (Thanks, Jon!); also about that Responsible Data Forum. 
+- *Edit 14th of May 2017*: In their paper, Jeremy Boy et al [looked at anthropomorphizing visualizations](https://www.researchgate.net/publication/312166759_Showing_People_Behind_Data_Does_Anthropomorphizing_Visualizations_Elicit_More_Empathy_for_Human_Rights_Data) as a way to evoke more empathy. Their finding? *”Contrary to our expectations, we consistently find that anthropomorphized data graphics and standard charts have very similar effects on empathy and prosocial behavior.”*
 <br>
 
 - [“Empathy and visualisation”](http://www.thefunctionalart.com/2016/02/empathy-and-visualization.html) by Alberto Cairo 
