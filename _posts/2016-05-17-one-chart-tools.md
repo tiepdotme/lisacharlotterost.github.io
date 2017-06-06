@@ -5,6 +5,10 @@ tag: tools, datavis
 ---
 ![image](/pic/160426-learningcurves-14.png)
 
+*Edit May 2016: Corrected false information about Adobe Illustrator and Tableau Public.*
+*Edit June 2017: Added the Datawrapper version of the bubble chart.*
+
+
 Which tool or charting framework do you use to visualize data? Everybody I've met so far has personal preferences ("I got introduced to data vis with that tool!", "My hero uses that tool and she makes the best charts!"). Often we keep working with the first not-entirely-bad tool or language that we encountered.
 
 I think it can't hurt to have a wider view of the options out there: To maybe discover better tools than the ones we use; but also to reassure us that the tools we use ARE really the best (so far). That's what this post and the next post is about. I wanted to get to know as many options to visualise data as possible. To do that, **I took the same dataset and visualized it with 12 different tools (this post) and [12 different charting libraries](http://lisacharlotterost.github.io/2016/05/17/one-chart-code/) (next post).**
@@ -109,9 +113,15 @@ I first came across [NodeBox](https://www.nodebox.net/) in this [Visualoop artic
 
 <br><br>
 **Datawrapper**
-Some of you might have noticed that I didn't mention their  beloved [Datawrapper](https://datawrapper.de/). This tool is one of the easier chart-clicky-tool out there and is used by many newsrooms. But it doesn't offer scatterplots. The explanation I was given: Datawrapper is supposed to be for presentation only, and scatterplots are a presentation format that should be handled with care.
+~~Some of you might have noticed that I didn't mention their  beloved~~ [Datawrapper](https://datawrapper.de/). This tool is one of the easier chart-clicky-tool out there and is used by many newsrooms. ~~But it doesn't offer scatterplots. The explanation I was given: Datawrapper is supposed to be for presentation only, and scatterplots are a presentation format that should be handled with care.~~ 
+
+*Edit:* In March 2017, Datawrapper started to [offer scatterplots](https://blog.datawrapper.de/introducing-scatter-plot-66b8d8a99abc) as a chart type. The process for creating them works really well with my data. Datawrapper is one of the rare tools that automatically assigns my variables to the axes exactly as I intended to. I'm impressed that it even offers log scales, since it's supposed to be a easy-to-use tool for editors (maybe log scales are too much for that aim? Not sure). And wow, I do love editing the axis labels directly in the chart. Convenient as heck. 
+
+![gif](/pic/160426-datawrapper.gif)
+[![image](/pic/160426-datawrapper.png)](https://www.datawrapper.de)
+
 
 <br><br>
-Tha's it! Let me know what you think on [Twitter](https://twitter.com/lisacrost) or via email (lisacharlotterost@gmail.com) (seriously, I love emails).
+That’s it! Let me know what you think on [Twitter](https://twitter.com/lisacrost) or via email (lisacharlotterost@gmail.com) (seriously, I love emails).
 
 The many hours spent trying to understand all these tools were made possible by my [Knight-Mozilla OpenNews](https://opennews.org/) fellowship at NPR. A big thank you to OpenNews, the NPR Visuals Team and the helpful comments at the [GEN Data Journalism Unconference](http://www.globaleditorsnetwork.org/programmes/data-journalism-awards/ddjunconf/) at the 10th of May in New York City.
