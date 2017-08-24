@@ -68,7 +68,7 @@ Sadly, that happens more and more in the two-party-system in the US. It’s one 
 
 It gets disturbing when you hear that 58% of Republicans and 55% of Democrats had a very unfavourable attitude towards the opposite party in 2016; [up from 21%/17% in 1994](http://www.people-press.org/2016/06/22/partisanship-and-political-animosity-in-2016/). Less Democrats marry Republicans and the other way round. People of the two parties don’t trust each other as much as they did only a few years ago.
 
-Interesting enough, for forming beliefs for the sake of tribalization, **it doesn’t matter if we understand what we belief**. They are too far away from us. Ask yourself: How does climate change work…exactly? Could you explain it? I know I couldn’t. But people from my tribes and I believe in it, and we know someone is from another tribe if she or he doesn’t.
+Interesting enough, for forming beliefs for the sake of tribalization, **it doesn’t matter if we understand what we believe**. They are too far away from us. Ask yourself: How does climate change work…exactly? Could you explain it? I know I couldn’t. But people from my tribes and I believe in it, and we know someone is from another tribe if she or he doesn’t.
 
 The third reason for forming false beliefs I want to talk about are **fallacies**. This could be a talk on its own, so I will just mention one example: Generalising from **anecdotal evidence**. Which means seeing one instance and applying that to the whole concept. Saying “Man, it’s so cold and rainy for May. Global warming, yeah right” for example:
 
