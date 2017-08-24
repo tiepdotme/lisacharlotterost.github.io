@@ -10,7 +10,7 @@ title:            Lisa Charlotte Rost
 tagline:          "A world view"
 description:      'Views about the world and data visualization.'
 url:              http://lisacharlotterost.github.io
-baseurl:          /
+baseurl:          
 
 author:
   name:           "Lisa Charlotte Rost"
