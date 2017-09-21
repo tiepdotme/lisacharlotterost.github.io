@@ -72,7 +72,7 @@ Here are the most obvious things this overview can show us about the German elec
 **2** The **Left party** is far stronger in former East Germany than in the former West German states. That’s mostly because it has their roots there: The Left party developed out of an old East German party. <br>
 **3** The SPD, the Left and the Greens won far more election districts in **cities** than in rural areas. These three parties won 70% of the election districts in the three city states Hamburg, Berlin and Bremen; but they won only 18% of the election districts in the rest of the states. 
 
-That’s it! Do I feel better about voting on Sunday now? Heck yeah. Here is the **ballot** again, this time translated into German. If you still don’t have a clue about what it all means, please send me an email so I can try to explain it better: lisacharlotterost@gmail.com. Thanks! 
+That’s it! Do I feel better about voting on Sunday now? Heck yeah. Here is the **ballot** again, this time translated into German. If you still don’t have a clue about what it all means, try [this very nice visual explainer by the Bloomberg peeps](https://www.bloomberg.com/graphics/2017-how-germany-forms-government/). And please send me an email so I can try to explain it better: lisacharlotterost@gmail.com. Thanks! 
 
 ![image](/pic/170920_election7.png)
 
