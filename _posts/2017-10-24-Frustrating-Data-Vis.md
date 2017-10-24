@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Frustrating Part of Creating Data Vis in Newsrooms
+title: That Frustrating Thing About Creating Data Vis in Newsrooms
 tag: thoughts, datavis
 ---
 or: Why I started to work at Datawrapper
