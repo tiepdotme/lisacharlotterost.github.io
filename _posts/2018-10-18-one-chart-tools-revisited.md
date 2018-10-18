@@ -1,8 +1,8 @@
 ---
 layout: post
-title: One Chart, <s>Twelve</s> Nine Tools – Revisited
+title: One Chart, Nine Tools – Revisited
 tag: tools, datavis
-summary: 2.5 years ago I wrote an article recreating the same chart with 24 different charting tools. It's time to revisit these tools.
+summary: 2.5 years ago I wrote an article recreating the same chart with 24 different charting tools. It's time to revisit some of them.
 image: /pic/180929-twitter.png
 permalink: datavistools-revisited
 ---
