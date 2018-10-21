@@ -73,14 +73,13 @@ What can I say - [Tableau Public](https://public.tableau.com/s/) works well for 
 
 
 <br><br>
-**Plotly** I like [Plotly](https://plot.ly). It was definitely one of my favorite tools last time – but last time, I was also able to let my population column resize the bubbles. Not this time. In Chrome, the site froze; in Firefox, it showed me giant bubbles which size I couldn't change. Plotly is still close to my heart, though: It handles big-ish datasets well and can create all kinds of fancy visualizations that you'd only need as a scientist ([3D](https://plot.ly/~chris/10796)! [Heatmaps!](https://plot.ly/~DanielCarrera/13/vertical-direction-vs-radial-direction/#/)!).
+**Plotly** I like [Plotly](https://plot.ly). It was definitely one of my favorite tools last time – <s>but last time, I was also able to let my population column resize the bubbles. Not this time. In Chrome, the site froze; in Firefox, it showed me giant bubbles which size I couldn't change.</s> Edit: Plotly fixed this error after the blogpost came out. The bubbles don't resize automatically, but at least it works. Yay! (I updated the GIF below, too.) Plotly is still close to my heart, though: It handles big-ish datasets well and can create all kinds of fancy visualizations that you'd only need as a scientist ([3D](https://plot.ly/~chris/10796)! [Heatmaps!](https://plot.ly/~DanielCarrera/13/vertical-direction-vs-radial-direction/#/)!).
 
-![gif](/pic/180929_plotly.gif)
+![gif](/pic/180929_plotlynew.gif)
 
-<iframe width="100%" height="350px" frameborder="0" scrolling="no" src="//plot.ly/~lisacrost/17.embed"></iframe>
+<iframe width="100%" height="350px" frameborder="0" scrolling="no" src="//plot.ly/~lisacrost/19.embed"></iframe>
 
-
-Below you can see how I created the same chart in Plotly for the last blog post, in April 2016. Assigning variables to the axes was better solved back then. In the new chart editor, I need to choose column header numbers, Flourish-style. Also, the old editor named my axes automatically ("income", "health"). And did I mention that my bubbles sized properly back then? Good old times.
+Below you can see how I created the same chart in Plotly for the last blog post, in April 2016. Assigning variables to the axes was better solved back then. In the new chart editor, I need to choose column header numbers, Flourish-style. Also, the old editor named my axes automatically ("income", "health"). <s>And did I mention that my bubbles sized properly back then? Good old times.</s>
 
 ![gif](/pic/160426-plotly.gif)
 
