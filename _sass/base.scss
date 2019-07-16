@@ -361,9 +361,10 @@ a:hover.thumb img {
 
 // make cookie warning visible if javascript is enabled in browser
 .visible {
-  display:flex !important;
+  display: flex !important;
 }
 
+// make comments visible if cookie is accepted
 .visible-comments {
   display: block !important;
 }
