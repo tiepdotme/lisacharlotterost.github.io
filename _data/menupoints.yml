@@ -1,0 +1,14 @@
+docs_list_title: menupoints
+docs:
+
+- title: ARTICLES
+  url: /articles
+
+- title: TALKS
+  url: /talks
+
+- title: PROJECTS
+  url: /projects
+
+- title: ABOUT
+  url: /about
