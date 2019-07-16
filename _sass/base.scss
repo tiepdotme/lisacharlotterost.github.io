@@ -364,6 +364,10 @@ a:hover.thumb img {
   display:flex !important;
 }
 
+.visible-comments {
+  display: block !important;
+}
+
 .cookie-leftSide {
   width: 100%;
   @media screen and (min-width: 634px) {
