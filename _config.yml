@@ -2,28 +2,33 @@
 markdown:         kramdown
 highlighter:      rouge
 
+
 # Permalinks
-permalink:        pretty
+permalink:        :title
 
 # Setup
 title:            Lisa Charlotte Rost
-tagline:          "A world view"
-description:      'Views about the world and data visualization.'
+tagline:          Portfolio & Blog
+description:      What Lisa writes, designs and talks about.
 url:              http://lisacharlotterost.github.io
 baseurl:
 
 author:
   name:           "Lisa Charlotte Rost"
   url:            https://twitter.com/lisacrost
+  email:          lisacharlotterost@gmail.com
+  twitter_user:   lisacrost
 
 paginate:         5
 
 # Plugins
-whitelist: []
-plugins:      [jekyll-paginate]
+whitelist:        []
+plugins:          [jekyll-paginate]
 
 # Custom vars
 version:          2.1.0
 
 github:
   repo:           blog.lisacharlotterost.de
+  sass:
+    sass_dir:     _sass

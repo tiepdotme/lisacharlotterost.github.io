@@ -2,29 +2,33 @@
 layout: post
 title: Nice to Meet You, Information Theory
 tag: books,
+categories: [article]
+image: /pic/160318_smalltalk-f.png
+summary: "American small talk is a perfect example for the definition of Information in Information Theory & for data compression."
+permalink: /:year/:month/:day/:title/
 ---
 
 ![image](/pic/160318_smalltalk_1.png)
 
 **tl;dr: American small talk is a perfect example for the definition of Information in Information Theory, and for data compression.**
 
-There are things I like more in Germany than in the US. And there are things I like more in the US than in Germany. For example small talk. Small talk is so, so much easier in English - not so much because of the language, but more because of the conventions. You're not convinced? Let me illustrate my point with the example of a phenomenon I call "repeating phrases." In the US it's normal (and even desired, it seems), to repeat the exact same phrase the other person just said:
+There are things I like more in Germany than in the US. And there are things I like more in the US than in Germany. For example small talk. Small talk is so, so much easier in English – not so much because of the language, but more because of the conventions. You're not convinced? Let me illustrate my point with the example of a phenomenon I call "repeating phrases." In the US it's normal (and even desired, it seems), to repeat the exact same phrase the other person just said:
 
-"Nice to meet you." - "Nice to meet you."<br>
-"Have a nice weekend!" - "Have a nice weekend."
+"Nice to meet you." – "Nice to meet you."<br>
+"Have a nice weekend!" – "Have a nice weekend."
 
 In German, never ever would somebody dare to say the exact same phrase again. **"Nice to meet you"**, one says. And we reply with "Yes, indeed, finally!", "I'm delighted as well." or "Likewise!".<br>
 **"Have a nice weekend!"**, one says. And we reply with "I wish you the same!", "Thanks, you too!" or "Thanks, the same for you." At least we would say: "I wish you a nice weekend as well!", but we would feel a little bit weird about so much repetition.
 
-One could say that Germans are - at least in this regard - more creative and that the English language is - at least in this regard - a little bit dull. But I love it. Why? I'm glad you ask. Two reasons!
+One could say that Germans are – at least in this regard – more creative and that the English language is – at least in this regard – a little bit dull. But I love it. Why? I'm glad you ask. Two reasons!
 
-The first reason is **saved energy**. Germans burn more calories while thinking about the answer for standard sentences than Americans. (I'm totally making that up; that is not scientifically proven at all.) Germans need to decide within milliseconds which genius and witty answer they should give to a phrase like "Good night". Americans, on the other side, can use that energy to wonder about the pattern on the tie of their conversation partner. Repeating what the other side says is like kindergarten. Or like learning a new language: Listen and repeat. "See you later!" - "See! You! Later!"
+The first reason is **saved energy**. Germans burn more calories while thinking about the answer for standard sentences than Americans. (I'm totally making that up; that is not scientifically proven at all.) Germans need to decide within milliseconds which genius and witty answer they should give to a phrase like "Good night". Americans, on the other side, can use that energy to wonder about the pattern on the tie of their conversation partner. Repeating what the other side says is like kindergarten. Or like learning a new language: Listen and repeat. "See you later!" – "See! You! Later!"
 
-The second reason why I like repeating sentences so much - and here this post moves from gibberish to educational - is that they **contain less information**. At the beginning of the year, I was reading James Gleick's "The Information: A History, a Theory, a Flood". (It's good. Read it.) He basically wrote a book to answer the question: "What is information?" And one possible answer for that is: **"Information is uncertainty, surprise, difficulty, and entropy."**
+The second reason why I like repeating sentences so much – and here this post moves from gibberish to educational – is that they **contain less information**. At the beginning of the year, I was reading James Gleick's "The Information: A History, a Theory, a Flood". (It's good. Read it.) He basically wrote a book to answer the question: "What is information?" And one possible answer for that is: **"Information is uncertainty, surprise, difficulty, and entropy."**
 
 ![image](/pic/160318_smalltalk_2.png)
 
-Wait, what does that mean? Well, let's take an American **"Nice to meet you." - "Nice to meet you."** and compare its information value to a German **"Nice to meet you." - "You too!"** Which of these conversations contain more information? One could think that the American one has more information value, because its a longer string of characters: The American version has 34 characters in eight words: the German conversation only 25 characters in six words.
+Wait, what does that mean? Well, let's take an American **"Nice to meet you." – "Nice to meet you."** and compare its information value to a German **"Nice to meet you." – "You too!"** Which of these conversations contain more information? One could think that the American one has more information value, because its a longer string of characters: The American version has 34 characters in eight words: the German conversation only 25 characters in six words.
 
 But Gleick shows that this is not the case: "If a letter can be guessed from what comes before, it is redundant; to the extent that it is redundant, it provides no new information. (...) Paradoxical though it sounded, random messages carry more information."
 

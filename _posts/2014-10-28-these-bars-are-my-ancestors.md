@@ -1,13 +1,16 @@
 ---
 layout: post
 title: A new visualization for family trees
-tags: datavis, dayproject
+categories: [article]
+summary: '"In my family tree, the birth year is a certain point at at timeline."'
+image: /pic/141028_ahnen-f.png
+permalink: /:year/:month/:day/:title/
 ---
 
 ![family tree](/pic/141028_ahnen1.jpg)
 
 These bars are my ancestors. I thought it’s time that I finally introduce them to you guys. 
-My grandfather provided me with a family tree yesterday. It goes back till the beginning of the 19th century, although dates back then are a little bit blurry. Nevertheless, I saw this as my chance to try an alternative for family tree visualisations.
+My grandfather provided me with a family tree yesterday. It goes back till the beginning of the 19th century, although dates back then are a little bit blurry. Nevertheless, I saw this as my chance to try an alternative for family tree visualizations.
 Normal family trees show very well (better than my option) who was married, who had which children and which children these children had. But some months ago I thought that maybe more interesting than that is WHEN all these people were born. In family trees, this is often just a number before or after the name. In my family tree here, the birth year is a certain point at at timeline. That is especially interesting when generations are shifting: When grandchildren are born before children, for example (as seen in my family). 
 I’ll give you a legend: Both family trees show only a very narrow extract from my ancestors. It doesn’t explain, for example, the origins of a lot of husbands and wives.
 
@@ -18,4 +21,4 @@ I’ll give you a legend: Both family trees show only a very narrow extract from
 
 ![family tree](/pic/141028_ahnen.jpg)
 
-In the second family tree, red lines mean marriages. There, one can also see the difficulties with this visualisation method: Far too long black lines. I kind of want to click an “expand”/”collapse” button when I see something like this. 
+In the second family tree, red lines mean marriages. There, one can also see the difficulties with this visualization method: Far too long black lines. I kind of want to click an “expand”/”collapse” button when I see something like this. 

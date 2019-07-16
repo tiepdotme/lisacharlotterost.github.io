@@ -2,6 +2,10 @@
 layout: post
 title: How I Feel When I Have A Conversation
 tag: thoughts
+categories: [article]
+image: /pic/160809_Sketches-f.png
+summary: We should all be privacy nerds. But it still isn't as convenient as just being slightly scared.
+permalink: /:year/:month/:day/:title/
 ---
 
 *This post doesn't offer any solutions. It just shows how I feel. If that makes you uncomfortable or angry, don't read it. A translation into Polish can be found [here](http://www.dobreprogramy.pl/Jak-sie-czuje-rozmawiajac,Blog,77350.html).*

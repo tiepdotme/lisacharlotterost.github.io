@@ -3,6 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
+
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
@@ -14,40 +15,36 @@
     {% endif %}
   </title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Vollkorn' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
 
-  <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/public/apple-touch-icon-144-precomposed.png">
-                                 <link rel="shortcut icon" href="/public/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="/pic/favicon.ico">
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@lisacrost">
-  <meta name="twitter:creator" content="@{{ page.author }}">
+  <meta name="twitter:creator" content="@lisacrost">
   <meta name="twitter:title"   content="{{ page.title }}">
+  <meta name="twitter:card"  content="summary_large_image">
 
   {% if page.summary %}
   <meta name="twitter:description" content="{{ page.summary }}">
   {% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape
+      | truncate: 200 }}">
   {% endif %}
 
   {% if page.image %}
-  <meta name="twitter:card"  content="summary_large_image">
   <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
   {% else %}
-  <meta name="twitter:card"  content="summary">
-  <meta name="twitter:image" content="{{ site.title_image }}">
+  <meta name="twitter:image" content="{{ site.url }}/pic/000000-featureimage.png">
   {% endif %}
   <!-- end of Twitter cards -->
+
 
 
 </head>

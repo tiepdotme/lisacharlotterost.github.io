@@ -1,7 +1,11 @@
 ---
 layout: post
-title: Why You Don't Believe In Facts, And How To Fix It
-tag: talk
+whofor: at Republica
+title: Why We Don't Believe In Facts, And How To Fix That
+image: /pic/170509_Republica_Talk-f.png
+categories: [fav, article, talk]
+summary: It's not about truth vs lie, it's about them vs us. Plus some data vis that made me think.
+permalink: /:year/:month/:day/:title/
 ---
 
 ![image](/pic/170509_facts1.gif)
@@ -21,11 +25,11 @@ When we’re accepting a “fact”, we start to believe in it. Eg we can believ
 
 ![image](/pic/170509_Republica_Talk8.png)
 
-But it seems like in more and more cases, we don't have a discussion of what we should do – but what is true in the first place. What is really happening? What is truth? What is the reality? What are the facts? It almost seems like some people stand on the ground of a completely different reality; sharing completely different facts. But of course, that’s not the case. The reality is still the same, pretty much.
+But it seems like in more and more cases, we don't have a discussion of what we should do – but what is true in the first place. What is really happening? What is truth? What is reality? What are the facts? It almost seems like some people stand on the ground of a completely different reality; sharing completely different facts. But of course, that’s not the case. The reality is still the same, pretty much.
 
 ![image](/pic/170509_Republica_Talk10.png)
 
-What I'm currently doing with my life, is visualising the facts. I'm visualising data, often from the Census or Scientific Studies. And then I'm communicating it to the public and say “Here, look, these are the facts"; let's have a discussion on these grounds. So when people don't take them seriously, I have a problem. I'm not doing my job well.
+What I'm currently doing with my life, is visualizing the facts. I'm visualizing data, often from the Census or Scientific Studies. And then I'm communicating it to the public and say “Here, look, these are the facts"; let's have a discussion on these grounds. So when people don't take them seriously, I have a problem. I'm not doing my job well.
 
 ![image](/pic/170509_Republica_Talk12.png)
 
@@ -33,10 +37,10 @@ Today I want to explore how I can do my job better. Am I just preaching to the c
 
 To do so, I will explain first where false beliefs actually come from. Why don't we all believe in the same? Then I want to explain why it's so hard to get rid of false beliefs once they're planted inside of you. And then we'll use this knowledge to explore what we can do to believe more certain things – we in this room, and I as a data vis person.
 
-<br>
-## A. Where false beliefs come from.
 
-Let’s start with talking about the reasons for false beliefs. Of course there’s only one:
+# A. Where false beliefs come from.
+
+Let’s start by talking about the reasons for false beliefs. Of course, there’s only one:
 
 ![image](/pic/170509_Republica_Talk16.png)
 
@@ -44,9 +48,9 @@ Let’s start with talking about the reasons for false beliefs. Of course there�
 
 ![image](/pic/170509_Republica_Talk18.png)
 
-One of the actual big reasons is **tribalization**. We're social animals living in different tribes (our family, our friend groups, our favourite online forum, our Twitter feed). And for social animals, social support is more important than believing the truth about something that's far, far away like climate change.
+One of the actual big reasons is **tribalization**. We're social animals living in different tribes (our family, our friend groups, our favorite online forum, our Twitter feed). And for social animals, social support is more important than believing the truth about something that's far, far away like climate change.
 
-In the first instance, beliefs can become a **marker of identity**. We belief what our family and our friends told us. When we share articles on Facebook, we want to demonstrate who we truly are. We want to define ourselves. “Defining” literally means “to limit, to bound”: We draw boundaries around our identity, also to attract like-minded people.
+In the first instance, beliefs can become a **marker of identity**. We believe what our family and our friends told us. When we share articles on Facebook, we want to demonstrate who we truly are. We want to define ourselves. “Defining” literally means “to limit, to bound”: We draw boundaries around our identity, also to attract like-minded people.
 
 ![image](/pic/170509_Republica_Talk20.png)
 
@@ -62,25 +66,25 @@ But showing off your beliefs with information doesn’t just gain us the trust o
 
 ![image](/pic/170509_Republica_Talk23.png)
 
-Sadly, that happens more and more in the two-party-system in the US. It’s one thing that less and less government people agree with members of the other party:
+Sadly, that happens more and more in the two-party system in the US. It’s one thing that less and fewer government people agree with members of the other party:
 
 ![image](/pic/170509_Republica_Talk24.png)
 
-It gets disturbing when you hear that 58% of Republicans and 55% of Democrats had a very unfavourable attitude towards the opposite party in 2016; [up from 21%/17% in 1994](http://www.people-press.org/2016/06/22/partisanship-and-political-animosity-in-2016/). Less Democrats marry Republicans and the other way round. People of the two parties don’t trust each other as much as they did only a few years ago.
+It gets disturbing when you hear that 58% of Republicans and 55% of Democrats had a very unfavorable attitude towards the opposite party in 2016; [up from 21%/17% in 1994](http://www.people-press.org/2016/06/22/partisanship-and-political-animosity-in-2016/). Fewer Democrats marry Republicans and the other way round. People of the two parties don’t trust each other as much as they did only a few years ago.
 
 Interesting enough, for forming beliefs for the sake of tribalization, **it doesn’t matter if we understand what we believe**. They are too far away from us. Ask yourself: How does climate change work…exactly? Could you explain it? I know I couldn’t. But people from my tribes and I believe in it, and we know someone is from another tribe if she or he doesn’t.
 
-The third reason for forming false beliefs I want to talk about are **fallacies**. This could be a talk on its own, so I will just mention one example: Generalising from **anecdotal evidence**. Which means seeing one instance and applying that to the whole concept. Saying “Man, it’s so cold and rainy for May. Global warming, yeah right” for example:
+The third reason for forming false beliefs I want to talk about is **fallacies**. This could be a talk on its own, so I will just mention one example: Generalising from **anecdotal evidence**. Which means seeing one instance and applying that to the whole concept. Saying “Man, it’s so cold and rainy for May. Global warming, yeah right” for example:
 
 ![image](/pic/170509_Republica_Talk31.png)
 ![image](/pic/170509_Republica_Talk32.png)
 
-<br>
-## B. Why it is so hard to get rid of them.
+
+# B. Why it is so hard to get rid of them.
 
 So once we got a false belief, we just keep it until somebody comes and says “Dude, that's not right", and then we get rid of it – right? Unfortunately not. **We defend many beliefs like crazy**.
 
-Since we get so many beliefs from our tribes, questioning the belief means questioning the tribe. Beliefs are connected to the person who gave it to us, the situation we're in, the memories, our upbringing etc. If a belief turns out to be untrue, then all of this is in doubt.
+Since we get so many beliefs from our tribes, questioning the belief means questioning the tribe. Beliefs are connected to the person who gave it to us, the situation we're in, the memories, our upbringing, etc. If a belief turns out to be untrue, then all of this is in doubt.
 
 ![image](/pic/170509_Republica_Talk36.png)
 
@@ -89,17 +93,17 @@ But there’s no need to get rid of the beliefs anyway. One quick Google search 
 ![image](/pic/170509_Republica_Talk39.png)
 ![image](/pic/170509_Republica_Talk38.png)
 
-Once we have a belief, we perceive information differently. Information that confirms our beliefs we agree easily with; we question it less and remember it better. The opposite of this **Confirmation Bias** is **Motivated Skepticism**: When we get confronted with information that oppose our beliefs, we apply more skepticism than normal. Everything seems untrustworthy suddenly: The author, the sources, the medium.
+Once we have a belief, we perceive information differently. Information that confirms our beliefs we agree easily with; we question it less and remember it better. The opposite of this **Confirmation Bias** is **Motivated Skepticism**: When we get confronted with information that opposes our beliefs, we apply more skepticism than normal. Everything seems untrustworthy suddenly: The author, the sources, the medium.
 
 ![image](/pic/170509_Republica_Talk41.png)
 
-An example for that can be found in the following article, which explains why you should vaccinate your kids. As somebody who agrees with the premise, I also don’t question the sources: “International studies”, it says. Sure. And there’s this one study that basically explains that you have less respiratory problems when you don’t have the flu? Sounds about right:
+An example of that can be found in the following article, which explains why you should vaccinate your kids. As somebody who agrees with the premise, I also don’t question the sources: “International studies”, it says. Sure. And there’s this one study that basically explains that you have less respiratory problems when you don’t have the flu? Sounds about right:
 
 ![image](/pic/170509_Republica_Talk42.png)
 
 Ok, fine. I’ll admit, I changed the original article a bit. The actual article can be found [here](http://www.naturalnews.com/048151_vaccination_dangers_children_Big_Pharma.html) and speaks against vaccines.
 
-And suddenly every second word makes me angry and suspicious at the same time. “International studies”? Yeah right. I know which kind of studies THESE ones are. Certainly not peer-reviewed, I bet. And this journal called “Clinical Infectious Diseases”, they mention? I’m sure it has a super bad image in the community. I wouldn’t trust one article published in there. And naturalnews.com? Well, I’ll certainly unfriend everyone immediately who mentions this site on Facebook.
+And suddenly every second word makes me angry and suspicious at the same time. “International studies”? Yeah right. I know what kind of studies THESE ones are. Certainly not peer-reviewed, I bet. And this journal called “Clinical Infectious Diseases”, they mention? I’m sure it has a super bad image in the community. I wouldn’t trust one article published in there. And naturalnews.com? Well, I’ll certainly unfriend everyone immediately who mentions this site on Facebook.
 
 ![image](/pic/170509_Republica_Talk43.png)
 
@@ -115,14 +119,13 @@ It’s supposed to work also the other way round: If you show me information opp
 
 I think it’s important to keep that in mind, to not give up on people (“Whyyyyy the heck do you not accept the truth?”).
 
-<br>
-## C. How to believe more true things.
+# C. How to believe more true things.
 
 So after hearing about the obstacles that keep us from believing more true things…how can we still attempt to do so? The most obvious idea is to **convince someone**, brute force: “Hey, you believe x, but that’s not true. You should believe y.”
 
 ![image](/pic/170509_Republica_Talk65.png)
 
-Often, that’s neither the most successful nor the most kind attempt. Let’s maybe not do that.
+Often, that’s neither the most successful nor the kindest attempt. Let’s maybe not do that.
 
 ![image](/pic/170509_Republica_Talk66.png)
 
@@ -132,7 +135,7 @@ And we can point out the difference between the facts and their beliefs in a sub
 
 ![image](/pic/170509_Republica_Talk67.png)
 
-The closest data visualisation I’ve seen to this approach is [Bloomberg’s “What’s Really Warming the World?”](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/). It leads through different factors that “Climate Deniers” see as reasons for climate change: Is it sun activity? Deforestation? Ozone Pollution? No, it really is greenhouse gases.
+The closest data visualization I’ve seen to this approach is [Bloomberg’s “What’s Really Warming the World?”](https://www.bloomberg.com/graphics/2015-whats-warming-the-world/). It leads through different factors that “Climate Deniers” see as reasons for climate change: Is it sun activity? Deforestation? Ozone Pollution? No, it really is greenhouse gases.
 
 ![image](/pic/170509_Republica_Talk71.png)
 
@@ -140,7 +143,7 @@ The next idea, **actively avoiding tribalization** might be the most powerful ap
 
 ![image](/pic/170509_Republica_Talk74.png)
 
-The German ZEIT Online is attempting conversations like that. Right now they have a [call](http://www.zeit.de/politik/2017-05/deutschland-spricht-aufruf-d17) for people who want to meet different-minded people in their neighbourhood, on one afternoon in June.
+The German ZEIT Online is attempting conversations like that. Right now they have a [call](http://www.zeit.de/politik/2017-05/deutschland-spricht-aufruf-d17) for people who want to meet different-minded people in their neighborhood, on one afternoon in June.
 
 During such conversations we can try to build understanding and **empathy**, which might let us discover some hidden truths and emotional reasons:
 
@@ -148,23 +151,23 @@ During such conversations we can try to build understanding and **empathy**, whi
 
 The third way to make us believe more true things is to **change our attitude**; towards ourselves and towards others. This attitude shift can happen in different ways.
 
-We need to accept that there are millions of facts we don’t know, that not knowing things is normal (not devastating); that changing beliefs, therefore, is necessary to grow. Which means that having beliefs as marker of identity is not the most marvellous idea. Our beliefs come and go to help us act in this world; **but we are not defined by them**:
+We need to accept that there are millions of facts we don’t know, that not knowing things is normal (not devastating); that changing beliefs, therefore, is necessary to grow. Which means that having beliefs as a marker of identity is not the most marvelous idea. Our beliefs come and go to help us act in this world; **but we are not defined by them**:
 
 ![image](/pic/170509_Republica_Talk80.png)
 
-A great idea to realise this attitude is to get people in a truth-seeking mode. The excellent paper [“Science Curiosity and Political Information Processing”](http://onlinelibrary.wiley.com/doi/10.1111/pops.12396/full) by Kahan et al states that “*individuals can use their reason for two ends—to form beliefs that evince who they are, and to form beliefs that are consistent with the best available scientific evidence*.”
+A great idea to realize this attitude is to get people in a truth-seeking mode. The excellent paper [“Science Curiosity and Political Information Processing”](http://onlinelibrary.wiley.com/doi/10.1111/pops.12396/full) by Kahan et al states that “*individuals can use their reason for two ends—to form beliefs that evince who they are, and to form beliefs that are consistent with the best available scientific evidence*.”
 
-The paper show that people who are more intelligent are more likely to have extreme beliefs (true and false), which seems to be bad news. But it also shows that people who are more curious and driven by scientific thinking tend to believe more true things:
+The paper shows that people who are more intelligent are more likely to have extreme beliefs (true and false), which seems to be bad news. But it also shows that people who are more curious and driven by scientific thinking tend to believe more true things:
 
 ![image](/pic/170509_Republica_Talk84.png)
 
-So we should make people more curious! Quizzes and games are a great way to do so; and of course I need to mention [“You Draw It”](https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html?_r=0) from the New York Times Graphics team here. What a great coincidence that I wrote about curiosity in a [blog post last month](https://lisacharlotterost.github.io/2017/04/07/embracing-curiosity/), where I explained the beauty of this very graphic.
+So we should make people more curious! Quizzes and games are a great way to do so, and of course, I need to mention [“You Draw It”](https://www.nytimes.com/interactive/2015/05/28/upshot/you-draw-it-how-family-income-affects-childrens-college-chances.html?_r=0) from the New York Times Graphics team here. What a great coincidence that I wrote about curiosity in a [blog post last month](https://lisacharlotterost.github.io/2017/04/07/embracing-curiosity/), where I explained the beauty of this very graphic.
 
 I can also think of three more “changes in attitude” that are closely related to data vis: Showing complexity (including uncertainty), and planting doubt. The latter means explaining that the world is [not as simply measured as we sometimes assume it is](https://www.nytimes.com/interactive/2016/09/20/upshot/the-error-the-polling-world-rarely-talks-about.html).
 
-But let’s focus on **showing complexity**. I would assume that most data visualisations out there are bar charts. Which brings two problems with it: First, every kind of data looks the same; and second, it simplifies extremely.
+But let’s focus on **showing complexity**. I would assume that most data visualizations out there are bar charts. Which brings two problems with it: First, every kind of data looks the same; and second, it simplifies extremely.
 
-And hey, that’s good. Simplifying is our job, among many things. But more and more often I appreciate approaches like the one from [Accurat](http://accurat.it/), who show the complexity of the data out there better than any bar charts. The form gives a more honest view of the world. **Our beliefs are already simplified enough**: Forms that remind us that the facts are not that simple could become more and more important.
+And hey, that’s good. Simplifying is our job, among many things. But more and more often I appreciate approaches like the one from [Accurat](http://accurat.it/), who shows the complexity of the data out there better than any bar charts. The form gives a more honest view of the world. **Our beliefs are already simplified enough**: Forms that remind us that the facts are not that simple could become more and more important.
 
 ![image](/pic/170509_Republica_Talk90.png)
 
@@ -172,20 +175,19 @@ The last approach to believe more true things is to **remind ourselves of our sk
 
 ![image](/pic/170509_Republica_Talk101.png)
 
-But we don’t have skin in the game with most tribe-defining beliefs like climate change, pizza gate, voter fraud. We are not effected by the outcome:
+But we don’t have skin in the game with most tribe-defining beliefs like climate change, pizza gate, voter fraud. We are not affected by the outcome:
 
 ![image](/pic/170509_Republica_Talk99.png)
 
 Remember that awesome [“Science Curiosity and Political Information Processing”](http://onlinelibrary.wiley.com/doi/10.1111/pops.12396/full)-paper? It states that *“Farmers … have been observed to use information on climate change to form identity-congruent beliefs when they are behaving as citizens but to form truth-convergent ones when they are engaging in the task of farming, where they have an end—succeeding as farmers—that can be satisfied only with that form of information processing”*. Which basically means: When you ask a Republican farmer if he believes in climate change, he will probably say no – until this belief gets important for his goals to be a better farmer. [Reminding ourselves and others](https://phys.org/news/2017-05-climate.html) of the skin in the game and the personal ways they can benefit from information will make them listen.
 
-<br>
-## D. What does it all mean?
+# D. What does it all mean?
 
-Wow, you’ve made it! That was one long article. Here are all the points we’ve encountered while you were reading this article; and believe me, each category could be filled with far more reasons, causes and examples:
+Wow, you’ve made it! That was one long article. Here are all the points we’ve encountered while you were reading this article; and believe me, each category could be filled with far more reasons, causes, and examples:
 
 ![image](/pic/170509_Republica_Talk109.png)
 
-But what should we do now, after having all these information? Is it a good option to not believe in anything anymore?
+But what should we do now, after having all this information? Is it a good option to not believe in anything anymore?
 
 I’d say no. I disagree with people who say we need to build beliefs carefully. Beliefs are important for acting in this world – and I’d rather want that we act than not act. In my opinion, we should have grand beliefs. But these beliefs show be flexible like a gummy bear:
 ![image](/pic/170509_Republica_Talk115.png)
@@ -195,7 +197,7 @@ new facts, we want them to update easily.
 
 ![image](/pic/170509_Republica_Talk117.png)
 
-Thank you! If you have thoughts, new categorisations and critique, please email me: ([lisacharlotterost@gmail.com](mailto:lisacharlotterost@gmail.com)) or look me up me on Twitter ([@lisacrost](https://twitter.com/lisacrost)).
+Thank you! If you have thoughts, new categorizations and critique, please email me: ([lisacharlotterost@gmail.com](mailto:lisacharlotterost@gmail.com)) or look me up me on Twitter ([@lisacrost](https://twitter.com/lisacrost)).
 
 
 ![image](/pic/170509_Republica_Talk118.png)

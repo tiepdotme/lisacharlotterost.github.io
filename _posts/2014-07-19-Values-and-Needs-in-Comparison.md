@@ -2,11 +2,15 @@
 layout: post
 title: Values and Needs in Comparison
 tags: psychology
+categories: [article]
+summary: '"In the last few days I found some joy reading papers about decision theory and motivational theory; about choices, needs and desires."'
+image: /pic/140719_needs-f.png
+permalink: /:year/:month/:day/:title/
 ---
 
 ![table with comparison values](/pic/140719_needs.jpg)
 
-In the last few days I found some joy reading papers about decision theory and motivational theory; about choices, needs and desires. I read one by Manfred Max-Neef on <a href="http://en.wikipedia.org/wiki/Fundamental_human_needs" target="_blank">Fundamental Human Needs</a>, which I liked very much. He proposed nine categories of needs, which all have the same importance &ndash; as opposed to the needs pyramids of Maslow for example.&nbsp;</p>
+In the last few days I found some joy reading papers about decision theory and motivational theory; about choices, needs and desires. I read one by Manfred Max-Neef on [Fundamental Human Needs](http://en.wikipedia.org/wiki/Fundamental_human_needs), which I liked very much. He proposed nine categories of needs, which all have the same importance &ndash; as opposed to the needs pyramids of Maslow for example.&nbsp;</p>
 <p>And of course there is more; there is so much literature about which kinds of needs we have. Which is great, because when there is a lot, you can compare it &ndash; and can use the date to form a new model (if you find something interesting in the comparison).</p>
 <p>So on this very basic designed spreadsheet at the top you can find my personal (and therefore subjective) categorization of all the needs that got mentioned in the literature I studied so far. Red needs mean that they are mentioned only by one source; green means that it got mentioned three times or more. The following observations surprised me:</p>
 <ul>

@@ -2,14 +2,18 @@
 layout: post
 title: That Frustrating Thing About Creating Data Vis in Newsrooms
 tag: thoughts, datavis
+image: /pic/171024_newsrooms-f.png
+categories: [article]
+summary: Why I decided to start working at Datawrapper
+permalink: /:year/:month/:day/:title/
 ---
 or: Why I started to work at Datawrapper
 
-**tl;dr: I believe that it should be easier for journalists to create charts for their articles. The public will benefit from more context, and the Data Vis experts in their newsroom will have time to focus on bigger projects. Datawrapper is my best bet on a data vis tool for journalists**. 
+**tl;dr: I believe that it should be easier for journalists to create charts for their articles. The public will benefit from more context, and the Data Vis experts in their newsroom will have time to focus on bigger projects. Datawrapper is my best bet on a data vis tool for journalists**.
 
-<br><br>
-**T H E  P R O B L E M**<BR><BR>
-In newsrooms, two kinds of people deal with data visualisation:
+# The problem
+
+In newsrooms, two kinds of people deal with data visualization:
 
 ![image](/pic/171024_newsrooms.png)
 
@@ -35,11 +39,11 @@ It pains me to see this frustration. 
 <br>
 **I also don’t want journalists to get less excited about charts and maps because it seems like a big hassle. I want journalists to make more charts, not less**. This is actually really close to my heart: I want journalism to give us all fewer anecdotes, and more context. ([I talked and wrote about this a year ago.](https://lisacharlotterost.github.io/2016/06/16/less-news-more-context/)) And I see Data Vis as the new kid in town, waving, shouting “Heeeey y’all, I’m perfect for context! I’m here to give overviews! Comparisons! Use me!”. And I see that kid being all disappointed every time an article states “x was done to people 8942 times” / “Our country now does x 3839284 times” without explaining what that means (with a simple bar chart).
 
-![image](/pic/171024_newsrooms4.png) 
+![image](/pic/171024_newsrooms4.png)
 *The kinds of data visualization that should be so simple to make that journalists can work on them*.
 
-<br><br>
-**T H E  S O L U T I O N**<BR><BR>
+# The solution
+
 So that’s where I see the solution: **It should be damn simple to make that bar chart**. For journalists to be independent, and for Data Vis experts to save time for the big stuff. No code. Just data in, bar chart out. 
 
 And that’s where a charting tool called **[Datawrapper](https://www.datawrapper.de/)** comes in, and my reason to start working on it. After [trying out 24 data vis tools](https://source.opennews.org/articles/what-i-learned-recreating-one-chart-using-24-tools/), [plus Datawrapper](https://lisacharlotterost.github.io/2016/05/17/one-chart-tools/), I found that Datawrapper is the best choice for exactly that use case. Datawrapper sucks at scientific visualizations (better use R, Python or Plotly for that). It’s not great for analyzing big data sets (I recommend R or Tableau). And you won’t be able to make innovative stuff with it (d3.js, NodeBox or Lyra are a good choice for that).
@@ -49,7 +53,7 @@ Data in, bar chart out. 
 
 **Datawrapper delivers so well because it is niche**. From the beginning, the team behind it didn’t ask: “What do people out there need to create data vis?”, but: “What do journalists need to create simple charts for their web articles?” Turns out: Responsiveness! Done. Good chart design even if you have no clue about charts! Done. Interaction! Done. Maybe also a way to style it in the newsroom brand colors and fonts? Done. 
 
-**Datawrapper is not perfect yet**. Sometimes the tooltips on the new map feature don’t show. Sometimes I change colors and nothing happens until I reload the page. There are smaller bugs here and there. But the team, their goal and how they go there, impresses me a lot. And their company goal aligns with my professional goal: **To enable journalists to make more charts, better-looking and faster**. 
+**Datawrapper is not perfect yet**. Sometimes the tooltips on the new map feature don’t show. Sometimes I change colors and nothing happens until I reload the page. There are smaller bugs here and there. But the team, their goal and how they go there, impresses me a lot. And their company goal aligns with my professional goal: **To enable journalists to make more charts, better-looking and faster**.
 
 So that’s why I end my freelance life (mostly for the Berlin newspaper “Tagesspiegel” in the last six months) and start to work at Datawrapper. **Let the journey begin**. 
 

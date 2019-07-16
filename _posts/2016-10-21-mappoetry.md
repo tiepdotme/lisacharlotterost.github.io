@@ -1,7 +1,12 @@
 ---
 layout: post
 title: Map Poetry
+whofor: at NACIS
 tag: talk, art
+categories: [fav, article, talk]
+image: /pic/161020_mappoetry-f.png
+summary: Drawing our internal maps lets us explore how we and others see the world.
+permalink: /:year/:month/:day/:title/
 ---
 
 *This is the transcript of a talk I gave at [NACIS 2016](https://nacis2016.sched.org/event/7Lmy/storylines-in-the-map) in Colorado Springs. I didn't include all of the slides, to make it more readable.*
@@ -115,7 +120,7 @@ More than 3 years ago, when I visited Oxford for the first time, I drew this tin
 I show it to point out one detail: This white spot there. Oxford doesn't have rollercoasters. But this part of town felt like a maze to me, in which I walked in circles. **So the map shows how I felt like rather than how it is.**
 But it only shows how I felt in that moment. Half a year later, I returned to Oxford for an exchange semester, and I learnt to navigate that maze. I would have not drawn that loop in my Oxford map after spending a semester there.
 
-And if we get one step further, **we don't just map the world as it feels – but re-imagine the world based on how we feel**. One example for that is **Sarah Michael Levine**'s "San Hoboyorkesey", which I really like: 
+And if we get one step further, **we don't just map the world as it feels – but re-imagine the world based on how we feel**. One example for that is **Sarah Michael Levine**'s "San Hoboyorkesey", which I really like:
 
 ![image](/pic/161020_mappoetry37.png)
 

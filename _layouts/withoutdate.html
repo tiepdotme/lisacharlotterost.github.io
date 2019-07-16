@@ -1,0 +1,31 @@
+---
+layout: default
+---
+<div class="completeright">
+<div class="blogcontainer">
+
+<!-- show blog post header-->
+<div class="blogheader">
+  <hr>
+  <h1 class="article-title">
+      {{ page.title }}
+  </h1>
+</div>
+
+<!-- show actual article -->
+<div class="article-text">
+
+  <!-- show bigger images for portfolio pieces -->
+  {% if page.categories contains "design" %}
+     <div class="biggerimages">
+       {{ content }}
+     </div>
+  {% else %}
+     {{ content }}
+  {% endif %}
+
+
+</div>
+
+</div>
+</div>

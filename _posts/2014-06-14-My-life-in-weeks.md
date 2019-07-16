@@ -2,12 +2,16 @@
 layout: post
 title: Your life in weeks
 tags: dayproject, datavis, psychology
+image: /pic/140614_weeks-f.png
+categories: [article]
+summary: '"My life so far will be very different from my life seen in total..."'
+permalink: /:year/:month/:day/:title/
 ---
 
 ![life in weeks](/pic/140614_weeks.jpg)
 
-<p>How do you spend your life? The great blog <a href="http://waitbutwhy.com/2014/05/life-weeks.html" target="_blank">Wait But Why</a>&nbsp;posted an info graphic about measuring your life in weeks some time ago. A few days later, the great <a href="http://jacopoatz.tumblr.com/post/85513207336/i-just-saw-this-ive-been-so-impressed-about-how" target="_blank">Jacopo</a>&nbsp;had an own version on his blog, rebuild in Illustrator. And because Jacopo is so great, he provided me with the Illustrator file &ndash; and I colored the weeks of my life that I have lived so far.</p>
-<p>I categorized my weeks in "education" (red), "professional experience" (green) and "the-rest-aka-vacations-or-leisure time-or-organization time". As you can see, I spent more than half of my weeks in my life spent in a school or university. You can also see that my life so far will be very different from my life seen in total: The more I will work in the future, the more the percentage of education in my life will shrink; as well as the percentage of leisure time in my life. Appox. with 70 years, three quarters of the "pie chart of my life" will be green. However, after stop working, the percentage of leisure time (white) in my life will grow again:</p>
+<p>How do you spend your life? The great blog <a href="http://waitbutwhy.com/2014/05/life-weeks.html" target="_blank">Wait But Why</a>&nbsp;posted an infographic about measuring your life in weeks some time ago. A few days later, the great <a href="http://jacopoatz.tumblr.com/post/85513207336/i-just-saw-this-ive-been-so-impressed-about-how" target="_blank">Jacopo</a>&nbsp;had an own version on his blog, rebuild in Illustrator. And because Jacopo is so great, he provided me with the Illustrator file &ndash; and I colored the weeks of my life that I have lived so far.</p>
+<p>I categorized my weeks in "education" (red), "professional experience" (green) and "the-rest-aka-vacations-or-leisure time-or-organization time". As you can see, I spent more than half of my weeks in my life spent in a school or university. You can also see that my life so far will be very different from my life seen in total: The more I will work in the future, the more the percentage of education in my life will shrink; as well as the percentage of leisure time in my life. Approx. with 70 years, three quarters of the "pie chart of my life" will be green. However, after stop working, the percentage of leisure time (white) in my life will grow again:</p>
 
 ![life in weeks](/pic/140614_weeks2.png)
 

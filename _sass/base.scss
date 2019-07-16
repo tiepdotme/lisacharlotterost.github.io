@@ -1,0 +1,398 @@
+
+// what's in here?
+
+// 1 SIDEBAR
+// 2 BLOGPOSTS: styling for individual articles
+// 3 CATEGEGORIES IN INDEX: e.g. articles, etc
+// 4 GRID: post thumb, title, date etc.
+// 5 COOKIE WARNUNG styling
+
+
+
+body {
+  background: $background;
+
+  font-feature-settings: ss01, frac, cpsp, cv07,
+  // font features, chosen here: https://rsms.me/inter/lab/?feat-frac=1&feat-cv07=1&feat-cpsp=1&feat-ss01=1
+}
+
+
+.completeright {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+
+  @media screen and (min-width: $break-small) {
+    margin-left: 26%;
+    margin-right: 5%;
+  }
+}
+
+
+
+////////////// 1 SIDEBAR //////////////////
+
+
+.sidebar {
+  margin-left: 7px;
+  margin-top: 15px;
+  margin-bottom: -37px;
+
+  li.active a {
+    color: $highlight;
+    font-weight: $fw-thick;
+    cursor: default;
+  }
+
+  br, .sidebar-index, .sidebar-index-hidden {
+    display: none;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+  }
+}
+
+@media screen and (min-width: $break-small) {
+  .sidebar {
+    height: 300px;
+    width: 200px;
+    margin-top: 0;
+    float: left;
+
+    br {
+      display: inline;
+    }
+
+    .sidebar-top {
+      position: fixed;
+      background-color: $background;
+      padding: 60px 40px 0px;
+      margin-top: -50px;
+      top: 40px;
+    }
+
+    .sidebar-title {
+      margin: 0;
+      width: 100px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid $toneddown;
+      border-top: none;
+    }
+
+    .sidebar-index {
+      margin-top: 40px;
+      padding: 40px;
+      top: 40px;
+      visibility: visible;
+      position: static;
+      display: inherit;
+    }
+
+    .sidebar-index-hidden {
+      margin-top: 50px;
+      padding: 40px;
+      top: 40px;
+      position: fixed;
+      visibility: visible;
+      display: inherit;
+    }
+  }
+}
+
+
+////////////// 2 BLOGPOSTS //////////////////
+
+
+.blogcontainer {
+  margin: 0;
+  padding: 0;
+
+  p, .highlighter-rouge, h1, h2, h3, h4, .embed, .pullquote, .tweet {
+    width: 100%;
+  }
+  ul {
+    width: 80%;
+  }
+  img, .embed-120 {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .biggerimages img {
+    width: 100%;
+  }
+  .pullquote {
+    margin: 30px 0;
+  }
+  .relatedarticles {
+    margin-top: 100px;
+  }
+  #commentsection {
+    max-width: 640px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: none;
+  }
+  blockquote {
+    background-color: white;
+    padding: 20px 40px;
+    margin: 30px 0;
+  }
+
+  .tweet {
+    background: #edf1f3;
+  }
+
+  .twitter-tweet {
+    margin: auto;
+  }
+
+  @media screen and (min-width: $break-small) {
+
+    p, .highlighter-rouge, h1, h2, h3, h4, .embed, .pullquote, .tweet {
+      width: 80%;
+      max-width: 640px;
+    }
+
+    ul {
+      width: 70%;
+      max-width: 590px;
+    }
+    img, .embed-120 {
+      width: 120%;
+      max-width: 900px;
+    }
+    .biggerimages img {
+      width: 130%;
+      max-width: 900px;
+    }
+    blockquote {
+      padding: 20px 40px;
+      margin: 30px 0;
+      width: 65%;
+      max-width: 560px;
+      p {
+        width: 100% !important;
+      }
+    }
+    .tweet {
+      padding: 30px 0;
+    }
+  }
+}
+
+
+.blogheader {
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+
+////////////// 3 categories in grid //////////////////
+
+
+hr {
+  border: 0;
+  height: 2px;
+  width: 100px;
+  margin-left: 0;
+  background: #000;
+}
+
+.category-header {
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+
+  .article-text {
+    margin-top: 0.8em;
+  }
+  .button {
+    background-color: white;
+    color: $highlight;
+    cursor: pointer;
+    border: none;
+    border: 2px solid $highlight;
+    display: inline;
+    font-size: $sans-tiny;
+    margin: 0;
+    padding: 7px 8px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s ease 0s;
+    vertical-align: middle;
+    float: right;
+  }
+  .button:hover {
+      background-color: $highlight;
+      color: white;
+      border: 2px solid white;
+  }
+}
+
+.intro {
+  margin-top: 117px;
+  margin-bottom: 100px;
+  max-width: 800px;
+
+  .buttons {
+    margin-top: 40px;
+  }
+}
+
+// trick to leave some margin-top for anchor jumps
+a.anchor {
+position: relative;
+top:-60px;
+display: block;
+height: 0;
+width:0;
+}
+
+////////////// 4 GRID //////////////////
+
+.grid {             // the flexbox container
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-between;
+}
+
+
+@media screen and (min-width: 1277px) {
+  .grid {
+    justify-content: flex-start;
+    align-content: flex-start;
+  }
+}
+
+//mobile
+a.thumb {              //individual grid items = children
+  margin-bottom: 4.5rem;
+}
+
+@media screen and (min-width: 370px) {
+  a.thumb {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 950px) {
+  a.thumb {
+    width: 31%;
+  }
+}
+
+@media screen and (min-width: 1277px) {
+  a.thumb {
+    flex-grow: 1;
+    margin-right: 2.5rem;
+    width: 100%;
+    max-width: 250px;  //how wide should the grid item be MAX
+  }
+}
+
+.post-title {
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+.post-date {
+  font-size: $sans-tiny;
+  line-height: $sans-tiny-lh;
+  margin-bottom: 5px;
+  color: $toneddown;
+}
+
+.post-image {
+  margin-bottom: 10px;
+
+}
+.post-image img {
+  max-width: 100%;
+}
+
+.post-summary {
+  font-size: $sans-tiny;
+  margin-bottom: 5px;
+  color: $toneddown;
+  line-height: 1.2rem;
+}
+
+
+a:hover.thumb img {
+  filter: drop-shadow(0px 0px 0px grey)
+          drop-shadow(0px 0px 50px grey);
+}
+
+.imglink {
+  border-bottom: 0px !important;
+}
+
+
+
+////////////// 5 COOKIE WARNUNG //////////////////
+
+// cookie warning bottom
+#cookie {
+  display: flex;
+  flex-wrap: wrap;
+  background: $highlight;
+  align-items: flex-start;
+	position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px;
+  margin: 5px;
+  display: none;
+  color: white;
+  font-family: $bodyfont;
+  font-size: $sans-tiny;
+  line-height: $sans-tiny-lh;
+  @media screen and (min-width: 634px) {
+    flex-wrap: nowrap;
+  }
+}
+
+// make cookie warning visible if javascript is enabled in browser
+.visible {
+  display:flex !important;
+}
+
+.cookie-leftSide {
+  width: 100%;
+  @media screen and (min-width: 634px) {
+    width: 70%;
+  }
+}
+
+.cookie-rightSide {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  @media screen and (min-width: 634px) {
+    width: 30%;
+    margin-top: 0px;
+  }
+}
+
+.cookie-button {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+  padding: 4px 0px;
+  text-align: right;
+  margin-left: 20px;
+  margin-bottom: 8px;
+  margin-top: 2px;
+  margin-right: 10px;
+
+  :hover {
+    color: black;
+  }
+}

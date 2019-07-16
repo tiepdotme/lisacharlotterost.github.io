@@ -2,6 +2,10 @@
 layout: post
 title: One Chart, Twelve Charting Libraries
 tag: datavis, tools
+image: /pic/160426-learningcurves-15.png
+categories: [article]
+summary: I recreated the same chart with twelve frameworks & libraries, like d3.js, Vega, ggplot 2, matplotlip and Processing.
+permalink: /:year/:month/:day/:title/
 ---
 ![image](/pic/160426-learningcurves-15.png)
 
@@ -13,7 +17,7 @@ I'm fairly new to most of these libraries. If there's a better way to create the
 <br><br>
 **R – native** [R](https://www.r-project.org/) is the hippest statistical language around these days. Many data journalists all around the world feel an urge to learn it. Personally, it took me some time to understand the concept of data frames, but it's totally worth it – especially when R is used with additional libraries like [dplyr](https://cran.rstudio.com/web/packages/dplyr/vignettes/introduction.html) and [ggplot2](http://ggplot2.org/). But first, let's look at creating plots with native R, without any libraries. It is possible; often it's only a ``plot(d$income,d$health)``. But to create a bubble chart, we need the ``symbols`` function - [FlowingData shows how](https://flowingdata.com/2010/11/23/how-to-make-bubble-charts/).
 
-```python
+```R
 #set working directory
 setwd("Desktop")
 
@@ -21,7 +25,7 @@ setwd("Desktop")
 d = read.csv("data.csv", header=TRUE)
 
 #plot chart, set range for x-axis between 0 and 11
-symbols(log(d$income),d$health,circles=d$population,xlim = c(0,11))
+symbols(log(d$income), d$health,circles = d$population, xlim = c(0,11))
 ```
 
 ![image](/pic/160426_R.png)
@@ -76,7 +80,7 @@ d %>%
 ![image](/pic/160426_ggvis.png)
 
 
-More R libraries which will produce JavaScript visualisations can be found on the [htmlwidgets](http://www.htmlwidgets.org/index.html)-Website. Juuso Parkkinen wrote a really good [comparison of data vis libraries for R](http://ouzor.github.io/blog/2014/11/21/interactive-visualizations.html).
+More R libraries which will produce JavaScript visualizations can be found on the [htmlwidgets](http://www.htmlwidgets.org/index.html)-Website. Juuso Parkkinen wrote a really good [comparison of data vis libraries for R](http://ouzor.github.io/blog/2014/11/21/interactive-visualizations.html).
 
 
 
@@ -104,7 +108,7 @@ plt.show()
 
 
 <br><br>
-**Python - Seaborn** [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/index.html) is a library built on top of matplotlib. It is made for more statistical visualisations than matplotlib, and seems to be great every time you want to plot a LOT of different variables. For Non-statisticians, it might be overwhelming: There are [two possible ways](https://stanford.edu/~mwaskom/software/seaborn/tutorial/regression.html#functions-to-draw-linear-regression-models) to create a scatterplot, and Seaborn defaults to drawing the regression model (aka "trendline").
+**Python - Seaborn** [Seaborn](https://stanford.edu/~mwaskom/software/seaborn/index.html) is a library built on top of matplotlib. It is made for more statistical visualizations than matplotlib, and seems to be great every time you want to plot a LOT of different variables. For Non-statisticians, it might be overwhelming: There are [two possible ways](https://stanford.edu/~mwaskom/software/seaborn/tutorial/regression.html#functions-to-draw-linear-regression-models) to create a scatterplot, and Seaborn defaults to drawing the regression model (aka "trendline").
 
 ```python
 #import libraries
@@ -152,7 +156,7 @@ Great comparisons of more Python tools for data visualization can be found on [M
 
 <br><br>
 **Processing**
-[Processing](https://processing.org/) is the entrance to the world of coding for many designers. The huge advantage of Processing? It is highly, highly flexible; as much or even more than D3.js - and at the same time it's easier to understand and write. The disadvantage? It's not made for data visualisation. The processing coordinate system doesn't start in the bottom left corner, but in the top left corner, so I had to invert the whole canvas. And axises are possible, but complicated. Also, the result is not made for the web. Javascript libraries like [p5.js](https://p5js.org/) or [Processing.js](http://processingjs.org/) might solve that.
+[Processing](https://processing.org/) is the entrance to the world of coding for many designers. The huge advantage of Processing? It is highly, highly flexible; as much or even more than D3.js - and at the same time it's easier to understand and write. The disadvantage? It's not made for data visualization. The processing coordinate system doesn't start in the bottom left corner, but in the top left corner, so I had to invert the whole canvas. And axises are possible, but complicated. Also, the result is not made for the web. Javascript libraries like [p5.js](https://p5js.org/) or [Processing.js](http://processingjs.org/) might solve that.
 
 ```python
 void setup() {
@@ -183,7 +187,7 @@ Table table = loadTable("data.csv", "header"); #loads csv
 
 <br><br>
 **D3.js**
-[D3.js](https://d3js.org) is without current alternative options when it comes to creating highly customized, interactive data visualisations for the web. But using D3.js for a simple bubble chart is using an orchestra to just play one tone, one instrument at a time. Sure, you used the whole orchestra. But you could have played [Beethoven](https://www.youtube.com/watch?v=p5favl2Qtx0&src_vid=3SZ9QzGg95g&feature=iv&annotation_id=annotation_373828).
+[D3.js](https://d3js.org) is without current alternative options when it comes to creating highly customized, interactive data visualizations for the web. But using D3.js for a simple bubble chart is using an orchestra to just play one tone, one instrument at a time. Sure, you used the whole orchestra. But you could have played [Beethoven](https://www.youtube.com/watch?v=p5favl2Qtx0&src_vid=3SZ9QzGg95g&feature=iv&annotation_id=annotation_373828).
 
 D3.js is a Javascript library with so few defaults that you need to define everything yourself. The disadvantage? Lengthy code. The advantage? It forces you to think about every single one of your settings. One example: Because in D3 I need to define all ranges and domains of scales myself, I was forced to think about the sizes of the bubbles - of all the languages in this blog post, only Processing wanted me to do the same.
 
@@ -353,7 +357,7 @@ What's the problem, you ask? It seems like you can't assign variables to axises.
 
 
 <br><br>
-**Vega** One of the most important thing that came out of the [University of Washington Interactive Data Lab](https://kmo16.slack.com/archives/general/p1463161829000457) is their "visualisation grammar" called [Vega](https://vega.github.io/vega/), and its light brother, [Vega-Lite](https://vega.github.io/vega-lite/). Vega feels like an as-much-in-depth charting library like D3.js, but is a little bit less flexible, I believe. It's definitely easier to build charts with Vega then it is with D3.js. The JSON-structure (which forces you to set everything in quotes and curly brackets) is a little bit annoying, but besides that I'm positively surprised.
+**Vega** One of the most important thing that came out of the [University of Washington Interactive Data Lab](https://kmo16.slack.com/archives/general/p1463161829000457) is their "visualization grammar" called [Vega](https://vega.github.io/vega/), and its light brother, [Vega-Lite](https://vega.github.io/vega-lite/). Vega feels like an as-much-in-depth charting library like D3.js, but is a little bit less flexible, I believe. It's definitely easier to build charts with Vega then it is with D3.js. The JSON-structure (which forces you to set everything in quotes and curly brackets) is a little bit annoying, but besides that I'm positively surprised.
 
 
 ```json
@@ -449,7 +453,7 @@ What's the problem, you ask? It seems like you can't assign variables to axises.
 
 
 <br><br>
-**Vega Lite** ....and here's [Vega Lite](https://vega.github.io/vega-lite/), the less complex & flexible than Vega, more high-level visualisation grammar. Similar to Vega it has a JSON-like structure, but it sets so much more defaults. It seems amazing, ~~but I couldn't figure out a way to set the height and width of the whole chart.~~ *Edit:* The Vega people showed me how to set the height and the width of the chart. Doesn't seem suuuuper intuitive, but ok. The output looks exactly the same as it does with the Vega-Lite editor [Polestar](https://vega.github.io/polestar/).
+**Vega Lite** ....and here's [Vega Lite](https://vega.github.io/vega-lite/), the less complex & flexible than Vega, more high-level visualization grammar. Similar to Vega it has a JSON-like structure, but it sets so much more defaults. It seems amazing, ~~but I couldn't figure out a way to set the height and width of the whole chart.~~ *Edit:* The Vega people showed me how to set the height and the width of the chart. Doesn't seem suuuuper intuitive, but ok. The output looks exactly the same as it does with the Vega-Lite editor [Polestar](https://vega.github.io/polestar/).
 
 ```json
 {

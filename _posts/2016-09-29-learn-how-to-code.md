@@ -2,7 +2,12 @@
 layout: post
 title: How I Feel When I Learn To Code
 tag: thoughts
+image: /pic/160928_Learnhowtocode-f.png
+categories: [fav, article]
+summary: "Aaaall the feels: Pride, Panic, Despair, Overwhelm, Annoyance."
+permalink: /:year/:month/:day/:title/
 ---
+
 
 ![image](/pic/160929_LearnHowToCode.gif)
 

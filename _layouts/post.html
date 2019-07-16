@@ -1,44 +1,129 @@
 ---
 layout: default
 ---
+<div class="completeright">
+<div class="blogcontainer">
 
-<span class="post-date"><a href="http://lisacharlotterost.github.io">&larr; Go back</a><br><br></span>
-<div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
-  <span class="post-date">{{ page.date | date_to_string }}</span>
-  {{ content }}
+<!-- show blog post header-->
+<div class="blogheader">
+  <hr>
+  <h1 class="article-title">
+      {{ page.title }}
+  </h1>
+  <span class="article-date">
+
+    <!-- display month & year when blog post or talk. Only display year for design work -->
+    {% if page.categories contains "design" %}
+       {{ page.date | date: "%Y" }}
+    {% else %}
+       {{ page.date | date_to_long_string }}
+    {% endif %}
+
+    <!-- show for which client I've worked for on portfolio piece -->
+    {% unless page.whofor == nil %}
+      <b><span style="color:#cc0000">{{ page.whofor }}</b></span>
+    {% endunless %}
+
+  </span>
 </div>
 
-<div id="disqus_thread"></div>
-    <script type="text/javascript">
-        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        var disqus_shortname = 'lisacharlotterost'; // required: replace example with your forum shortname
+<!-- show actual article -->
+<div class="article-text">
 
-        /* * * DON'T EDIT BELOW THIS LINE * * */
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
+  <!-- show bigger images for portfolio pieces -->
+  {% if page.categories contains "design" %}
+     <div class="biggerimages">
+       {{ content }}
+     </div>
+  {% else %}
+     {{ content }}
+  {% endif %}
 
-<hr class="fullWidth">
+</div>
 
-<div class="related">
-  <h2>Related Posts</h2>
-  <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h5>
-          <a href="{{ post.url }}">
+
+<!-- show comments-->
+{% unless page.comments contains "disabled" %}
+
+<div id="commentsection">
+    <hr>
+    <h1>Comments</h1><br>
+
+    <div id="disqus_thread"></div>
+
+</div>
+
+{% endunless %}
+
+
+<!-- find out the **last** category in the frontmatter-category-array to display more articles in that category. E.g, if the frontmatter-array is [fav, article, talks], the following code displays a "Other talks" section -->
+{% capture category_name %}{{ page.categories | last }}{% endcapture %}
+
+<!-- display headlines accordingly -->
+<div class="relatedarticles">
+  <hr>
+
+  {% case category_name %}
+  {% when "article" %}
+    <h1>Most recent articles</h1><br>
+  {% when "talk" %}
+    <h1>Other Talks</h1><br>
+  {% when "design" %}
+    <h1>Other Projects</h1><br>
+  {% endcase %}
+
+  <div class="grid">
+
+    <!-- show only related articles if they're a post (not an impressum or about page) and if it's not the same article that is currently displayed. The following code might be able to simplify with a where_exp expression directly in the 'for post in posts limit:6 ' afterward, but I couldn't get it running. Code is from here: https://github.com/jekyll/jekyll/pull/4478 -->
+    {% assign posts = "" | split: "|" %}
+      {% for item in site.categories[category_name] %}
+        {% if item.layout == 'post' and item.title != page.title %}
+          {% assign posts = posts | push: item %}
+        {% endif %}
+      {% endfor %}
+
+      <!-- show 6 related articles-->
+      {% for post in posts limit:6 %}
+
+      <!-- open external links -->
+      {% capture url_to_use %}{{ post.url }}{% endcapture %}
+      {% if post.external %}
+        {% capture url_to_use %}{{ post.external }}{% endcapture %}
+      {% endif %}
+
+      <!-- display title, image and date for each post -->
+      <a class="thumb" href="{{ post.url }}">
+      <div class="post">
+        <div class="post-image">
+          <img src="{{ post.image }}"/>
+        </div>
+        <div class="post-date">
+
+          <!-- display month & year when blog post or talk. Only display year for design work -->
+          {% if category contains "design" %}
+             {{ post.date | date: "%Y" }}
+          {% else %}
+             {{ post.date | date: "%B %Y" }}
+          {% endif %}
+
+          <!-- show for which client I've worked for -->
+          {% unless post.whofor == nil %}
+            <b><span style="color:#cc0000">{{ post.whofor }}</b></span>
+          {% endunless %}
+
+        </div>
+        <h1 class="post-title">
             {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h5>
-      </li>
+        </h1>
+        <div class="post-summary">
+            {{ post.summary }}
+        </div>
+      </div></a>
     {% endfor %}
-  </ul>
 </div>
 
+
+</div>
+
+</div>
+</div>

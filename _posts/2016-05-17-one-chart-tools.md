@@ -2,6 +2,10 @@
 layout: post
 title: One Chart, Twelve Tools
 tag: tools, datavis
+image: /pic/160426-learningcurves-14.png
+categories: [article]
+summary: I recreated the same chart with twelve drag&drop charting apps, like Excel, Tableau, Plotly, RAW and Adobe Illustrator.
+permalink: /:year/:month/:day/:title/
 ---
 ![image](/pic/160426-learningcurves-14.png)
 
@@ -11,13 +15,12 @@ tag: tools, datavis
 
 Which tool or charting framework do you use to visualize data? Everybody I've met so far has personal preferences ("I got introduced to data vis with that tool!", "My hero uses that tool and she makes the best charts!"). Often we keep working with the first not-entirely-bad tool or language that we encountered.
 
-I think it can't hurt to have a wider view of the options out there: To maybe discover better tools than the ones we use; but also to reassure us that the tools we use ARE really the best (so far). That's what this post and the next post is about. I wanted to get to know as many options to visualise data as possible. To do that, **I took the same dataset and visualized it with 12 different tools (this post) and [12 different charting libraries](http://lisacharlotterost.github.io/2016/05/17/one-chart-code/) (next post).**
+I think it can't hurt to have a wider view of the options out there: To maybe discover better tools than the ones we use; but also to reassure us that the tools we use ARE really the best (so far). That's what this post and the next post is about. I wanted to get to know as many options to visualize data as possible. To do that, **I took the same dataset and visualized it with 12 different tools (this post) and [12 different charting libraries](http://lisacharlotterost.github.io/2016/05/17/one-chart-code/) (next post).**
 
 If they are important tools I missed, or if I missed some features in a tool or a better way to get to the bubble chart, or if I'm wrong about a thing or two, or if you completely disagree with my opinion about these tools (which, I'm sure, will happen): Let me know on [Twitter](https://twitter.com/lisacrost) or via email (lisacharlotterost@gmail.com)!
 
 
-<br><br>
-**The Data & the Visualization Form**
+# The Data & the Visualization Form
 
 To visualize data, you need data. I will use a dataset that contains the health expectancy in years, GDP per capita and population for 187 countries in 2015, [provided by Gapminder](http://www.gapminder.org/data/).  [Here](https://docs.google.com/spreadsheets/d/1qmOCE6RBQc2hy-vW8Kefp--LcWpgwCysmgIgARy0gDk/edit?usp=sharing)'s a Google Spreadsheet with the data:
 
@@ -72,7 +75,7 @@ I like [Lyra](http://idl.cs.washington.edu/projects/lyra/). I'm a fan. It's been
 **Tableau Public**
 What can I say - [Tableau Public](https://public.tableau.com/s/) just works well for data like this. It's too slow for my taste to use it for interactive graphs, and it's a huge shame that it's not possible to export SVGs or PDFs or anything, really, in the free version. But for exploration, it's still one of my favorite tools.
 
-*Edit:* [Ben Jones](https://twitter.com/DataRemixed) explained that it's possible to download an Illustrator-tweakable PDF of the [chart](https://public.tableau.com/profile/digitalteam#!/vizhome/GapminderData/Dashboard1) after uploading it to the cloud. Needing to upload the chart is not awesome, but being able to export a PDF is pretty awesome and could have helped me a lot in the past. It turns Tableau into an Illustrator extension. 
+*Edit:* [Ben Jones](https://twitter.com/DataRemixed) explained that it's possible to download an Illustrator-tweakable PDF of the [chart](https://public.tableau.com/profile/digitalteam#!/vizhome/GapminderData/Dashboard1) after uploading it to the cloud. Needing to upload the chart is not awesome, but being able to export a PDF is pretty awesome and could have helped me a lot in the past. It turns Tableau into an Illustrator extension.
 ![gif](/pic/16046_tableau2.gif)
 [![image](/pic/160426_tableau.png)](https://public.tableau.com/s/)
 
@@ -113,9 +116,9 @@ I first came across [NodeBox](https://www.nodebox.net/) in this [Visualoop artic
 
 <br><br>
 **Datawrapper**
-~~Some of you might have noticed that I didn't mention their  beloved~~ [Datawrapper](https://datawrapper.de/). This tool is one of the easier chart-clicky-tool out there and is used by many newsrooms. ~~But it doesn't offer scatterplots. The explanation I was given: Datawrapper is supposed to be for presentation only, and scatterplots are a presentation format that should be handled with care.~~ 
+~~Some of you might have noticed that I didn't mention their  beloved~~ [Datawrapper](https://datawrapper.de/). This tool is one of the easier chart-clicky-tool out there and is used by many newsrooms. ~~But it doesn't offer scatterplots. The explanation I was given: Datawrapper is supposed to be for presentation only, and scatterplots are a presentation format that should be handled with care.~~
 
-*Edit:* In March 2017, Datawrapper started to [offer scatterplots](https://blog.datawrapper.de/introducing-scatter-plot-66b8d8a99abc) as a chart type. The process for creating them works really well with my data. Datawrapper is one of the rare tools that automatically assigns my variables to the axes exactly as I intended to. I'm impressed that it even offers log scales, since it's supposed to be a easy-to-use tool for editors (maybe log scales are too much for that aim? Not sure). And wow, I do love editing the axis labels directly in the chart. Convenient as heck. 
+*Edit:* In March 2017, Datawrapper started to [offer scatterplots](https://blog.datawrapper.de/introducing-scatter-plot-66b8d8a99abc) as a chart type. The process for creating them works really well with my data. Datawrapper is one of the rare tools that automatically assigns my variables to the axes exactly as I intended to. I'm impressed that it even offers log scales, since it's supposed to be a easy-to-use tool for editors (maybe log scales are too much for that aim? Not sure). And wow, I do love editing the axis labels directly in the chart. Convenient as heck.
 
 ![gif](/pic/160426-datawrapper.gif)
 [![image](/pic/160426-datawrapper.png)](https://www.datawrapper.de)

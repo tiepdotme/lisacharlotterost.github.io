@@ -2,6 +2,10 @@
 layout: post
 title: The Difference between Harmony and Balance
 tag: aesthetics, mastersthesis
+categories: [article]
+summary: '"Harmony means exactly that everybody is on the same page, not the opposite."'
+image: /pic/master_balance-f.png
+permalink: /:year/:month/:day/:title/
 ---
 ![harmony](/pic/master_balance3.jpg)
 
@@ -24,4 +28,4 @@ M: You’re creating arguments with this attitude. Harmony means exactly that ev
 ---
 I found that super interesting. Especially, because my friend M. really designs according to her definition of harmony: Everything on her pages exists beautifully in coexistence with every other element.
 
-I, however, try to find contrasts. I try to use super thin and super thick lines on the same page. Bold elements and delicate ones. A lot of white space and a lot of complexity. My understanding of harmony changes the way I am designing. 
+I, however, try to find contrasts. I try to use super thin and super thick lines on the same page. Bold elements and delicate ones. A lot of white space and a lot of complexity. My understanding of harmony changes the way I am designing.

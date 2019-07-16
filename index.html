@@ -1,40 +1,148 @@
 ---
 layout: default
-title: Home
+title: Portfolio
 ---
 
+<div class="completeright">
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+  <div class="intro">
+    <hr>
+    <h2>
+      Hi! My name is Lisa. -><a href="/about"><img src="/pic/000000-about2.png" width="70px" alt="profile pic Lisa" style="margin-bottom:-10px"></a> <br>
+      I <a href="/projects.html">create</a>, <a href="/talks.html">talk</a> & <a href="/articles.html">write</a> about data vis, currently for <a href="https://www.datawrapper.de" target="_blank">Datawrapper</a> in Berlin. Here I show what I've worked on in the past few years.<br>
+    </h2><br>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <div class="sidebar-text">
+      &rarr; <a href="mailto:lisacharlotterost@gmail.com">EMAIL</a>&emsp;
+      &rarr; <a href="https://twitter.com/lisacrost" target="_blank">TWITTER</a>&emsp;
+      &rarr; <a href="https://github.com/lisacharlotterost" target="_blank">GITHUB</a>&emsp;
+      &rarr; <a href="https://www.linkedin.com/in/lisacharlotterost/" target="_blank">LINKEDIN</a>&emsp;
+      &rarr; <a href="/impressum.html">IMPRESSUM</a>
+    </div>
 
-    {{ post.content }}
-	  <br> <hr class="fullWidth">
   </div>
+
+  {% assign array = "article|talk|design" | split:'|' %}
+  {% for category in site.categories %}
+
+    <!-- don't show the category "fav" as a category -->
+    {% unless category contains "fav" %}
+
+    <!-- find out & display the name of each category -->
+    {% capture category_name %}{{ category | first }}{% endcapture %}
+    <div class="category-header">
+      <hr>
+      {% case category_name %}
+      {% when "article" %}
+        <a name="articles" class="anchor"></a>
+        <h2>Selected Articles</h2>
+        <div class="sidebar-text">
+          &rarr; <a href="/articles.html">SEE ALL ARTICLES</a>
+        </div>
+      {% when "talk" %}
+        <a name="talks" class="anchor"></a>
+        <h2>Selected Talks</h2>
+        <div class="sidebar-text">
+          &rarr; <a href="/talks.html">SEE ALL TALKS</a>
+        </div>
+      {% when "design" %}
+        <a name="projects" class="anchor"></a>
+        <h2>Selected Projects</h2>
+        <div class="sidebar-text">
+          &rarr; <a href="/projects.html">SEE ALL PROJECTS</a>
+        </div>
+      {% endcase %}
+
+      <!-- put a little intro text below each category title -->
+      <div class="blogcontainer article-text">
+
+          {% case category_name %}
+          {% when "article" %}
+            <p>"To understand something, write about it," they say. I'm curious. So I started writing: first on my personal blog, mostly about data vis when I got into the field around 2014. There was so much to learn! Since November 2017, I get paid by Datawrapper to do just that: Figuring things out, and <a href="https://blog.datawrapper.de/">taking you all on a tour with me</a>. These are my best articles from both eras:</p>
+          {% when "talk" %}
+            <p>Talks let me combine images (slides) and text (my speech) in a more tension-building, direct way than blog posts. I taught data vis at different universites and have given general data vis workshops over the years – but here you can find the talks I used as an excuse to research a completely new question:</p>
+          {% else %}
+            <p>Before delving into data vis, I studied print design for six years. These are some of older student works (still data vis related-ish), and newer ones I've created for newsrooms or my blog. You can also find some charts I've created during my time at Datawrapper:</p>
+          {% endcase %}
+      </div>
+    </div>
+
+
+  <div class="grid">
+
+    {% for post in site.categories[category_name] %}
+
+      <!-- only display the post in a category if it's the **last** category in the frontmatter-category-array. E.g, if the frontmatter-array of a post is [fav, article, talks], it won't show in the article-category, but only in the talks-category. -->
+      <!-- also, only show an article if it's in the fav category. -->
+      {% capture category_name-actual %}{{ post.categories | last }}{% endcapture %}
+      {% if post.categories contains "fav" and category_name-actual == category_name %}
+
+      <!-- open external links -->
+      {% capture url_to_use %}{{ post.url }}{% endcapture %}
+      {% if post.external %}
+        {% capture url_to_use %}{{ post.external }}{% endcapture %}
+      {% endif %}
+
+      <!-- display title, image and date for each post -->
+      <a class="thumb" href="{{ post.url }}">
+        <div class="post">
+        <div class="post-image">
+          <img src="{{ post.image }}"/>
+        </div>
+        <div class="post-date">
+
+          <!-- display month & year when blog post or talk. Only display year for design work -->
+          {% if category contains "design" %}
+             {{ post.date | date: "%Y" }}
+          {% else %}
+             {{ post.date | date: "%B %Y" }}
+          {% endif %}
+
+          <!-- show for which client I've worked for -->
+          {% unless post.whofor == nil %}
+            <b><span style="color:#cc0000">{{ post.whofor }}</b></span>
+          {% endunless %}
+
+        </div>
+        <h1 class="post-title">
+            {{ post.title }}
+        </h1>
+        <div class="post-summary">
+            {{ post.summary }}
+        </div>
+      </div></a>
+      {% endif %}
+
+    {% endfor %}
+
+
+  </div>
+  {% endunless %}
   {% endfor %}
 
+  <div class="category-header">
+    <hr>
+
+    <a id="aboutme"></a><h2>About me</h2>
+    <div class="sidebar-text">
+      &rarr; <a href="/about.html">LEARN MORE</a>
+    </div>
+    {% include aboutme.html %}
+<br>
+    <!-- <div class="blogcontainer article-text">
+
+    <div class="sidebar-text" style="display:inline;"><a style="color:#cc0000; border-bottom: 0px;" onclick="newQuote()">&rarr; SHOW ANOTHER NICE THING SOMEONE HAS SAID ABOUT ME</a></div>
+
+    <p><h1 id="quotegenerator" style="margin-top: 0px; margin-bottom: 5px;">Wonderfully reasoned and illustrated, and will save me loads of time and headaches from explaining this repeatedly.</h1>
+
+    — <small id="quoter">Bill Rapp</small> </p>
+
+    <script src='/quotegenerator.js'></script>
+<br><br>
+
+    </div> -->
 </div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">&larr; Older</a>
-  {% else %}
-    <span class="pagination-item older">&larr; Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer &rarr;</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer &rarr;</span>
-  {% endif %}
 </div>
+
+<!-- &thinsp; <a class="see-all-link" href="/projects.html">&rarr; SEE ALL PROJECTS</a></p> -->

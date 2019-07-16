@@ -1,0 +1,198 @@
+// This is a partial.
+// It lies in <source>/_sass, just waiting to be imported.
+// It does not contain the YAML front matter and has no corresponding output file in the built site.
+
+
+html {
+  @media screen and (max-width: $break-small) {
+      font-size: 14px;
+    }
+  @media screen and (min-width: $break-small) {
+      font-size: 16px;
+    }
+  @media screen and (min-width: $break-large) {
+      font-size: 18px;
+    }
+}
+
+body {
+  font-family: $bodyfont;
+  color: $maincolor;
+}
+
+
+h1 {
+  font-size: $sans-small;
+  line-height: $sans-small-lh;
+  font-weight: $fw-medium;
+}
+
+h2 {
+
+  @media screen and (max-width: $break-small) {
+    font-size: $sans-bigger;
+    line-height: $sans-bigger-lh;
+  }
+  font-size: $sans-big;
+  line-height: $sans-big-lh;
+  font-weight: $fw-medium;
+  margin: 0;
+  font-family: $bodyfont;
+
+  a {
+    color: $maincolor;
+    text-decoration: none;
+    border-bottom: 3px solid #ccc;
+  }
+  a:hover {
+    color: $highlight;
+    text-decoration: none;
+    border-bottom: 3px solid $highlight;
+  }
+}
+
+.intro-highlight {
+  color: $highlight;
+  a {
+    color: $highlight;
+    border-bottom: 3px solid $highlight;
+  }
+  a:hover {
+    color: #ccc;
+    text-decoration: none;
+    border-bottom: 3px solid #ccc;
+  }
+}
+
+.category-header {
+  h2 {
+    font-size: $sans-bigger;
+    line-height: 3rem;
+    font-weight: $fw-medium;
+    margin: 0;
+  }
+}
+
+.post-summary {
+  line-height: 2rem;
+}
+
+a {
+  color: $maincolor;
+  text-decoration: none;
+}
+
+
+.sidebar-text {
+  font-family: $titlefont;
+  font-size: 0.7rem;
+  font-weight: $fw-medium;
+  color: $toneddown;
+  letter-spacing: 2px;
+  line-height: 1.2rem;
+  text-decoration: none;
+
+  a {
+    color: $toneddown;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: $highlight;
+    text-decoration: none;
+  }
+}
+
+
+.blogheader {
+  h1 {
+    font-size: $sans-medium;
+    line-height: $sans-medium-lh;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .article-date {
+    font-size: $sans-tiny;
+  }
+}
+
+
+.article-text {
+  font-family: $articlefont;
+  font-size: 1.15rem;
+  line-height: 2.19rem;
+  display: inline;
+
+  h1 {
+    font-family: $bodyfont;
+    font-size: $sans-medium;
+    line-height: $sans-medium-lh;
+    color: $maincolor;
+    margin-top: 60px;
+  }
+
+  h2 {
+    font-family: $bodyfont;
+    font-size: $sans-small;
+    line-height: $sans-small-lh;
+    font-weight: $fw-medium;
+    color: $toneddown;
+    margin-top: 40px;
+  }
+  a img {  // todo
+    border-bottom: blue;
+  }
+  a {
+    color: $maincolor;
+    text-decoration: none;
+    border-bottom: 1.8px solid #ccc;
+  }
+  a:hover {
+    color: $highlight;
+    text-decoration: none;
+    border-bottom: 2px solid $highlight;
+  }
+  .pullquote {
+    font-size: $sans-medium;
+    line-height: $sans-medium-lh+0.25rem;
+    font-style: italic;
+    color: $toneddown;
+  }
+}
+
+a.see-all-link {
+  font-family: $titlefont;
+  font-size: 0.7rem;
+  font-weight: $fw-thick;
+  color: white;
+  letter-spacing: 2px;
+  line-height: 1.2rem;
+  border: solid $toneddown;
+  border-width: 2px 7px;
+  background-color: $toneddown;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: 3px;
+
+  &:hover {
+    text-decoration: none;
+    color: white;
+    border: solid $highlight;
+    border-width: 2px 7px;
+    background-color: $highlight;
+  }
+}
+
+.footnotes {
+  font-size: 1rem;
+  line-height: 1.7rem;
+
+  ol {
+    padding-left: 0px;
+    list-style-position: inside;
+  }
+
+  li {
+    margin-bottom: 2rem;
+  }
+}

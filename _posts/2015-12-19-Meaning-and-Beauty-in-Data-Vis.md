@@ -2,6 +2,10 @@
 layout: post
 title: Meaning + Beauty in Data Vis and Data Art
 tag: datavis, thoughts,
+image: /pic/151220_DataVisDataArt-f.png
+categories: [fav, article]
+summary: In Data Vis, we should see aesthetics as a tool to increase understanding. In Data Art, we can see aesthetics as the purpose.
+permalink: /:year/:month/:day/:title/
 ---
 
 **tl;dr: In Data Vis, we should see aesthetics as a tool to increase understanding. In Data Art, we can see aesthetics as the purpose.**
@@ -10,7 +14,7 @@ My last blog post let to a [great, great debate on Twitter](https://twitter.com/
 
 I stumbled across one argument in this debate which I've met a few times so far: **A data vis needs to be beautiful to be insightful**. For example, Kim Rees noted in [her comment on the Manifesto](http://www.visualcomplexity.com/vc/blog/?p=644):
 
-	"Visualizations should be coherent, convey information, and be good looking. We can compare this to architecture. An architect may focus solely on the structure and not the aesthetic and fail. Or she may focus solely on the aesthetic not the structure and fail. It’s the great (and few) architects who excel at both who create the truly wonderful buildings. [...]  I believe aesthetics are crucial to a coherent visualization."
+>Visualizations should be coherent, convey information, and be good looking. We can compare this to architecture. An architect may focus solely on the structure and not the aesthetic and fail. Or she may focus solely on the aesthetic not the structure and fail. It’s the great (and few) architects who excel at both who create the truly wonderful buildings. [...]  I believe aesthetics are crucial to a coherent visualization.
 
 I think she's right, but it actually works in favor of thinking that "A divide is necessary, to help both fields", as I do. I want to extend on her point and result in a claim for more Data Art. For that, I'll use the same "goals" of Data Vis that Kim Rees mentioned: a) conveying information, being insightful and increasing "understanding" of a dataset, being meaningful. And b) Aesthetics, beauty, being visual pleasing, being good looking. For me, the first point – understanding – is the ultimate goal of a Data Vis. This can mean proving a point, providing an overview of a topic or optimizing an exploratory Data Vis for insight discovery.
 

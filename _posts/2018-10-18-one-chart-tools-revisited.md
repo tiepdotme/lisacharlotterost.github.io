@@ -2,9 +2,11 @@
 layout: post
 title: One Chart, Nine Tools – Revisited
 tag: tools, datavis
-summary: 2.5 years ago I wrote an article recreating the same chart with 24 different charting tools. It's time to revisit some of them.
+summary: 2.5 years ago I recreated the same chart with 24 different charting tools. It's time to revisit some of them.
 image: /pic/180929-twitter.png
+desc: Recreating the same chart with nine different charting tools.
 permalink: datavistools-revisited
+categories: [fav, article]
 ---
 
 ![image](/pic/180929-header.png)
@@ -27,23 +29,28 @@ There's also something new: **I'll embed all embeddable charts**, e.g. from Info
 **As last time, I will have opinions.** Keep in mind that these are utterly subjective and only about the workflow that I had when creating this specific bubble chart with this specific data. My reviews won't tell you about the experience of creating another chart type with the same tool. Or about the experience of creating the same chart with different data. Or which chart types you can create in these tools (head over to Andy Kirk's [Chartmaker Directory](http://chartmaker.visualisingdata.com/) to find out). I hope it's still useful to see these tools in action. Let's start:
 
 
-<br><br>
-**E M B E D D A B L E  C H A R T S**
+# Embeddable Charts
 
-<br>
 **Infogram** I'm not sure why I missed [Infogram](https://infogram.com/) in the last blog post. Now owned by Prezi, it's a colorful tool that outputs interactive charts. What I liked (and most tools don't offer): Infogram showed me my chart and its underlying data on the same page. In general, this tool did exactly what I wanted, although I missed some options: setting the opacity and a log scale, and adding labels to my bubbles. And I couldn't assign data columns to axes: If my columns were in a different order, I would have needed to reorder them first.  
 
 ![image](/pic/180929-infogram.gif)
 
+<div class="embed"><div class="embed-120">
+
 <script id="infogram_0_c4720150-8a3d-4d2d-b7c3-8ecc8e42be94" title="" src="https://e.infogram.com/js/dist/embed.js?Xgi" type="text/javascript"></script><div style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"><br><a href="https://infogram.com" style="color:#989898!important;text-decoration:none!important;"  rel="nofollow">Infogram</a></div>
 
+</div></div>
 
 <br><br>
 **Flourish** The [new](https://flourish.studio/2018/02/01/flourish_public_launch/) player in the tool landscape! Exciting. It's neat to see [Flourish](https://flourish.studio/) evolve. Like Infogram, Flourish did what I wanted it to do. But better than Infogram, I could assign data columns to axes (typing in the column numbers requires a bit of concentration). Flourish even gave me labels, although I couldn't get them to work well with my many bubbles. Opposite to Infogram, there wasn't a simple "make background transparent and have no margins" options, though. I had to set the margins manually.
 
 ![Flourish GIF of the process](/pic/180929-flourish.gif)
 
+<div class="embed"><div class="embed-120">
+
 <div class="flourish-embed" data-src="visualisation/115286" data-height="350px"></div><script src="https://public.flourish.studio/resources/embed.js"></script>
+
+</div></div>
 
 
 
@@ -52,7 +59,12 @@ There's also something new: **I'll embed all embeddable charts**, e.g. from Info
 
 ![Datawrapper chart process as a gif](/pic/180929_Datawrapper.gif)
 
+
+<div class="embed"><div class="embed-120">
+
 <iframe id="datawrapper-chart-oJtgY" src="//datawrapper.dwcdn.net/oJtgY/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="400"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["oJtgY"]={},window.datawrapper["oJtgY"].embedDeltas={"100":400,"200":400,"300":400,"400":400,"500":400,"700":400,"800":400,"900":400,"1000":400},window.datawrapper["oJtgY"].iframe=document.getElementById("datawrapper-chart-oJtgY"),window.datawrapper["oJtgY"].iframe.style.height=window.datawrapper["oJtgY"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["oJtgY"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("oJtgY"==b)window.datawrapper["oJtgY"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+
+</div></div>
 
 
 This is how I created the same chart in Datawrapper for the last blog post, in June 2017:
@@ -66,18 +78,24 @@ What can I say - [Tableau Public](https://public.tableau.com/s/) works well for 
 
 ![gif](/pic/180929-tableau.gif)
 
+<div class="embed"><div class="embed-120">
 
 <div class='tableauPlaceholder' id='viz1538251135815' style='position: relative'><noscript><a href='#'><img alt='Sheet 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HealthvsIncome&#47;Sheet1&#47;1_rss.png' style='border: none'/></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='HealthvsIncome&#47;Sheet1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;He&#47;HealthvsIncome&#47;Sheet1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /></object>
 </div>
 <script type='text/javascript'>var divElement = document.getElementById('viz1538251135815'); var vizElement = divElement.getElementsByTagName('object')[0]; vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.6)+'px'; var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement); </script>
 
+</div></div>
 
 <br><br>
 **Plotly** I like [Plotly](https://plot.ly). It was definitely one of my favorite tools last time – <s>but last time, I was also able to let my population column resize the bubbles. Not this time. In Chrome, the site froze; in Firefox, it showed me giant bubbles which size I couldn't change.</s> Edit: Plotly fixed this error after the blogpost came out. The bubbles don't resize automatically, but at least it works. Yay! (I updated the GIF below, too.) Plotly is still close to my heart, though: It handles big-ish datasets well and can create all kinds of fancy visualizations that you'd only need as a scientist ([3D](https://plot.ly/~chris/10796)! [Heatmaps!](https://plot.ly/~DanielCarrera/13/vertical-direction-vs-radial-direction/#/)!).
 
 ![gif](/pic/180929_plotlynew.gif)
 
+<div class="embed"><div class="embed-120">
+
 <iframe width="100%" height="350px" frameborder="0" scrolling="no" src="//plot.ly/~lisacrost/19.embed"></iframe>
+
+</div></div>
 
 Below you can see how I created the same chart in Plotly for the last blog post, in April 2016. Assigning variables to the axes was better solved back then. In the new chart editor, I need to choose column header numbers, Flourish-style. Also, the old editor named my axes automatically ("income", "health"). <s>And did I mention that my bubbles sized properly back then? Good old times.</s>
 
@@ -91,15 +109,18 @@ Below you can see how I created the same chart in Plotly for the last blog post,
 ![gif](/pic/180929_googlesheets.gif)
 
 
+<div class="embed"><div class="embed-120">
+
 <iframe width="100%" height="370px" frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTpXl5zc2MVunQejAOYnNcUiwh61OFdzwNl8j-gJrOof3sRk0u-_gdLcF5bsjv9fRDij7oGWMlvFk_Q/pubchart?oid=1840595858&amp;format=interactive"></iframe>
+
+</div></div>
 
 That's how I created the same chart 2.5 years ago:
 
 ![image](/pic/160426-google.gif)
 
 
-<br><br>
-**N O N – E M B E D D A B L E  C H A R T S**
+# Non-embeddable Charts
 
 **Adobe Illustrator**
 Ah, [Adobe Illustrator](https://www.adobe.com/products/illustrator.html). A tool that almost every Information Designer uses for static designs, daily. Let's be precise here: The charting options in Illustrator suck. There's no way to set the circle size or a log scale, but I'd just call that limited functionality. What's really frustrating is that you can't edit the data anymore once you decide that it's time to properly design the chart.
@@ -127,8 +148,7 @@ I'd call [RAW](https://rawgraphs.io/) a super-easy-to-use extension for Adobe Il
 
 
 
-<br><br>
-**O U T T A K E S**
+# Outtakes
 
 Like this entire review, my selection is massively biased and subjective. In general, I focus on drag&drop charting apps with the goal of presentation, not analysis. But when I wrote the [predecessor of this blog post](https://lisacharlotterost.github.io/2016/05/17/one-chart-tools/) 2.5 years ago, I reviewed seven more tools. Why did I not update my reviews for them? Here's why:
 

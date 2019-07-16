@@ -1,46 +1,33 @@
-<div class="sidebar">
-  <div class="container">
-    <div class="sidebar-about">
-      <h2>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
-      </h2>
-      <p class="lead">{{ site.description }}</p>
-    </div><br>
+<div class="sidebar sidebar-text">
 
-    <nav class="sidebar-nav"><h4>
-	<br>
-	<a href="http://lisacharlotterost.de" target="_blank" >Portfolio</a>
-  & <a href="https://twitter.com/lisacrost" target="_blank">Twitter</a>
-
-<!--      {% comment %}
-        The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
-      {% endcomment %}
-
-      {% assign pages_list = site.pages %}
-      {% for node in pages_list %}
-        {% if node.title != null %}
-          {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
-          {% endif %}
-        {% endif %}
-      {% endfor %}-->
-
-
-	<hr>
-	<a class="sidebar-nav-item" href="/blogposts/">All Blog Articles</a
-	</nav><hr>
-	<ul class="related-posts">
-    {% for post in site.posts % limit:3 %}
-      <li><h4>
-	  	<a href="{{ post.url }}">{{ post.title }}
-		<small>{{ post.date | date_to_string }}</small></a>
-	  </h4>
-	  </li>
-    {% endfor %}</h4>
-  </ul>
-
+  <!-- show my name at the top -->
+  <div class="sidebar-top">
+    <div class="sidebar-title">
+      <a href="/">LISA&nbsp;<br>CHARLOTTE&nbsp;<br>ROST</a>
+    </div>
   </div>
+
+
+  <!-- If the user is within a post, hide the menu when the user scrolls down. Otherwise, show it all the time.  -->
+
+  {% if page.layout == "post" %}
+  <div class="sidebar-index">
+
+  {% else %}
+  <div class="sidebar-index-hidden">
+  {% endif %}
+
+    <nav>
+      <ul>
+        <!-- Show the menu (tge structure is in the _data folder)  -->
+        {% for item in site.data.menupoints.docs %}
+          <li class="{% if item.url == page.url %}active{% endif %}">
+            <a href="{{ item.url }}">{{ item.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+
+
 </div>

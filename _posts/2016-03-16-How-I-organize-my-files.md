@@ -1,7 +1,10 @@
 ---
 layout: post
-title: How I Organise my Files
-tag: organisation,
+title: How I Organize my Files
+categories: [article]
+summary: '"In the beginning, there was organisation. Then, files flooded in."'
+image: /pic/160316_FilesOrg-f.jpg
+permalink: /:year/:month/:day/:title/
 ---
 
 **tl;dr: File organisation means avoiding crammed folders. On my highest folder hierarchy, I only have my most used categories and current projects. Also, my desktop is my file inbox: Every file I touch on a day goes there.**

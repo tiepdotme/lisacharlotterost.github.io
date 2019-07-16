@@ -1,7 +1,11 @@
 ---
 layout: post
 title: Trying to make sense of the Mapbox ecosystem
-tag: datavis, maps, learning, 
+tag: datavis, maps, learning,
+categories: [article]
+summary: '"Mapbox and I seem to have a typical love-hate-relationship."'
+image: /pic/141104_mapbox-f.png
+permalink: /:year/:month/:day/:title/
 ---
 
 ![IMAGE](/pic/141104_mapbox.jpg)
@@ -19,4 +23,3 @@ tag: datavis, maps, learning,
 <p><span>Well, I will continue with Mapbox. And in the end, everything will make sense. Hopefully.&nbsp;</span></p>
 <p>--------</p>
 <p>Btw: I got the geo coordinates for the christmas market data from <a href="www.openrefine.org" target="_blank">OpenRefine</a>&nbsp;(in connection with GoogleMaps). I reeeally like OpenRefine. After some break I rediscovered it yesterday again, and had a very good time doing so. Lots of success moments on the way; great learning experience. And I'm a big fan of <a href="http://en.wikipedia.org/wiki/Regular_expression" target="_blank">regular expressions</a> now.</p>
-
