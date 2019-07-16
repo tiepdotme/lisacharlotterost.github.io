@@ -24,6 +24,6 @@ On another address – [lisacharlotterost.github.io](https://lisacharlotterost.
 
 ![](/pic/190715_oldblog.png)
 
-This wasn't a satisfying situation because of a few reasons. [Find them all in this blog post.](http://lisacharlotterost.de/newsite/)
+This wasn't a satisfying situation because of a few reasons. [Find them all in this blog post.](https://lisacharlotterost.de/newsite)
 
-Thanks to [Jonathan Muth](https://twitter.com/jonathanmuth) for his help with building the website – especially the super-custom home-baked cookie warning couldn't have happened without him. 
+Thanks to [Jonathan Muth](https://twitter.com/jonathanmuth) for his help with building the website – especially the super-custom home-baked cookie warning couldn't have happened without him.
